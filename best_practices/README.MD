@@ -1,7 +1,7 @@
 Best Practices
 ==============
 
-How to take what we have learned and apply it.
+How to take what we have learned and apply it. Also How to avoid mistakes we have already made.
 
 General
 -------

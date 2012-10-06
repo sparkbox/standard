@@ -1,7 +1,7 @@
 Process
 ==============
 
-How to get things done and play nicely.
+How to get things done and play nicely with others.
 
 General
 -------

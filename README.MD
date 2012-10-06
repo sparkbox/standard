@@ -1,7 +1,7 @@
 How To
 ======
 
-How to work on projects, and get things done at Sparkbox.
+How to work on projects, and how to get things done at Sparkbox.
 
 * [Process](/sparkbox/how_to/blob/master/process)
 * [Best Practices](/sparkbox/how_to/blob/master/best_practices)

@@ -1,9 +1,9 @@
 Style Guide
 ==============
 
-How to write your code.
+How to write code.
 
-What we have learned that works well and not so well.
+
 
 
 General
