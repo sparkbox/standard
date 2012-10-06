@@ -7,6 +7,9 @@ General
 -------
 
 * All code should be under source control.
+* Please don't check in build artifacts. (Don't check in css files if we are using sass). This always leads to pain and suffering.
+* All changes should go through source control and the deployment process.
+* Don't throw nerf darts at [Dom](http://seesparkbox.com/about/dominique_richardson/)
 
 
 Repository Setup
@@ -15,6 +18,7 @@ Repository Setup
 * The root of the repository should be reserved for the main deliverable for the project.
 * Planning documents should go in the "planning" folder in the root
 * Templates (if they are not the main deliverable) should go in the "templates" for in the root
+* Use the following directory names on the root of your work folder: 'sass', 'css', 'js', 'images'
 
 
 
@@ -34,3 +38,10 @@ Deploy
 
 * All projects should use [capistrano](https://github.com/capistrano/capistrano)
 * Deployment should be able to be run using the command "cap deploy"
+* All necessary artifacts (css generation and minifying javascript) should be done as part of the deploy.
+
+
+Server
+-------
+
+* Databases backups should be setup before the site goes line and should be kept for a minimum of 10 days.

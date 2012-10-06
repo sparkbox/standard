@@ -8,15 +8,17 @@ General
 
 * Content on websites should be available to as many people as possible.
 * JS should not be required to view primary content on a website.
-* Everyone is responsible for quality. 
+* Everyone is responsible for quality.
+* Assets on sites should not specify a protcol (http or https) and should be absolutly relative from the root.
 
 
 EE
 -------
 
-* Don't use structure_entries tags.
+* Don't use the structure_entries plug-in.
 * Favor Pixel and Tonic plug-ins. 
-* Don't spend longer writing a new plug-in when one can be purchased. 
+* Don't spend longer writing a new plug-in when one can be purchased.
+* When more than just a few pages use Structure for site organization.
 
 
 Email
