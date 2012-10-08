@@ -11,11 +11,13 @@ General
 * Use 2 space indentation (tabs are evil).
 * Please do not put spaces in file or directory names.
 * Don't make things more complicated then they need to be right now. 
+* Prefer unit tests to in-line code comments
 
 Git
 -------
 * Write good commit messages. 
 * Keep commits small.
+* Avoid including files in source control that are specific to your development machine or process.
 
 
 

@@ -9,16 +9,23 @@ General
 * All code should be under source control.
 * Please don't check in build artifacts. (Don't check in css files if we are using sass). This always leads to pain and suffering.
 * All changes should go through source control and the deployment process.
-* Don't throw nerf darts at [Dom](http://seesparkbox.com/about/dominique_richardson/)
+* Don't throw nerf darts at [Dom](http://seesparkbox.com/about/dominique_richardson/).
+
+
+Workstation Setup
+-------
+* Use whatever editor makes you the happiest.
+* Install Ruby.
+* 
 
 
 Repository Setup
 -------
 
 * The root of the repository should be reserved for the main deliverable for the project.
-* Planning documents should go in the "planning" folder in the root
-* Templates (if they are not the main deliverable) should go in the "templates" for in the root
-* Use the following directory names on the root of your work folder: 'sass', 'css', 'js', 'images'
+* Planning documents should go in the "planning" folder in the root.
+* Templates (if they are not the main deliverable) should go in the "templates" for in the root.
+* Use the following directory names on the root of your work folder: 'sass', 'css', 'js', 'images'.
 
 
 
