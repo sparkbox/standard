@@ -12,5 +12,4 @@ Credits
 
 How To is maintained by [Sparkbox](http://seesparkbox.com)
 
-
 Thank you, [Thoughtbot](/thoughtbot/guides)! for the idea.

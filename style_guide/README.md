@@ -7,11 +7,11 @@ How to write code.
 General
 -------
 
+* Don't make things more complicated then they need to be right now.  (e.g. Don't design for hypothetical future use cases, K.I.S.S., etc.)
 * Delete trailing whitespace.
 * Use 2 space indentation (tabs are evil).
 * Please do not put spaces in file or directory names.
-* Don't make things more complicated then they need to be right now. 
-* Prefer unit tests to in-line code comments
+* Prefer unit tests to in-line code comments.
 
 Git
 -------
@@ -49,9 +49,10 @@ JS
 -------
 
 
+
 Testing
 -------
-* Prefer Rspec when unit testing ruby
-* Prefer Cucumber for integration testing with rails
-* Prefer Jasmine for testing javascript
+* Prefer [Rspec](http://rspec.info/) when unit testing Ruby.
+* Prefer [Cucumber](http://cukes.info/) for integration testing with Rails.
+* Prefer [Jasmine](http://pivotal.github.com/jasmine/) for testing javascript
 
