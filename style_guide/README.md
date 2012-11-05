@@ -45,16 +45,15 @@ SCSS
 * Run [CSS Comb](http://csscomb.com) before checking in files (plugins are available for many editors)
 
 * Selectors should be formatted as follows:
-  ```css
-  selector {
-    property: value;
-
-    nested-selector {
+    ```
+    selector {
       property: value;
-    }
-  }
-  ```
 
+      nested-selector {
+        property: value;
+      }
+    }
+    ```
 JS
 -------
 * Use [JSHint](http://jshint.com) to avoid common problems and bad practices (plugins are available for many editors)
