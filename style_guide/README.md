@@ -42,12 +42,12 @@ EE
 SCSS
 -------
 * Prefer the scss syntax over sass syntax
-* Run [CSS Comb](/csscomb.com) before checking in files (plugins are available for many editors)
+* Run [CSS Comb](http://csscomb.com) before checking in files (plugins are available for many editors)
 
 
 JS
 -------
-* Use [JSHint](/jshint.com) to avoid common problems and bad practices (plugins are available for many editors)
+* Use [JSHint](http://jshint.com) to avoid common problems and bad practices (plugins are available for many editors)
 
 
 Testing
