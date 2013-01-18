@@ -16,7 +16,6 @@ Workstation Setup
 -------
 * Use whatever editor makes you the happiest.
 * Install Ruby.
-* 
 
 
 Repository Setup
@@ -51,4 +50,4 @@ Deploy
 Server
 -------
 
-* Databases backups should be setup before the site goes line and should be kept for a minimum of 10 days.
+* Database backups should be setup before the site goes live and should be kept for a minimum of 10 days.
