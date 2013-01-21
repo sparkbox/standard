@@ -10,6 +10,8 @@ General
 * Please don't check in build artifacts. (Don't check in css files if we are using sass). This always leads to pain and suffering.
 * All changes should go through source control and the deployment process.
 * Don't throw nerf darts at [Dom](http://seesparkbox.com/about/dominique_richardson/).
+* Don't put mint oreos in the oreo jar, they'll all taste like mint oreos then.
+* Don't be afraid to ask questions!
 
 
 Workstation Setup
