@@ -17,7 +17,9 @@ Git
 -------
 * Write good commit messages.
 * Keep commits small.
+* Review code before making a commit.
 * Avoid including files in source control that are specific to your development machine or process.
+* Never rebase shared commits.
 
 
 
