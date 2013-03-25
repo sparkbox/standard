@@ -42,7 +42,7 @@ EE
 Styles
 -------
 * Prefer the scss syntax over sass syntax
-* Refer to the [Style Structure Guide](style_structure/README.md) when deciding where to put styles.
+* Refer to the [Style Structure Guide](style_structure) when deciding where to put styles.
 
 
 JS
