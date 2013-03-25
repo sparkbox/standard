@@ -1,0 +1,5 @@
+@mixin sbmedia($theQuery, $serveToOldIE: true) {
+  @if $serveToOldIE {   // allows us to exclude queries from old IE
+    @content;           // by passing "false"
+  }
+}

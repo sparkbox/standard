@@ -39,10 +39,11 @@ EE
 
 
 
-SCSS
+Styles
 -------
 * Prefer the scss syntax over sass syntax
 * Run [CSS Comb](http://csscomb.com) before checking in files (plugins are available for many editors)
+* Refer to the [Style Structure Guide](style_structure/README.md) when deciding where to put styles.
 
 
 JS

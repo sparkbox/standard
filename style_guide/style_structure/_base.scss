@@ -1,0 +1,16 @@
+// General
+@import "compass";
+@import "general-variables";
+@import "colors";
+@import "web-fonts";
+@import "general-mixins";
+@import "[project name]-reset";
+@import "general-styles";
+@import "general-extends";
+@import "layout";
+
+// Modules
+@import "header";
+@import "hero";
+@import "footer";
+@import "anything-else-goes-in-a-module";

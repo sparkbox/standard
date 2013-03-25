@@ -1,0 +1,13 @@
+$default-feature: 'min-width: ' !default;
+$breakpoint: false;
+
+@mixin sbmedia($theQuery, $serveToOldIE: true) {
+  @if type-of( $theQuery ) == 'number' {
+    $breakpoint: $default-feature + $theQuery;
+  } @else {
+    $breakpoint: $theQuery;
+  }
+  @media ( $breakpoint ) {
+    @content;
+  }
+}
