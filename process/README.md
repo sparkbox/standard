@@ -16,7 +16,6 @@ Workstation Setup
 -------
 * Use whatever editor makes you the happiest.
 * Install Ruby.
-* 
 
 
 Repository Setup
