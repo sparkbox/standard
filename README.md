@@ -14,7 +14,7 @@ How we dance.
 * **[Style](/style)** _The way we write documentation and code._
 * **[Product Management](/product_management)** _How we manage our projects._
 
-Want to add something? See [CONTRIBUTING.md](/blob/master/CONTRIBUTING.md).
+Want to add something? See [CONTRIBUTING.md](/CONTRIBUTING.md).
 
 _Inspired by [Thoughtbot's Guides][thoughtbotg]_
 
