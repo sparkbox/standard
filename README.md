@@ -1,16 +1,23 @@
 How To
 ======
 
-How to work on projects, and how to get things done at Sparkbox.
+How [we][sparkbox] manage products.
 
-* [Process](/sparkbox/how_to/blob/master/process)
-* [Best Practices](/sparkbox/how_to/blob/master/best_practices)
-* [Style Guide](/sparkbox/how_to/blob/master/style_guide)
+How we make things beautiful.
 
-Credits
--------
+How we write code.
 
-How To is maintained by [Sparkbox](http://seesparkbox.com)
+How we dance.
 
+* **[Services we Use](/services)** _Dropbox, Skype, etc._
+* **[Software](/software)** _Vim, Sublime, etc._
+* **[Style](/style)** _The way we write documentation and code._
+* **[Product Management](/product_management)** _How we manage our projects._
 
-Thank you, [Thoughtbot](/thoughtbot/guides)! for the idea.
+Want to add something? See [CONTRIBUTING.md](/blob/master/CONTRIBUTING.md).
+
+_Inspired by [Thoughtbot's Guides][thoughtbotg]_
+
+[readmet]: /readme_template
+[thoughtbotg]: https://github.com/thoughtbot/guides
+[sparkbox]: http://seesparkbox.com
