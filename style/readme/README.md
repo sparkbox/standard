@@ -19,10 +19,11 @@ A file in the root of your project called `README.md`.
     | ---------- | ------- |
     **Live Site**    | http://live-site-url.com
     **Staging Site** | http://staging-url.herokuapp.com
-    **CI**           | https://circleci.com/gh/sparkbox/repo-name
-    **Rollbar**      | https://rollbar.com/project/project-id
-    **Coveralls**    | [![Coverage Status](https://coveralls.io/repos/sparkbox/repo-name/badge.png?branch=master)](https://coveralls.io/r/sparkbox/repo-name?branch=master)
     **Code Climate** | https://codeclimate.com/repos/[repo-hash]/feed
+    **Coveralls**    | [![Coverage Status](https://coveralls.io/repos/sparkbox/repo-name/badge.png?branch=master)](https://coveralls.io/r/sparkbox/repo-name?branch=master)
+    **CirlceCI**     | https://circleci.com/gh/sparkbox/repo-name
+    **Rollbar**      | https://rollbar.com/project/project-id
+    **Sprintly**     | https://sprint.ly/product/[product-id]/
 
     Setup
     -----
