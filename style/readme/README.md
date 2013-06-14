@@ -39,6 +39,11 @@ A file in the root of your project called `README.md`.
     1. `rake db:create` _create the database_
     1. `rake db:migrate` _migrate it to the latest schema_
 
+    Commit Style
+    ------------
+
+    See [Git Commit Style in How To](https://github.com/sparkbox/how_to/blob/master/style/git/README.md).
+
     Technologies Used
     -----------------
 
