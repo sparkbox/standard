@@ -19,11 +19,11 @@ A file in the root of your project called `README.md`.
     | ---------- | ------- |
     **Live Site**    | http://live-site-url.com
     **Staging Site** | http://staging-url.herokuapp.com
-    **CirlceCI**     | https://circleci.com/gh/sparkbox/repo-name
-    **Code Climate** | https://codeclimate.com/repos/[repo-hash]/feed
-    **Coveralls**    | [![Coverage Status](https://coveralls.io/repos/sparkbox/repo-name/badge.png?branch=master)](https://coveralls.io/r/sparkbox/repo-name?branch=master)
-    **Rollbar**      | https://rollbar.com/project/project-id
-    **Sprintly**     | https://sprint.ly/product/[product-id]/
+    **CircleCI**     | [![CircleCI Status][circlei]][circle]
+    **Code Climate** | https://codeclimate.com/repos/:repo-hash/feed
+    **Coveralls**    | [![Coverage Status][coverallsi]][coveralls]
+    **Rollbar**      | https://rollbar.com/project/:project-id
+    **Sprintly**     | https://sprint.ly/product/:product-id/
 
     Setup
     -----
@@ -50,3 +50,8 @@ A file in the root of your project called `README.md`.
     * Rails
     * MySQL
     * ...
+
+    [circle]: https://circleci.com/gh/sparkbox/:repo
+    [circlei]: https://circleci.com/gh/sparkbox/:repo.png?circle-token=:circle-token
+    [coveralls]: https://coveralls.io/r/sparkbox/:repo?branch=master
+    [coverallsi]: https://coveralls.io/repos/sparkbox/:repo/badge.png?branch=master
