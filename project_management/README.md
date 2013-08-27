@@ -1,4 +1,4 @@
-Product Management
+Project Management
 ==================
 
 We use [Sprintly](/services/sprintly) to track the [User Stories][story] for
