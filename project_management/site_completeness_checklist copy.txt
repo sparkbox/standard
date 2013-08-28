@@ -3,6 +3,9 @@ Site Completeness Checklist
 
 Prelaunch Checklist
 
+
+Dev site disallows indexing
+
 all states of navigation/buttons (active, hover, inactive, etc)
 dropdown menus
 pagination
@@ -18,14 +21,6 @@ apple-touch-icon-iphone4.png (114×114)
 Hi-Res (retina-ready) images for any images that are vector/text
 based.
 
-Styles for these elements in dynamic content:
-basic link styles
-blockquotes
-unordered lists
-ordered lists
-all 6 header tags
-inline images (left, right, center, etc in CMS content)
-
   Content
 
 404 page
@@ -35,6 +30,8 @@ terms of use page
 any other legal page
 credit page / sparkbox link
 humans.txt included
+robots.txt file pointing to sitemap.xml
+sitemap.xml
 
 meta tags (description)
 page titles appropriate and SEO
@@ -42,6 +39,14 @@ imgs with alt text
 img title attributes appropriate and SEO
 
   Markup/CSS/JS Related
+
+(in dynamic content)
+basic link styles
+blockquotes
+unordered lists
+ordered lists
+all 6 header tags
+inline images (left, right, center, etc in CMS content)
 
 print stylesheet
 jump to content link near top of markup (for accessibility)
@@ -52,6 +57,13 @@ form validation in place
 error styles
 form required fields tested
 forms submit properly
+
+HTML validated
+CSS validated
+No JS errors
+
+CSS in the header
+JS in the footer
 
   Testing
 
@@ -88,25 +100,13 @@ Get client’s mail marketing (mailchimp) ID.
 Get client’s social share ID’s.
 Get client’s social pages.
 
-Dev site disallows indexing
 -
 
                            Launch Checklist
 
-  Content/Design Related
-
 allow indexing
-robots.txt file pointing to sitemap.xml
-sitemap.xml
 
   Markup/CSS/JS Related
-
-HTML validated
-CSS validated
-No JS errors
-
-CSS in the header
-JS in the footer
 
 include google analytics (proper UA string)
 Un-Comment-Out the Google Analytics ID so it works post launch.
@@ -118,7 +118,16 @@ add selectivizr only if needed
 add modernizr only if needed
 build custom version of modernizr (keep file small)
 
-  Testing
+  Server Related
+
+The site is backed up
+Using expires headers
+Using gzip
+Minifying and combining our CSS
+Include caching option
+Page weight has been tested and is acceptable.
+
+  Testing (How much testing do we do at launch?)
 
 content accessible in IE 7,8,9
 
@@ -143,16 +152,6 @@ design/content right in Windows tablet
 design right on a retina display
 
 are we going to have compatibility mode issues in IE?
-
-  Server Related
-
-The site is backed up
-Using expires headers
-Using gzip
-Minifying and combining our CSS
-Include caching option
-Page weight has been tested and is acceptable.
-
 -
 
                         Post Launch Checklist
@@ -177,7 +176,7 @@ bugs, etc.
   * Tweet from @hearsparkbox
   * Request client quote/recommendation (if appropriate).
 
-Gallery Submittal:
+  Gallery Submittal:
 
 1. We do a “normal submission” on www.awwwards.com because
 it is well respected and well screened
