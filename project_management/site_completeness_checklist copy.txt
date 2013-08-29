@@ -1,11 +1,12 @@
-Site Completeness Checklist
-================
+# Site Completeness Checklist
+This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments)
+
+---
+
+## Early Dev Checklist 
 
 
-Prelaunch Checklist Awesomenessriffic
-
-
-Dev site disallows indexing
+[ ] Dev site disallows indexing
 
 all states of navigation/buttons (active, hover, inactive, etc)
 dropdown menus
