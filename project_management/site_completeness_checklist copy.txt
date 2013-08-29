@@ -1,7 +1,7 @@
 Site Completeness Checklist
 ================
 
-                           Prelaunch Checklist Awesomeness
+                           Prelaunch Checklist Awesomenesstastic
 
 
 Dev site disallows indexing
