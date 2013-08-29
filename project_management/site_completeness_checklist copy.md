@@ -7,6 +7,7 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 
 
 - [ ] Dev site disallows indexing
+- [ ] Other item
 
 all states of navigation/buttons (active, hover, inactive, etc)
 dropdown menus
