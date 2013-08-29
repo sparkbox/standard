@@ -1,7 +1,8 @@
 Site Completeness Checklist
 ================
 
-                           Prelaunch Checklist Awesomenessriffic
+
+Prelaunch Checklist Awesomenessriffic
 
 
 Dev site disallows indexing
