@@ -6,7 +6,7 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 ## Early Dev Checklist 
 
 
-[ ] Dev site disallows indexing
+- [ ] Dev site disallows indexing
 
 all states of navigation/buttons (active, hover, inactive, etc)
 dropdown menus
