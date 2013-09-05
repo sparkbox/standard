@@ -13,7 +13,7 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 * [ ] pagination
 * [ ] headline styles that work when very long (wrap to multiple lines)
 
-  Design
+### Design
 
 * [ ] favicon.ico
 * [ ] apple-touch-icon.png
@@ -27,87 +27,86 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 * [ ] apple-touch-icon-precomposed.png (also 57x57)
 * [ ] apple-touch-icon.png (also 57x57)
 
-Hi-Res (retina-ready) images for any images that are vector/text
+* [ ] Hi-Res (retina-ready) images for any images that are vector/text
 based.
 
-  Content
+### Content
 
-404 page
-search results page
-copyright page
-terms of use page
-any other legal page
-credit page / sparkbox link
-humans.txt included
-robots.txt file pointing to sitemap.xml
-sitemap.xml
+* [ ] 404 page
+* [ ] search results page
+* [ ] copyright page
+* [ ] terms of use page
+* [ ] any other legal page
+* [ ] credit page / sparkbox link
+* [ ] humans.txt included
+* [ ] robots.txt file pointing to sitemap.xml
+* [ ] sitemap.xml
+* [ ] meta tags (description)
+* [ ] page titles appropriate and SEO
+* [ ] imgs with alt text
+* [ ] img title attributes appropriate and SEO
 
-meta tags (description)
-page titles appropriate and SEO
-imgs with alt text
-img title attributes appropriate and SEO
-
-  Markup/CSS/JS Related
+### Markup/CSS/JS Related
 
 (in dynamic content)
-basic link styles
-blockquotes
-unordered lists
-ordered lists
-all 6 header tags
-inline images (left, right, center, etc in CMS content)
+* [ ] basic link styles
+* [ ] blockquotes
+* [ ] unordered lists
+* [ ] ordered lists
+* [ ] all 6 header tags
+* [ ] inline images (left, right, center, etc in CMS content)
 
-print stylesheet
-jump to content link near top of markup (for accessibility)
-check for empty (href=#) links
-dynamically generated copyright date
+* [ ] print stylesheet
+* [ ] jump to content link near top of markup (for accessibility)
+* [ ] check for empty (href=#) links
+* [ ] dynamically generated copyright date
 
-form validation in place
-error styles
-form required fields tested
-forms submit properly
+* [ ] form validation in place
+* [ ] error styles
+* [ ] form required fields tested
+* [ ] forms submit properly
 
-HTML validated
-CSS validated
-No JS errors
+* [ ] HTML validated
+* [ ] CSS validated
+* [ ] No JS errors
 
-CSS in the header
-JS in the footer
+* [ ] CSS in the header
+* [ ] JS in the footer
 
-  Testing
+### Testing
 
-content accessible in IE 7,8,9
+* [ ] content accessible in IE 7,8,9
 
-design/content right in IE 9/10
-design/content right in latest PC Chrome
-design/content right in latest PC FireFox
+* [ ] design/content right in IE 9/10
+* [ ] design/content right in latest PC Chrome
+* [ ] design/content right in latest PC FireFox
 
-design/content right in latest Mac Safari
-design/content right in latest Mac Chrome
-design/content right in latest Mac FireFox
+* [ ] design/content right in latest Mac Safari
+* [ ] design/content right in latest Mac Chrome
+* [ ] design/content right in latest Mac FireFox
 
-design/content right in iOS phone
-design/content right in iOS tablet
-design/content right in Android phone
-design/content right in Android tablet
-design/content right in Blackberry phone
-design/content right in Blackberry tablet
-design/content right in Kindle tablet
-design/content right in Windows phone
-design/content right in Windows tablet
+* [ ] design/content right in iOS phone
+* [ ] design/content right in iOS tablet
+* [ ] design/content right in Android phone
+* [ ] design/content right in Android tablet
+* [ ] design/content right in Blackberry phone
+* [ ] design/content right in Blackberry tablet
+* [ ] design/content right in Kindle tablet
+* [ ] design/content right in Windows phone
+* [ ] design/content right in Windows tablet
 
-design right on a retina display
+* [ ] design right on a retina display
 
-are we going to have compatibility mode issues in IE?
+* [ ] are we going to have compatibility mode issues in IE?
 
-  Plan Launch
+###  Plan Launch
 
-Determine hosting solution.
-Determine launch plan. (staging environment, DNS changeover, etc)
-Get client’s google tracking ID.
-Get client’s mail marketing (mailchimp) ID.
-Get client’s social share ID’s.
-Get client’s social pages.
+* [ ] Determine hosting solution.
+* [ ] Determine launch plan. (staging environment, DNS changeover, etc)
+* [ ] Get client’s google tracking ID.
+* [ ] Get client’s mail marketing (mailchimp) ID.
+* [ ] Get client’s social share ID’s.
+* [ ] Get client’s social pages.
 
 -
 
