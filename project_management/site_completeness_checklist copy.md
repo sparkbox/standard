@@ -6,27 +6,26 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 ## Early Dev Checklist 
 
 
-- [ ] Dev site disallows indexing
-- [ ] Other item
-
-all states of navigation/buttons (active, hover, inactive, etc)
-dropdown menus
-pagination
-headline styles that work when very long (wrap to multiple lines)
+* [ ] Dev site disallows indexing
+* [ ] Other item
+* [ ] all states of navigation/buttons (active, hover, inactive, etc)
+* [ ] dropdown menus
+* [ ] pagination
+* [ ] headline styles that work when very long (wrap to multiple lines)
 
   Design
 
-favicon.ico
-apple-touch-icon.png
-apple-touch-icon-ipad.png (72×72)
-apple-touch-icon-iphone4.png (114×114)
-apple-touch-icon-144x144-precomposed.png
-apple-touch-icon-120x120-precomposed.png
-apple-touch-icon-114x114-precomposed.png
-apple-touch-icon-72x72-precomposed.png
-apple-touch-icon-57x57-precomposed.png
-apple-touch-icon-precomposed.png (also 57x57)
-apple-touch-icon.png (also 57x57)
+* [ ] favicon.ico
+* [ ] apple-touch-icon.png
+* [ ] apple-touch-icon-ipad.png (72×72)
+* [ ] apple-touch-icon-iphone4.png (114×114)
+* [ ] apple-touch-icon-144x144-precomposed.png
+* [ ] apple-touch-icon-120x120-precomposed.png
+* [ ] apple-touch-icon-114x114-precomposed.png
+* [ ] apple-touch-icon-72x72-precomposed.png
+* [ ] apple-touch-icon-57x57-precomposed.png
+* [ ] apple-touch-icon-precomposed.png (also 57x57)
+* [ ] apple-touch-icon.png (also 57x57)
 
 Hi-Res (retina-ready) images for any images that are vector/text
 based.
