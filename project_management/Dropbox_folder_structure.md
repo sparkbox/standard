@@ -5,7 +5,7 @@ Each folder is named with "last two digits of the year"-"three digit company ID"
 
   Folders within the main folder
 
-Planning
-Design
-From <client>
-Legal
+* Planning
+* Design
+* From <client>
+* Legal
