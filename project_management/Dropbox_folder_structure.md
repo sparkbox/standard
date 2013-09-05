@@ -7,5 +7,5 @@ Each folder is named with "last two digits of the year"-"three digit company ID"
 
 * Planning
 * Design
-* From <client>
+* From <*client*>
 * Legal
