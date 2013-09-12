@@ -27,8 +27,7 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 * [ ] apple-touch-icon-precomposed.png (also 57x57)
 * [ ] apple-touch-icon.png (also 57x57)
 
-.
-
+Hi-Res
 * [ ] Hi-Res (retina-ready) images for any images that are vector/text
 based.
 
