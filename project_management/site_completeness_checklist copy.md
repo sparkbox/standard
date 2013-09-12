@@ -6,7 +6,7 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 ## Early Dev Checklist 
 
 
- D* [ ]ev site disallows indexing
+* [ ]ev site disallows indexing
 * [ ] Other item
 * [ ] all states of navigation/buttons (active, hover, inactive, etc)
 * [ ] dropdown menus
@@ -108,9 +108,10 @@ based.
 * [ ] Get client’s social share ID’s.
 * [ ] Get client’s social pages.
 
--
+---
 
 ## Launch Checklist
+
 
 * [ ] allow indexing
 
@@ -160,9 +161,11 @@ based.
 * [ ] design right on a retina display
 
 * [ ] are we going to have compatibility mode issues in IE?
--
+
+---
 
 ## Post Launch Checklist
+
 
 ### Project Management Related
 
