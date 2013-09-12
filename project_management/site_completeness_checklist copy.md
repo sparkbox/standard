@@ -6,7 +6,7 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 ## Early Dev Checklist 
 
 
-* [ ]ev site disallows indexing
+* [ ] Dev site disallows indexing
 * [ ] Other item
 * [ ] all states of navigation/buttons (active, hover, inactive, etc)
 * [ ] dropdown menus
@@ -15,6 +15,8 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 
 ### Design
 
+* [ ] Hi-Res (retina-ready) images for any images that are vector/text
+based
 * [ ] favicon.ico
 * [ ] apple-touch-icon.png
 * [ ] apple-touch-icon-ipad.png (72×72)
@@ -26,10 +28,6 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 * [ ] apple-touch-icon-57x57-precomposed.png
 * [ ] apple-touch-icon-precomposed.png (also 57x57)
 * [ ] apple-touch-icon.png (also 57x57)
-
-Hi-Res
-* [ ] Hi-Res (retina-ready) images for any images that are vector/text
-based.
 
 ### Content
 
@@ -56,36 +54,34 @@ based.
 * [ ] ordered lists
 * [ ] all 6 header tags
 * [ ] inline images (left, right, center, etc in CMS content)
-
 * [ ] print stylesheet
 * [ ] jump to content link near top of markup (for accessibility)
 * [ ] check for empty (href=#) links
 * [ ] dynamically generated copyright date
-
 * [ ] form validation in place
 * [ ] error styles
 * [ ] form required fields tested
 * [ ] forms submit properly
-
 * [ ] HTML validated
 * [ ] CSS validated
 * [ ] No JS errors
-
 * [ ] CSS in the header
 * [ ] JS in the footer
 
 ### Testing
 
+Desktop
+* [ ] are we going to have compatibility mode issues in IE?
 * [ ] content accessible in IE 7,8,9
-
 * [ ] design/content right in IE 9/10
 * [ ] design/content right in latest PC Chrome
 * [ ] design/content right in latest PC FireFox
-
 * [ ] design/content right in latest Mac Safari
 * [ ] design/content right in latest Mac Chrome
 * [ ] design/content right in latest Mac FireFox
+* [ ] design right on a retina display
 
+Devices
 * [ ] design/content right in iOS phone
 * [ ] design/content right in iOS tablet
 * [ ] design/content right in Android phone
@@ -95,10 +91,6 @@ based.
 * [ ] design/content right in Kindle tablet
 * [ ] design/content right in Windows phone
 * [ ] design/content right in Windows tablet
-
-* [ ] design right on a retina display
-
-* [ ] are we going to have compatibility mode issues in IE?
 
 ###  Plan Launch
 
@@ -115,15 +107,11 @@ based.
 
 
 * [ ] allow indexing
-
 * [ ] Markup/CSS/JS Related
-
 * [ ] include google analytics (proper UA string)
 * [ ] Un-Comment-Out the Google Analytics ID so it works post launch.
-
-* [ ] insure local jquery files are in place
+* [ ] ensure local jquery files are in place
 * [ ] local jquery version should be same as google jquery version
-
 * [ ] add selectivizr only if needed
 * [ ] add modernizr only if needed
 * [ ] build custom version of modernizr (keep file small)
@@ -139,16 +127,18 @@ based.
 
 ### Testing (How much testing do we do at launch?)
 
+Desktop
+* [ ] are we going to have compatibility mode issues in IE?
 * [ ] content accessible in IE 7,8,9
-
 * [ ] design/content right in IE 9/10
 * [ ] design/content right in latest PC Chrome
 * [ ] design/content right in latest PC FireFox
-
 * [ ] design/content right in latest Mac Safari
 * [ ] design/content right in latest Mac Chrome
 * [ ] design/content right in latest Mac FireFox
+* [ ] design right on a retina display
 
+Devices
 * [ ] design/content right in iOS phone
 * [ ] design/content right in iOS tablet
 * [ ] design/content right in Android phone
@@ -158,10 +148,6 @@ based.
 * [ ] design/content right in Kindle tablet
 * [ ] design/content right in Windows phone
 * [ ] design/content right in Windows tablet
-
-* [ ] design right on a retina display
-
-* [ ] are we going to have compatibility mode issues in IE?
 
 ---
 
