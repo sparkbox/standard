@@ -15,8 +15,8 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 
 ### Design
 
-* [ ] favicon.ico
-* [ ] apple-touch-icon.png
+[ ] favicon.ico
+[ ] apple-touch-icon.png
 * [ ] apple-touch-icon-ipad.png (72×72)
 * [ ] apple-touch-icon-iphone4.png (114×114)
 * [ ] apple-touch-icon-144x144-precomposed.png
