@@ -6,7 +6,7 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 ## Early Dev Checklist 
 
 
-* [ ] Dev site disallows indexing
+ D* [ ]ev site disallows indexing
 * [ ] Other item
 * [ ] all states of navigation/buttons (active, hover, inactive, etc)
 * [ ] dropdown menus
@@ -110,91 +110,91 @@ based.
 
 -
 
-                           Launch Checklist
+## Launch Checklist
 
-allow indexing
+* [ ] allow indexing
 
-  Markup/CSS/JS Related
+* [ ] Markup/CSS/JS Related
 
-include google analytics (proper UA string)
-Un-Comment-Out the Google Analytics ID so it works post launch.
+* [ ] include google analytics (proper UA string)
+* [ ] Un-Comment-Out the Google Analytics ID so it works post launch.
 
-insure local jquery files are in place
-local jquery version should be same as google jquery version
+* [ ] insure local jquery files are in place
+* [ ] local jquery version should be same as google jquery version
 
-add selectivizr only if needed
-add modernizr only if needed
-build custom version of modernizr (keep file small)
+* [ ] add selectivizr only if needed
+* [ ] add modernizr only if needed
+* [ ] build custom version of modernizr (keep file small)
 
-  Server Related
+### Server Related
 
-The site is backed up
-Using expires headers
-Using gzip
-Minifying and combining our CSS
-Include caching option
-Page weight has been tested and is acceptable.
+* [ ] The site is backed up
+* [ ] Using expires headers
+* [ ] Using gzip
+* [ ] Minifying and combining our CSS
+* [ ] Include caching option
+* [ ] Page weight has been tested and is acceptable.
 
-  Testing (How much testing do we do at launch?)
+### Testing (How much testing do we do at launch?)
 
-content accessible in IE 7,8,9
+* [ ] content accessible in IE 7,8,9
 
-design/content right in IE 9/10
-design/content right in latest PC Chrome
-design/content right in latest PC FireFox
+* [ ] design/content right in IE 9/10
+* [ ] design/content right in latest PC Chrome
+* [ ] design/content right in latest PC FireFox
 
-design/content right in latest Mac Safari
-design/content right in latest Mac Chrome
-design/content right in latest Mac FireFox
+* [ ] design/content right in latest Mac Safari
+* [ ] design/content right in latest Mac Chrome
+* [ ] design/content right in latest Mac FireFox
 
-design/content right in iOS phone
-design/content right in iOS tablet
-design/content right in Android phone
-design/content right in Android tablet
-design/content right in Blackberry phone
-design/content right in Blackberry tablet
-design/content right in Kindle tablet
-design/content right in Windows phone
-design/content right in Windows tablet
+* [ ] design/content right in iOS phone
+* [ ] design/content right in iOS tablet
+* [ ] design/content right in Android phone
+* [ ] design/content right in Android tablet
+* [ ] design/content right in Blackberry phone
+* [ ] design/content right in Blackberry tablet
+* [ ] design/content right in Kindle tablet
+* [ ] design/content right in Windows phone
+* [ ] design/content right in Windows tablet
 
-design right on a retina display
+* [ ] design right on a retina display
 
-are we going to have compatibility mode issues in IE?
+* [ ] are we going to have compatibility mode issues in IE?
 -
 
-                        Post Launch Checklist
+## Post Launch Checklist
 
-  Project Management Related
+### Project Management Related
 
 After we launch a site, this is the procedure that we will follow. We
 will wait approximately 14 days to allow for last minute changes,
 bugs, etc.
 
-  * send thank you note after final payment is received and remind of
+* [ ] send thank you note after final payment is received and remind of
     30-day support timeframe
-  * Send documentation to client. (Check that code is commented well,
+* [ ] Send documentation to client. (Check that code is commented well,
     send plugin list, any live or documented training)
-  * Archive live code. (Repository or Basecamp.)
+* [ ] Archive live code. (Repository or Basecamp.)
 
-  Marketing
+### Marketing
 
-  * Submit to Galleries
-  * Add to seesparkbox.com work section
-  * Blog about launch
-  * Tweet from @hearsparkbox
-  * Request client quote/recommendation (if appropriate).
+* [ ] Submit to Galleries
+* [ ] Add to seesparkbox.com work section
+* [ ] Blog about launch
+* [ ] Tweet from @hearsparkbox
+* [ ] Request client quote/recommendation (if appropriate).
 
-  Gallery Submittal:
+### Gallery Submittal:
 
-1. We do a “normal submission” on www.awwwards.com because
+1. [ ] We do a “normal submission” on www.awwwards.com because
 it is well respected and well screened
 http://www.awwwards.com/submit
 for around $21
 
-2. Then we use http://thecssgallerylist.com/ for sheer volume to
+2. [ ] Then we use http://thecssgallerylist.com/ for sheer volume to
 submit to 100 other sites (hitting many popular ones) for $20.
 
-3. Then we hand-submit the site to a few other purposeful (but free)
+3. [ ] Then we hand-submit the site to a few other purposeful (but free)
 galleries such as:
 mediaqueri.es
 http://www.mobileawesomeness.com/
