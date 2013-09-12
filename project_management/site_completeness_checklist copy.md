@@ -55,7 +55,6 @@ based.
 * [ ] ordered lists
 * [ ] all 6 header tags
 * [ ] inline images (left, right, center, etc in CMS content)
-
 * [ ] print stylesheet
 * [ ] jump to content link near top of markup (for accessibility)
 * [ ] check for empty (href=#) links
