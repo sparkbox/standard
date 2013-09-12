@@ -26,7 +26,7 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 * [ ] apple-touch-icon-57x57-precomposed.png
 * [ ] apple-touch-icon-precomposed.png (also 57x57)
 * [ ] apple-touch-icon.png (also 57x57)
-
+-
 * [ ] Hi-Res (retina-ready) images for any images that are vector/text
 based.
 
@@ -55,6 +55,7 @@ based.
 * [ ] ordered lists
 * [ ] all 6 header tags
 * [ ] inline images (left, right, center, etc in CMS content)
+
 * [ ] print stylesheet
 * [ ] jump to content link near top of markup (for accessibility)
 * [ ] check for empty (href=#) links
