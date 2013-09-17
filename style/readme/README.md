@@ -20,7 +20,7 @@ A file in the root of your project called `README.md`.
     **Live Site**    | http://live-site-url.com
     **Staging Site** | http://staging-url.herokuapp.com
     **CirlceCI**     | https://circleci.com/gh/sparkbox/repo-name
-    **Code Climate** | https://codeclimate.com/repos/[repo-hash]/feed
+    **Code Climate** | [![Code Climate](https://codeclimate.com/repos/hash1/badges/hash2/gpa.png)](https://codeclimate.com/repos/hash1/feed)
     **Coveralls**    | [![Coverage Status](https://coveralls.io/repos/sparkbox/repo-name/badge.png?branch=master)](https://coveralls.io/r/sparkbox/repo-name?branch=master)
     **Rollbar**      | https://rollbar.com/project/project-id
     **Sprintly**     | https://sprint.ly/product/[product-id]/
