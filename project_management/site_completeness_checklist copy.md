@@ -12,6 +12,8 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 * [ ] dropdown menus
 * [ ] pagination
 * [ ] headline styles that work when very long (wrap to multiple lines)
+* [ ] Purchase CMS license (if applicable)
+
 
 ### Design
 
