@@ -80,7 +80,9 @@ Added new event to $browser:
 - do polling when neither popstate nor hashchange available
 
 Breaks $browser.onHashChange, which was removed (use onUrlChange instead)
+```
 
+```
 fix($compile): couple of unit tests for IE9
 
 Older IEs serialize html uppercased, but IE9 does not...
@@ -89,14 +91,18 @@ not allow to user regexps for throw expectations.
 
 Closes #392
 Breaks foo.bar api, foo.baz should be used instead
+```
 
+```
 feat(directive): ng:disabled, ng:checked, ng:multiple, ng:readonly, ng:selected
 
 New directives for proper binding these attributes in older browsers (IE).
 Added coresponding description, live examples and e2e tests.
 
 Closes #351
+```
 
+```
 style($location): add couple of missing semi colons
 
 docs(guide): updated fixed docs from Google Docs
@@ -106,7 +112,9 @@ Couple of typos fixed:
 - batchLogbatchLog -> batchLog
 - start periodic checking
 - missing brace
+```
 
+```
 feat($compile): simplify isolate scope bindings
 
 Changed the isolate scope binding options to:
