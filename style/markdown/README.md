@@ -8,7 +8,7 @@ Markdown is a terse markup langauge that produces HTML.
 Style
 -----
 
-* Prefer footnotes to inline links
+* Prefer footnotes to inline [links][links]
 
     ```markdown
     // bad
@@ -43,3 +43,4 @@ Style
 
 [product]: http://daringfireball.net/projects/markdown/
 [producti]: http://i.imgur.com/TUYGZBI.png
+[links]: http://daringfireball.net/projects/markdown/syntax#link
