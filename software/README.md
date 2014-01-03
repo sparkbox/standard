@@ -1,6 +1,7 @@
 Software
 ========
 
+* **[SSH](ssh)**
 * **[Vim](vim)**
 * **[Pow](pow)**
 * **[Sublime](sublime)**
