@@ -10,6 +10,7 @@ Folders we Share
 * **Sparbox Bookshelf**
 * **Developer Videos**
 * **SoftwareLicenses**
+* **SparkboxVault** 1password vault for shared credentials, servers and identities.
 
 How to Get Invited
 ------------------
