@@ -1,0 +1,7 @@
+Once you have everything installed (Ruby, RVM, etc.). Open terminal and type:
+
+ls
+cd {folder you want}
+(repeat until I get to the repo you want)
+bundle (only needed the first time on each project)
+mina deploy
