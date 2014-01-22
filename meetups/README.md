@@ -6,6 +6,7 @@ How to run a meetup at Sparkbox.
 Website/Calendar
 -------
 
+ - Parking - Someone needs to speak with the autobody shop next door to find out if they are ok with people parking there, and we should let them know the schedule.
  - Know/distribute Topic at least 3 weeks in advance (to have it before prior meetup would be ideal, so we can also announce at that)
  - Include the topics list
  - Backup topic
