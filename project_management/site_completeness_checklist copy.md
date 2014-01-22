@@ -22,6 +22,7 @@ based
 * [ ] favicon.ico
 * [ ] apple-touch-icon.png
 * [ ] apple-touch-icon-ipad.png (72×72)
+* [ ] apple-touch-icon-ipad.png retina (152×152)
 * [ ] apple-touch-icon-iphone4.png (114×114)
 * [ ] apple-touch-icon-144x144-precomposed.png
 * [ ] apple-touch-icon-120x120-precomposed.png
