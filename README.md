@@ -12,7 +12,7 @@ How we dance.
 * **[Services we Use](/services)** _Dropbox, Skype, etc._
 * **[Software](/software)** _Vim, Sublime, etc._
 * **[Style](/style)** _The way we write documentation and code._
-* **[Product Management](/product_management)** _How we manage our projects._
+* **[Project Management](/project_management)** _How we manage our projects._
 * **[Meetups](/meetups)** _Our MO for preparing and facilitating meetups._
 
 Want to add something? See [CONTRIBUTING.md](/CONTRIBUTING.md).
