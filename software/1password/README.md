@@ -5,7 +5,7 @@
 
 Password manager with simple sync via [Dropbox][sparkbox_dropbox] and mobile support.
 
-Consider using the logo found in the Spar
+Consider using the logo found in the Sparkvault
 
 How we use it
 -------
