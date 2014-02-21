@@ -16,11 +16,14 @@ Buildup/Followup
 
 **2.5 weeks before the meetup**
  - Write Preview Foundry Post (3-4 sentences about the speaker/topic, food details, link to RSVP)
+
 **2 weeks before the meetup**
  - Start sending Tweets, and other social media notices. 
  - Invite your friends reminder, send out an anyvite, etc.
+
 **Day of, day prior, week prior**
  - Follow up w/feedback
+
 **Within 3 days of the meetup**
  - Write Recap Foundry Post (1-2 sentences about the speaker/topic, any helpful links related to the talk, embedded video)
  - Email [Speaker Prep][speaker_prep]
