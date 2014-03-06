@@ -11,22 +11,12 @@ Website/Calendar
  - Include the topics list
  - Backup topic
 
-Buildup/Followup
+Buildup
 -------
 
-**2.5 weeks before the meetup**
- - Write Preview Foundry Post (3-4 sentences about the speaker/topic, food details, link to RSVP)
-
-**2 weeks before the meetup**
- - Start sending Tweets, and other social media notices. 
- - Invite your friends reminder, send out an anyvite, etc.
-
-**Day of, day prior, week prior**
- - Follow up w/feedback
-
-**Within 3 days of the meetup**
- - Write Recap Foundry Post (1-2 sentences about the speaker/topic, any helpful links related to the talk, embedded video)
+**3 weeks before**
  - Email [Speaker Prep][speaker_prep]
+ - Buffer tweets for next meetup (3wk topic, 1wk RSVP, day of feedback form)
 
 Day Of
 -------
@@ -61,6 +51,12 @@ Day Of
 **1pm**
  - Follow up blog post (must have owner before leaving the meetup)
  - Cleanup (from all the food mess, etc)
+
+Followup
+-------
+**Within 3 days of the meetup**
+ - Write Recap Foundry Post (1-2 sentences about the speaker/topic, any helpful links related to the talk, embedded video)
+ - Speaker Thank you Email
 
 Food
 -------
