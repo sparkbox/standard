@@ -27,6 +27,7 @@ Day Of
  - Make sure we have drinks
  - Write upcoming events on the wall
  - Order food for 12pm
+ - Create feedback form
 
 **11am**
  - Signs on doors by 11am
@@ -46,9 +47,10 @@ Day Of
  - Food in building
 
 **12:30pm**
- - Dismiss for food, conversation, and ping-pong
+ - Dismiss for food, conversation, and ping-pong (mention feedback form)
 
 **1pm**
+ - Tweet feedback form
  - Follow up blog post (must have owner before leaving the meetup)
  - Cleanup (from all the food mess, etc)
 
