@@ -70,6 +70,7 @@ based
 * [ ] No JS errors
 * [ ] CSS in the header
 * [ ] JS in the footer
+* [ ] Run Through [a11yproject](http://a11yproject.com/checklist.html) accessibility checklist
 
 ### Testing
 
