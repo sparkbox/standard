@@ -67,8 +67,8 @@ Food
  - Plates, napkins will be needed as things could get messy. We should have an abundance on hand. 
  - 
 
-Pizza
-========
+#### Pizza
+
 _Oregon Express (937-223-9205)_
 * 2x Ranchero
 * 2x BLT
