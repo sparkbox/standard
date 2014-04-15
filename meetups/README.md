@@ -66,12 +66,14 @@ Food
  - Dietary needs.  (ask during registration, but mention in tweets) 
  - Plates, napkins will be needed as things could get messy. We should have an abundance on hand. 
  - 
-**Pizza**
+
+Pizza
+========
 _Oregon Express (937-223-9205)_
-2x Ranchero
-2x BLT
-1x Reuben
-1x Veggie
+* 2x Ranchero
+* 2x BLT
+* 1x Reuben
+* 1x Veggie
 
 _Wheat Penny (937.496.5268)_
-1x Sicilian Gluten Free                                 
+* 1x Sicilian Gluten Free                                 
