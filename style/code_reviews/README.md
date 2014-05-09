@@ -13,7 +13,7 @@ Please utilize other Sparkboxers while you are working. Bounce ideas off of each
 Pull Requests
 -----
 
-PRs are the perfect place for code reviews to happen. Please use these as a place to ask questions about how/why things are done, make suggestions, give praise for an awesome solution to a problem, or use that new animated GIF that you've been dieing to show off. Conversations here will only lead to better products in the end.
+PRs are the perfect place for code reviews to happen. Please use these as a place to ask questions about how/why things are done, make suggestions, give praise for an awesome solution to a problem, or use that new animated GIF that you've been dying to show off. Conversations here will only lead to better products in the end.
 
 
 Concierge
