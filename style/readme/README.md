@@ -50,3 +50,11 @@ A file in the root of your project called `README.md`.
     * Rails
     * MySQL
     * ...
+
+    Team Members
+    ------------
+
+    * Name (role)
+    * Name (role)
+    * Name (role)
+    * ...
