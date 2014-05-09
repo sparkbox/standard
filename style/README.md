@@ -8,4 +8,5 @@ _blue steel_
 * **[Rails](rails)**
 * **[Markdown](markdown)**
 * **[Git](git)**
+* **[Code Reviews](code_reviews)**
 * **[Readme](readme)**
