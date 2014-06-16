@@ -5,16 +5,25 @@
 
 Password manager with simple sync via [Dropbox][sparkbox_dropbox] and mobile support.
 
-Consider using the logo found in the Sparkvault
+Consider using the logo found in the Sparkvault folder.
 
 How we use it
 -------
 
-Our vault is stored in the `SparkboxVault` in [Dropbox][sparkbox_dropbox].  We store servers in here as well.
+All authenticated assets for Sparkbox and our clients are maintained in the Sparkvault.
 
-When creating or storing credentials.
-* Use folders for each client
+#### Naming Conventions
+When naming a new asset, follow the convention `client-asset-environment`.  Some examples:
+
+* `sparkbox-seesparkbox.com-production`
+* `fav_customer-mandrill-production`
+
+#### Smart Folders
+Each client should have a Smart Folder.  Criteria for this should be `Title begins with <client name>`.
+
+#### Passwords
 * Generate passwords when possible
+
 
 [1password]: https://agilebits.com/onepassword
 [1password_image]: ./1password-logo.jpg
