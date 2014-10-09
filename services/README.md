@@ -11,8 +11,7 @@ Except Skype.
 
 _Todo_
 
-* **[Skype](skype)**
-* **[Sendgrid](sengrid)**
+* **[Slack](skype)**
 * **[Mailchimp](mailchimp)**
 
 Best Practices
