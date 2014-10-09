@@ -8,14 +8,9 @@ Except Skype.
 * **[CircleCI](circleci)**
 * **[Code Climate](code_climate)**
 * **[Sprintly](sprintly)**
+* **[SendGrid](sendgrid)**
 
 _Todo_
 
 * **[Slack](skype)**
 * **[Mailchimp](mailchimp)**
-
-Best Practices
---------------
-
-* Use [SendGrid](http://sendgrid.com) to deliver email from code.
-* Use [MailChimp](http://mailchimp.com/) for subscription mailing lists.
