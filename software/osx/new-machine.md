@@ -34,5 +34,6 @@ Once you have all your data on your new machine and you're ready to turn in your
 
     * [homebrew](http://brew.sh)
     * [rvm](http://rvm.io) or [rbevn](https://github.com/sstephenson/rbenv)
+    * [node](http://nodejs.org) ```brew install node```
 
 * Removed any stickers (for bonus points, not necessary)
