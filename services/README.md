@@ -2,7 +2,6 @@ Services
 ========
 
 The services we use. Some we pay for, others we mooch off. We love them all.
-Except Skype.
 
 * **[CircleCI](circleci)**
 * **[Divshot](divshot) deployments**
