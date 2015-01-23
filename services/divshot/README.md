@@ -1,4 +1,4 @@
-Divshot
+Divshot 
 ========
 
 Our static site service of choice
@@ -12,7 +12,9 @@ First thing to do is set up a new Divshot app via the [divshot.io](http://divsho
 
 ![](http://files-misc.s3.amazonaws.com/create-app.png)
 
-Once you've set up the app with divshot, go to the CLI and `divshot init` an app with the same name.
+Once you've set up the app with divshot, go to the CLI and `divshot init` an app with the same name. 
+
+*Note:* `divshot init` will ask you to add the app to Divshot, don'd do this since we've already created the app via the website.
 
 Install the [divshot-cli](https://github.com/divshot/divshot-cli#install) by running:
 
@@ -38,7 +40,7 @@ To kick off the first deploy, type `divshot push production` to push to divshot'
 
 `divshot protect [environment] [username:password]`
 
-At this time it's only possible to have one set of credentials.
+At this time it's only possible to have one set of credentials. Once you've added credentials [add them to 1Password](https://github.com/sparkbox/how_to/tree/master/software/1password).
 
 ### Set up a custom domain (optional)
 
@@ -79,8 +81,9 @@ deployment:
   staging:
     branch: master
     commands:
-      - node_modules/.bin/divshot push production --token $DIVSHOT_TOKEN
+      - node_modules/.bin/divshot push staging --token $DIVSHOT_TOKEN
 
+#optional cleanup
 general:
   artifacts:
     - "dist"
@@ -97,6 +100,8 @@ Once you have your token, the next step is to add it to CircleCI as an environme
 ![](http://files-misc.s3.amazonaws.com/env.gif)
 
 Once this token is set up the `deployment` command in our `circle.yml` file: `node_modules/.bin/divshot push production --token $DIVSHOT_TOKEN` will push to Divshot correctly.
+
+You can run this locally to test things out to make sure your token is working correctly.
 
 ### Debugging
 
