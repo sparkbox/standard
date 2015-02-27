@@ -46,7 +46,7 @@ changes.
 
 **Subject**
 
-An [impertivite tone][365] is also helpful in conveying what a commit does,
+An [imperative tone][365] is also helpful in conveying what a commit does,
 rather than what it did. For example, use **change**, not _changed_ or
 _changes_.
 
@@ -54,7 +54,7 @@ _changes_.
 
 The body of the commit message should use a style similar to the one proposed
 in this [article by tpope][tpope]. The body, just like the subject, should use
-an impertivite tone.
+an imperative tone.
 
 
 _Inspired by [Angular][angularc] and [Karma's][karmac] commit style._
