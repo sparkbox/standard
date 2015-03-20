@@ -14,6 +14,7 @@ How we dance.
 * **[Style](/style)** _The way we write documentation and code._
 * **[Project Management](/project_management)** _How we manage our projects._
 * **[Meetups](/meetups)** _Our MO for preparing and facilitating meetups._
+* **[Hackdays](/hackdays)** _How we organize and facilitate internal Sparkbox hackdays._
 
 Want to add something? See [CONTRIBUTING.md](/CONTRIBUTING.md).
 
