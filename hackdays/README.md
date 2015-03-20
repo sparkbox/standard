@@ -29,7 +29,7 @@ formed around them.
 
 ## How do we prepare for hackdays?
 Once voting is closed and ideas are chosen for the hackday, you can join any
-team.  Teams may beg, plead, and negotiate as the choose.  Team rosters and a
+team.  Teams may beg, plead, and negotiate as they choose.  Team rosters and a
 preliminary plan for attacking the idea should be published in the
 [#hackday Slack channel][hackday_channel] by 3pm hackday-eve.  Everyone has
 good ideas and can/should participate - even you Jody!
