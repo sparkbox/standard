@@ -54,7 +54,7 @@ rather than what it did. For example, use **change**, not _changed_ or
 _changes_.
 
 
-** Funtip **
+**Funtip**
 
 Work hard, play hard!  Consider prefixing your commit messages with a relevant emoji for 
 great good.
