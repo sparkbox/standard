@@ -27,6 +27,9 @@ ensure that our commits stay small and are easy to browse.
 
 The title consists of the `<type>`, the `(<scope>)`, and the `<subject>`.
 
+> Protip: Find yourself with an _and_ in that commit title?  Consider breaking
+> the commit down.  `git commit -p` is your friend!
+
 **Allowed Values for `<type>`**
 
 - **feat** (new feature)
