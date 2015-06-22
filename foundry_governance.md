@@ -12,6 +12,9 @@ Manages the Foundry Calendar
 ## Structure & Fit Editor (typically same as Editor in Chief)
 Does initial editing of articles for structure, flow, and content.
 
+## Peer Reviewers
+Checks for technical accuracy of content.
+
 ## Copy Editor
 Final editor of articles. Ensures grammar, punctuation, spelling, etc. are correct.
 
