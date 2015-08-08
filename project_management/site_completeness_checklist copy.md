@@ -19,18 +19,7 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 
 * [ ] Hi-Res (retina-ready) images for any images that are vector/text
 based
-* [ ] favicon.ico
-* [ ] apple-touch-icon.png
-* [ ] apple-touch-icon-ipad.png (72×72)
-* [ ] apple-touch-icon-ipad.png retina (152×152)
-* [ ] apple-touch-icon-iphone4.png (114×114)
-* [ ] apple-touch-icon-144x144-precomposed.png
-* [ ] apple-touch-icon-120x120-precomposed.png
-* [ ] apple-touch-icon-114x114-precomposed.png
-* [ ] apple-touch-icon-72x72-precomposed.png
-* [ ] apple-touch-icon-57x57-precomposed.png
-* [ ] apple-touch-icon-precomposed.png (also 57x57)
-* [ ] apple-touch-icon.png (also 57x57)
+* [ ] favicon.ico - use [favicon generator](http://realfavicongenerator.net), seriously.
 
 ### Content
 
@@ -129,34 +118,7 @@ Devices
 * [ ] Include caching option
 * [ ] Page weight has been tested and is acceptable.
 
-### Testing (How much testing do we do at launch?)
-
-Desktop
-* [ ] are we going to have compatibility mode issues in IE?
-* [ ] content accessible in IE 7,8,9
-* [ ] design/content right in IE 9/10
-* [ ] design/content right in latest PC Chrome
-* [ ] design/content right in latest PC FireFox
-* [ ] design/content right in latest Mac Safari
-* [ ] design/content right in latest Mac Chrome
-* [ ] design/content right in latest Mac FireFox
-* [ ] design right on a retina display
-
-Devices
-* [ ] design/content right in iOS phone
-* [ ] design/content right in iOS tablet
-* [ ] design/content right in Android phone
-* [ ] design/content right in Android tablet
-* [ ] design/content right in Blackberry phone
-* [ ] design/content right in Blackberry tablet
-* [ ] design/content right in Kindle tablet
-* [ ] design/content right in Windows phone
-* [ ] design/content right in Windows tablet
-
----
-
 ## Post Launch Checklist
-
 
 ### Project Management Related
 
