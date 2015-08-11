@@ -94,7 +94,7 @@ Mobile
 * [ ] design/content right in Windows phone
 * [ ] design/content right in Windows tablet
 
-###  Plan Launch
+### Plan Launch
 
 * [ ] Determine hosting solution.
 * [ ] Determine launch plan. (staging environment, DNS changeover, etc)
@@ -107,6 +107,7 @@ Mobile
 
 ## Launch Checklist
 
+* [ ] SSL all the things, including http -> https in redirect
 * [ ] allow indexing
 * [ ] Markup/CSS/JS Related
 * [ ] include google analytics (proper UA string)
