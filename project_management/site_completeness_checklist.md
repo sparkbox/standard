@@ -1,6 +1,6 @@
 # Site Completeness Checklist
 
-## Early Dev Checklist 
+## Early Dev Checklist
 
 ### Hosting
 
@@ -38,10 +38,12 @@ based
 * [ ] page titles appropriate and SEO
 * [ ] imgs with alt text
 * [ ] img title attributes appropriate and SEO
+* [ ] [open graph image][open_graph] (and any other appropriate info)
 
 ### Markup/CSS/JS Related
 
 (in dynamic content)
+
 * [ ] basic link styles
 * [ ] blockquotes
 * [ ] unordered lists
@@ -63,14 +65,16 @@ based
 * [ ] JS in the footer
 * [ ] Run Through [a11yproject](http://a11yproject.com/checklist.html) accessibility checklist
 * [ ] Automated [cache-busting](https://css-tricks.com/strategies-for-cache-busting-css/) of CSS and JS assets
-    - Consider the Sparkbox [cachebust package](https://github.com/sparkbox/cachebust) for node builds
+    * Consider the Sparkbox [cachebust package](https://github.com/sparkbox/cachebust) for node builds
+
 ### Testing
 
 Desktop
+
 * [ ] are we going to have compatibility mode issues in IE?
 * [ ] content accessible in IE 7,8,9
 * [ ] design/content right in IE 9/10
-* [ ] design/content right in Micrsoft Edge
+* [ ] design/content right in Microsoft Edge
 * [ ] design/content right in latest PC Chrome
 * [ ] design/content right in latest PC FireFox
 * [ ] design/content right in latest Mac Safari
@@ -78,7 +82,8 @@ Desktop
 * [ ] design/content right in latest Mac FireFox
 * [ ] design right on a retina display
 
-Devices
+Mobile
+
 * [ ] design/content right in iOS phone
 * [ ] design/content right in iOS tablet
 * [ ] design/content right in Android phone
@@ -147,8 +152,7 @@ bugs, etc.
 
 ### Gallery Submittal:
 
-1. [ ] We do a “normal submission” on www.awwwards.com because
-it is well respected and well screened
+1. [ ] We do a “normal submission” on www.awwwards.com because it is well respected and well screened
 http://www.awwwards.com/submit
 for around $21
 
@@ -164,4 +168,4 @@ http://creattica.com/
 [Rollbar]: https://rollbar.com
 [NewRelic]: https://newrelic.com
 [LogRotate]: https://support.rackspace.com/how-to/understanding-logrotate-utility/
- 
+[open_graph]: http://ogp.me/
