@@ -7,6 +7,11 @@ We use Git version control for all of our projects at [Sparkbox][]. We host
 our code on GitHub. Large features get their own branch and are merged with a
 pull request.
 
+_Never forget all this juicy knowledge!  Set your commit message template to 
+[this wonderful example](./.gitmessage), by running:_
+
+```git config --global commit.template "path/to/.gitmessage"```
+
 The Art of the Commit Message
 -----------------------------
 
