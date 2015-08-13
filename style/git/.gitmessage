@@ -1,0 +1,40 @@
+
+# <type>(<scope>): <subject>
+#
+# <body>
+#
+# <footer>
+#
+# ** TYPES **
+# feat (new feature)
+# fix (bug fix)
+# docs (changes to documentation)
+# style (formatting, missing semi colons, etc; no code change)
+# refactor (refactoring production code)
+# test (adding missing tests, refactoring tests; no production code change)
+# chore (updating grunt tasks etc; no production code change)
+#
+# ** FOOTERS **
+# References #1, #4, and #2.
+# Fix #1. note this marks the item as accepted in Sprintly
+# Closes #1 and #2. note this marks the item as accepted in Sprintly
+
+# ** Funtip **
+# Work hard, play hard!  Consider prefixing your commit messages with a relevant emoji for 
+# great good:
+#
+#   :art: `:art:` when improving the format/structure of the code
+#   :racehorse: `:racehorse:` when improving performance
+#   :non-potable_water: `:non-potable_water:` when plugging memory leaks
+#   :memo: `:memo:` when writing docs
+#   :penguin: `:penguin:` when fixing something on Linux
+#   :apple: `:apple:` when fixing something on Mac OS
+#   :checkered_flag: `:checkered_flag:` when fixing something on Windows
+#   :bug: `:bug:` when fixing a bug
+#   :fire: `:fire:` when removing code or files
+#   :green_heart: `:green_heart:` when fixing the CI build
+#   :white_check_mark: `:white_check_mark:` when adding tests
+#   :lock: `:lock:` when dealing with security
+#   :arrow_up: `:arrow_up:` when upgrading dependencies
+#   :arrow_down: `:arrow_down:` when downgrading dependencies
+#   :shirt: `:shirt:` when removing linter warnings
