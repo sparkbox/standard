@@ -95,12 +95,13 @@ _Inspired by [Angular][angularc] and [Karma's][karmac] commit style._
 
 **The Footer**
 
-Here's where we references items in our product management tool. [Sprintly][]
-allows for many different styles of references. Here are some examples:
+Here you can reference issues and pull-requests that relate to your commit, like so:
 
-*   `References #1, #4, and #2.`
-*   `Fix #1.` _note this marks the item as accepted in Sprintly_
-*   `Closes #1 and #2.` _note this marks the item as accepted in Sprintly_
+```
+closes #125
+```
+
+You can see the [official Github doc](https://help.github.com/articles/closing-issues-via-commit-messages/) for all the keywords to close issues and pull-requests.
 
 Example Commit Messages
 -----------------------
