@@ -21,7 +21,7 @@ ensure that our commits stay small and are easy to browse.
 **The Layout**
 
 ```
-<type>(<scope>): <subject>
+<type>: <subject>
 
 <body>
 
@@ -30,7 +30,7 @@ ensure that our commits stay small and are easy to browse.
 
 **The Title (the first line)**
 
-The title consists of the `<type>`, the `(<scope>)`, and the `<subject>`.
+The title consists of the `<type>` and the `<subject>`.
 
 > Protip: Find yourself with an _and_ in that commit title?  Consider breaking
 > the commit down.  `git commit -p` is your friend!
@@ -44,13 +44,6 @@ The title consists of the `<type>`, the `(<scope>)`, and the `<subject>`.
 - **refactor** (refactoring production code)
 - **test** (adding missing tests, refactoring tests; no production code change)
 - **chore** (updating grunt tasks etc; no production code change)
-
-**Example `<scope>` Values**
-
-Scope varies per project. For example, a project with an admin interface would
-use a scope of `(admin)` to denote commits that change admin code. Another
-project might have a scope of `(backup)` to commits referencing backup code
-changes.
 
 **Subject**
 
@@ -107,7 +100,7 @@ Example Commit Messages
 -----------------------
 
 ```
-feat($browser): onUrlChange event (popstate/hashchange/polling)
+feat: onUrlChange event (popstate/hashchange/polling)
 
 Added new event to $browser:
 - forward popstate event if available
@@ -118,7 +111,7 @@ Breaks $browser.onHashChange, which was removed (use onUrlChange instead)
 ```
 
 ```
-fix($compile): couple of unit tests for IE9
+fix: couple of unit tests for IE9
 
 Older IEs serialize html uppercased, but IE9 does not...
 Would be better to expect case insensitive, unfortunately jasmine does
@@ -129,7 +122,7 @@ Breaks foo.bar api, foo.baz should be used instead
 ```
 
 ```
-feat(directive): ng:disabled, ng:checked, ng:multiple, ng:readonly, ng:selected
+feat: ng:disabled, ng:checked, ng:multiple, ng:readonly, ng:selected
 
 New directives for proper binding these attributes in older browsers (IE).
 Added coresponding description, live examples and e2e tests.
@@ -138,9 +131,9 @@ Closes #351
 ```
 
 ```
-style($location): add couple of missing semi colons
+style: add couple of missing semi colons
 
-docs(guide): updated fixed docs from Google Docs
+docs: updated fixed docs from Google Docs
 
 Couple of typos fixed:
 - indentation
@@ -150,7 +143,7 @@ Couple of typos fixed:
 ```
 
 ```
-feat($compile): simplify isolate scope bindings
+feat: simplify isolate scope bindings
 
 Changed the isolate scope binding options to:
   - @attr - attribute binding (including interpolation)
