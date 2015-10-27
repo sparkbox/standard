@@ -9,8 +9,7 @@ Before beginning, we recommend you have created or added your own vault. This mi
 
 1. Get invited to the Sparkvault Dropbox folder by anyone on the Sparkbox team.
 2. Double click `Sparkvault.opvault` to begin adding the vault to your 1Password.  (You should be brought into 1Password and presented the _Create New Vault_ dialog with _Sparkvault_ prefilled.)
-3. Double click the lock icon, choose _Other_ and find the `use_this_logo_when_opening_keychain.png` image found in the `Sparkvault` folder.  Click Done
-4. Enter the vault password (You really thought we'd include it in the readme?)
+3. Enter the vault password (You really thought we'd include it in the readme?)
 
 > With great power comes great responsibility
 > ~ Uncle Ben
