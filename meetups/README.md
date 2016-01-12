@@ -18,7 +18,7 @@ Buildup
  - Email [Speaker Prep][speaker_prep]
  - Buffer tweets for next meetup (3wk topic, 1wk RSVP, day of feedback form)
 
-Day Of
+Day Of Meetup
 -------
 
 **9am**
