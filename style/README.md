@@ -10,3 +10,4 @@ _blue steel_
 * **[Git](git)**
 * **[Code Reviews](code_reviews)**
 * **[Readme](readme)**
+* **[Non-code](non-code)**
