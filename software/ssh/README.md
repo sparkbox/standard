@@ -5,7 +5,7 @@ generated keys stored in files on our computers rather than passwords
 that must be typed each time we connect. The first step is to generate these
 keys using the `ssh-keygen` command:
 
-    $ ssh-keygen -t dsa -b 4096
+    $ ssh-keygen -t rsa -b 4096
 
 This will ask you a few questions. The first two deal with how to name the files
 and were to store them. Unless you have a really good reason, use the defaults.
