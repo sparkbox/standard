@@ -8,7 +8,8 @@ keys using the `ssh-keygen` command:
     $ ssh-keygen -t rsa -b 4096
 
 This will ask you a few questions. The first two deal with how to name the files
-and were to store them. Unless you have a really good reason, use the defaults.
+and where to store them. Unless you have a really good reason, use the defaults.
+If it asks you if you want to overwrite an existing file, stop and get help.
 It'll next ask you for a passphrase. Adding one will make your keys harder to
 steal, but it's usually okay to leave this blank (it'll also ask you to confirm
 the passphrase, which can be blank as well). This will leave you with two files:
