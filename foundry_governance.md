@@ -26,4 +26,4 @@ Helps with other visual needs when requested
 ## Authors
 In charge of providing content, images, and any other needs for the post. 
 Can get help from others as needed to accomplish that task.
-Keep Editor informed and [](https://docs.google.com/spreadsheets/d/1DQj8cepF4RCyXBPMuy8CjSIt3M4Cf7tzDl3X3GXwKhs/edit?pli=1#gid=0)update spreadsheet to notify of progress.
+Keep Editor informed and (https://docs.google.com/spreadsheets/d/1DQj8cepF4RCyXBPMuy8CjSIt3M4Cf7tzDl3X3GXwKhs/edit?pli=1#gid=0)[update spreadsheet] to notify of progress.
