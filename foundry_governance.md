@@ -4,14 +4,14 @@
 In charge of keeping the Foundry running healthily
 - Monthly analysis of traffic for trends and other interesting notes
 - Confronts any issues that would get in the way of having things run well
+- Plans out the pace of posting articles and physically posts them to EE and Twitter.
+- Occassionally does initial editing of articles for structure, flow, and content.
 
-Manages the Foundry Calendar
-- Plans out the pacing of posting articles and physically posts them to EE and Twitter.
-
-## Structure & Fit Editor (typically same as Editor in Chief)
-- Does initial editing of articles for structure, flow, and content.
-- Adds deadlines and follows up with authors.
-
+## Assistant Editor
+- Typically does initial editing of articles for structure, flow, and content.
+- Adds deadlines to calendars and follows up with authors.
+- Oversees making sure edits are being made and the article is progressing through the pipeline.
+- Requess images from Designer.
 
 ## Peer Reviewers
 Checks for technical accuracy of content.
