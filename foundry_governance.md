@@ -7,10 +7,11 @@ In charge of keeping the Foundry running healthily
 
 Manages the Foundry Calendar
 - Plans out the pacing of posting articles and physically posts them to EE and Twitter.
-- Adds deadlines and follows up with authors.
 
 ## Structure & Fit Editor (typically same as Editor in Chief)
-Does initial editing of articles for structure, flow, and content.
+- Does initial editing of articles for structure, flow, and content.
+- Adds deadlines and follows up with authors.
+
 
 ## Peer Reviewers
 Checks for technical accuracy of content.
