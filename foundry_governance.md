@@ -11,7 +11,7 @@ In charge of keeping the Foundry running healthily
 - Typically does initial editing of articles for structure, flow, and content.
 - Adds deadlines to calendars and follows up with authors.
 - Oversees making sure edits are being made and the article is progressing through the pipeline.
-- Requess images from Designer.
+- Requests images from Designer.
 
 ## Peer Reviewers
 Checks for technical accuracy of content.
