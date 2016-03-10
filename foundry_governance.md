@@ -1,13 +1,13 @@
 # Roles
 
-## Editor in Chief
+## Editor in Chief (Emily)
 In charge of keeping the Foundry running healthily
 - Monthly analysis of traffic for trends and other interesting notes
 - Confronts any issues that would get in the way of having things run well
 - Plans out the pace of posting articles and physically posts them to EE and Twitter.
 - Occassionally does initial editing of articles for structure, flow, and content.
 
-## Assistant Editor
+## Assistant Editor (Austin)
 - Typically does initial editing of articles for structure, flow, and content.
 - Adds deadlines to calendars and follows up with authors.
 - Oversees making sure edits are being made and the article is progressing through the pipeline.
@@ -16,10 +16,10 @@ In charge of keeping the Foundry running healthily
 ## Peer Reviewers
 Checks for technical accuracy of content.
 
-## Copy Editor
+## Copy Editor (Jody)
 Final editor of articles. Ensures grammar, punctuation, spelling, etc. are correct.
 
-## Designer
+## Designer (defaults to Marshall unless the author would like to create his or her own)
 Creates primary post image
 Helps with other visual needs when requested
 
