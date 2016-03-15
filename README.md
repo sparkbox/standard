@@ -19,6 +19,7 @@ How we dance.
 * **[Security](/security)** _How we keep safe._
 * **[Services we Use](/services)** _Dropbox, Skype, etc._
 * **[Software](/software)** _Vim, Sublime, etc._
+* **[Laptop Maintence](/laptop/README.md)** _How we re-image machines and set new ones up._
 
 
 
