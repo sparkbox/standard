@@ -29,8 +29,7 @@ Day Of Meetup
  - [ ] Order food for 12pm
 
 **11am**
- - [ ] Signs on doors by 11am
- - [ ] Start music
+ - [ ] Signs on doors
  - [ ] Have a round-the-room question (best robot movie character, fav language, etc)
 
 **11:15am**
@@ -45,27 +44,11 @@ Day Of Meetup
 **12:00**
  - [ ] Food in building
 
-**12:30pm**
- - [ ] Dismiss for food, conversation, and ping-pong (mention feedback form)
-
 **1pm**
- - [ ] Follow up blog post (must have owner before leaving the meetup)
  - [ ] Cleanup (from all the food mess, etc)
-
-Followup
--------
-**Within 3 days of the meetup**
- - Write Recap Foundry Post (1-2 sentences about the speaker/topic, any helpful links related to the talk, embedded video)
- - Speaker Thank you Email
 
 Food
 -------
-
- - Different kind of foods. (Not always pizza, we can start off simple though, and ask attendees at the meetup for food feedback)  (lets keep a list of places & phone #’s if this is the case)
- - Snack foods (chips, etc)
- - Dietary needs.  (ask during registration, but mention in tweets) 
- - Plates, napkins will be needed as things could get messy. We should have an abundance on hand. 
- - 
 
 #### Pizza
 
