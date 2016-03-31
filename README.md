@@ -1,5 +1,5 @@
-How To
-======
+# [Sparkbox][sparkbox] Playbook
+
 
 How [we][sparkbox] manage products.
 
@@ -17,8 +17,7 @@ How we dance.
 
 Want to add something? See [CONTRIBUTING.md](/CONTRIBUTING.md).
 
-_Inspired by [Thoughtbot's Guides][thoughtbotg]_
+_Inspired by [Thoughtbot's Playbook][inspiration]_
 
-[readmet]: /readme_template
-[thoughtbotg]: https://github.com/thoughtbot/guides
+[inspiration]: https://playbook.thoughtbot.com
 [sparkbox]: http://seesparkbox.com
