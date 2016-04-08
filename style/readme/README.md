@@ -42,7 +42,7 @@ A file in the root of your project called `README.md`.
     Commit Style
     ------------
 
-    See [Git Commit Style in How To](https://github.com/sparkbox/how_to/blob/master/style/git/README.md).
+    See [Git Commit Style](../git/README.md).
 
     Technologies Used
     -----------------
