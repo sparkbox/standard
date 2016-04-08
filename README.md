@@ -1,4 +1,4 @@
-# [Sparkbox][sparkbox] Playbook
+# Sparkbox Standard
 
 
 How [we][sparkbox] manage products.
