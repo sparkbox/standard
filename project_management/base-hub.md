@@ -1,3 +1,5 @@
+This is an example of a centralized repository of project information. Having a clear, easy-to-use place that everyone can find what they need at any time is crucial, especially when handling large projects with lots of moving parts. 
+
 #Table of Contents
 - [Environments](#environments)
 - [Team & Roles](#team--roles)
