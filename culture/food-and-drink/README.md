@@ -1,5 +1,6 @@
-How We Play
+Food & Drink
 ============
 
-- **Volley Pong**
-- **Parties**
+- **Friday Lunches**
+- **Snacks**
+- **Coffee**
