@@ -4,13 +4,14 @@
 In charge of keeping the Foundry running healthily
 - Monthly analysis of traffic for trends and other interesting notes
 - Confronts any issues that would get in the way of having things run well
-- Plans out the pace of posting articles and physically posts them to EE and Twitter.
+- Plans out the pace of posting articles and physically schedules posts in EE and to Twitter.
 - Occassionally does initial editing of articles for structure, flow, and content.
 - Can't meet your deadline? Talk to the Editor in Chief as soon as possible.
 - Need help thinking through your topic or post? This person or anyone else involved in the Foundry would be happy to talk and listen.
 
 ## Assistant Editor (Austin)
 - Typically does initial editing of articles for structure, flow, and content.
+- Physically posts articles to EE.
 - Adds deadlines to calendars and follows up with authors.
 - Oversees making sure edits are being made and the article is progressing through the pipeline.
 - Requests images from Designer.
