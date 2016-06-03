@@ -16,6 +16,10 @@ Slack allows us to create channels to talk to everyone at once, think chat room.
 
 By default slack has two channels, General and Random, and all users are added. General is a place to talk about non work related stuff and Random is a scary place of pure randomness.
 
+### Public Channels
+
+Additional channels have been created which any memember of the Sparkbox team can join at any time. These channels cover a range of topics from discussion on design, to video games, to weekly lunches. Any member of the team can start a new channel or join an existing one. There are currently over 150 channels.
+
 ### ext-
 
 Some channels begin with and ext-, these channels allow clients to join in on the conversation.
