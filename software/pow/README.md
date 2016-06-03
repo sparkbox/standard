@@ -1,6 +1,6 @@
 Pow
 ===
 
-[Pox][pow] allow us to run Rails apps and static sites locally with nice urls.
+[Pow][Pow] allow us to run Rails apps and static sites locally with nice urls.
 
 [pow]: http://pow.cx/

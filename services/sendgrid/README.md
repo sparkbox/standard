@@ -8,7 +8,7 @@ Our SMTP provider of choice.
 
 ## Issues
 
-If emails look like they are being sent to SendGrid, but aren't be delivered and aren't showing in the logs, then they're probably being deferred.
+If emails look like they are being sent to SendGrid, but aren't being delivered and aren't showing in the logs, then they're probably being deferred.
 
 Click on `Email Activity` in the navbar, then under `Search Options` select `Deferred`. If the emails that are being lost show up here with:
 ```

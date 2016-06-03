@@ -14,7 +14,7 @@ First thing to do is set up a new Divshot app via the [divshot.io](http://divsho
 
 Once you've set up the app with divshot, go to the CLI and `divshot init` an app with the same name. 
 
-*Note:* `divshot init` will ask you to add the app to Divshot, don'd do this since we've already created the app via the website.
+*Note:* `divshot init` will ask you to add the app to Divshot, don't do this since we've already created the app via the website.
 
 Install the [divshot-cli](https://github.com/divshot/divshot-cli#install) by running:
 
