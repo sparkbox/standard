@@ -9,11 +9,13 @@ To help counter the confusion that comes with using numerous tools and repositor
 <img width="904" alt="hub" src="https://cloud.githubusercontent.com/assets/1993557/16318431/32db682e-395d-11e6-8c01-16ca42f7e1ef.png">
 _Project Hubs help consolidate all the pertenent high-level project details in one spot._
 
+###Priorities
 No matter the tools, we aim to keep projects focused on goals, priorities, and removing barriers for the people doing the work and making decisions. We most often use [GitHub](https://github.com) to create user stories or other work that needs done as "Issues" to gather and communicate the scope of work that needs done in detail. We'll often use Zenhub to then provide estimates for the level of effort for those issues and to prioritize those same issues.
 
 <img width="948" alt="kanban" src="https://cloud.githubusercontent.com/assets/1993557/16318388/feb783c0-395c-11e6-9a6e-82d3c56c15cc.png">
 _Kanban boards allow you to prioritize work to stay in ultimate control over the work that gets done and when it is done. It's a great way to view priorities and work iteratively._
 
+###Communication & Control
 We estimate work early and do at least weekly transparent reality checks of budgets, timelines, and project health. We share those reality checks (typically via Basecamp with the whole team) and keep you on top of where things stand so that you can make smart decisions throughout the project. Using Zenhub and other kanban boards, while working hourly and giving frequent updates gives you ultimate control over proiritization and how your budget is spent.
 
 <img width="912" alt="burndown" src="https://cloud.githubusercontent.com/assets/1993557/16318335/bb0abcaa-395c-11e6-9af4-f3f09075498c.png">
