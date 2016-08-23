@@ -1,5 +1,5 @@
 Build Process
 ========
 
-* **[General Best Practices](general.md)**
-* **[Assemble](assemble)**
+* **[Node & NPM](./node.md)**
+* **[Assemble](assemble/README.md)**

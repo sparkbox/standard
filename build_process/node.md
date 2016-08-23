@@ -1,4 +1,4 @@
-# General Best Practices
+# Node
 
 ## NPM Scripts
 
