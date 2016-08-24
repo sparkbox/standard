@@ -5,7 +5,6 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 
 ## Early Dev Checklist 
 
-
 * [ ] Dev site disallows indexing
 * [ ] Other item
 * [ ] all states of navigation/buttons (active, hover, inactive, etc)
@@ -13,6 +12,7 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 * [ ] pagination
 * [ ] headline styles that work when very long (wrap to multiple lines)
 * [ ] Purchase CMS license (if applicable)
+* [ ] Transition/Purchase Font accounts in Customer Specific Account
 
 
 ### Design
@@ -98,7 +98,6 @@ Devices
 
 ## Launch Checklist
 
-
 * [ ] allow indexing
 * [ ] Markup/CSS/JS Related
 * [ ] include google analytics (proper UA string)
@@ -108,6 +107,7 @@ Devices
 * [ ] add selectivizr only if needed
 * [ ] add modernizr only if needed
 * [ ] build custom version of modernizr (keep file small)
+* [ ] Transition Typeography.com fonts to Production mode
 
 ### Server Related
 
