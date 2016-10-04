@@ -1,5 +1,4 @@
 # Site Completeness Checklist
-This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments)
 
 ---
 
