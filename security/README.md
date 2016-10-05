@@ -23,9 +23,9 @@ Slack channel.
 
 ## Instructions
 
-- [Mobile Device Passcodes]
+- [Device Security]
 - [Time Machine Backup Disk Encryption]
 
 
-[Mobile Device Passcodes]: ./devices.md
+[Device Security]: ./devices.md
 [Time Machine Backup Disk Encryption]: ./timemachine.md
