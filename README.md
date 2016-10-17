@@ -26,6 +26,7 @@ Super duper secret (name, email, prompt)
 Super secret (yock username)
 mixed user name
 signing key
+gpgsign
 
 [inspiration]: https://playbook.thoughtbot.com
 [sparkbox]: http://seesparkbox.com
