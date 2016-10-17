@@ -23,6 +23,7 @@ _Inspired by [Thoughtbot's Playbook][inspiration]_
 
 Super Secret (name, email, no sign, no username)
 Super duper secret (name, email, prompt)
+Super secret (yock username)
 
 [inspiration]: https://playbook.thoughtbot.com
 [sparkbox]: http://seesparkbox.com
