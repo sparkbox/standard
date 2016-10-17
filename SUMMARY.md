@@ -10,3 +10,4 @@
 * [Security](./security/README.md)
   * [Device Security](./security/devices.md)
   * [Time Machine Backup Disk Encryption](./security/timemachine.md)
+  * [Filevault Full Disk Encryption](./security/filevault.md)

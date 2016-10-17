@@ -1,4 +1,4 @@
-# Encrypting Time Machine Backups
+# Time Machine Backup Disk Encryption
 Time Machine Backups contain a working image of your computer at the time the
 backup was taken. For this reason, encrypting these backups is important.
 

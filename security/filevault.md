@@ -1,4 +1,4 @@
-# FileVault Setup
+# FileVault Full Disk Encryption
 
 FileVault is full-disk encryption for macOS and required for all Sparkbox laptops. If you setup your laptop with the [new laptop script][laptop] this has already been completed. This guide will help you determine if FileVault is enabled and, if necessary, how to enable it.
 

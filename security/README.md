@@ -25,7 +25,9 @@ Slack channel.
 
 - [Device Security]
 - [Time Machine Backup Disk Encryption]
+- [Filevault Full Disk Encryption]
 
 
 [Device Security]: ./devices.md
 [Time Machine Backup Disk Encryption]: ./timemachine.md
+[Filevault Full Disk Encryption]: ./filevault.md
