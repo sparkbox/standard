@@ -21,5 +21,8 @@ Want to add something? See [CONTRIBUTING.md](/CONTRIBUTING.md).
 
 _Inspired by [Thoughtbot's Playbook][inspiration]_
 
+Super Secret (name, email, no sign, no username)
+
 [inspiration]: https://playbook.thoughtbot.com
 [sparkbox]: http://seesparkbox.com
+
