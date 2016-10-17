@@ -27,6 +27,7 @@ Super secret (yock username)
 mixed user name
 signing key
 gpgsign
+gpgsign all good
 
 [inspiration]: https://playbook.thoughtbot.com
 [sparkbox]: http://seesparkbox.com
