@@ -14,6 +14,8 @@ A message will print to the commnd line stating that FileVault is either `On` or
 
 You can also check your system preferences to see the status of FileVault. From the Apple menu () click on `System Preferences...` and in the window that pops up choose `Security & Privacy` on the top row. Click `FileVault` near the top and you'll see a message indicating FileVault's status in the center of the window.
 
+![FileVault in System Preferences](filevault.png)
+
 ## Setup
 
 If FileVault is off, then you need to complete this process using [Apple's FileVault setup instructions][apple].
