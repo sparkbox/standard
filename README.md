@@ -17,8 +17,6 @@ How we dance.
 * **[Foundry](/foundry)** _How we write on the Foundry._
 * **[Culture](/culture)** _How we Sparkbox._
 
-Want to add something? See [CONTRIBUTING.md](/CONTRIBUTING.md).
-
 _Inspired by [Thoughtbot's Playbook][inspiration]_
 
 [inspiration]: https://playbook.thoughtbot.com
