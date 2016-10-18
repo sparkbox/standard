@@ -12,7 +12,7 @@ How we dance.
 * **[Services we Use](/services)** _Dropbox, Skype, etc._
 * **[Software](/software)** _Vim, Sublime, etc._
 * **[Style](/style/README.md)** _The way we write documentation and code._
-* **[Project Management](/project_management)** _How we manage our projects._
+* **[Project Management](/project_management/README.md)** _How we manage our projects._
 * **[Meetups](/meetups)** _Our MO for preparing and facilitating meetups._
 * **[Foundry](/foundry)** _How we write on the Foundry._
 * **[Culture](/culture)** _How we Sparkbox._
