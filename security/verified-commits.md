@@ -41,6 +41,12 @@ A window will popup asking you to enter your GPG passphrase. Open 1Password and 
 
 ![Pinentry window](pinentry.png)
 
+Create a new repository on Github and follow their instructions on configuring your local repository to use Github. Their instructions will include steps to push to this new repository. Once that is complete you can see if our setup has worked by viewing the commit list on your new Github repository. There should be one commit, and you should see the `Verified` label on it.
+
+![A verified commit](verified.png)
+
+Make a change to your text file and commit that change. Verify that nothing asks you to enter your passphrase. Congratulations, you're signing commits!
+
 ## Github Desktop
 
 The Github Mac app does not support signed commits at the time of this writing. While that may change in the future, for now you must use Git in a terminal window to sign your commits. You may still use the app for creating, cloning, and updating repositories, but anything requiring a commit (including rebases) must be done via the command line.
