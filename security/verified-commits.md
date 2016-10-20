@@ -47,6 +47,10 @@ Create a new repository on Github and follow their instructions on configuring y
 
 Make a change to your text file and commit that change. Verify that nothing asks you to enter your passphrase. Congratulations, you're signing commits!
 
+## Verification for Security Policy
+
+Once you're able to see your verified commits on Github, take a screenshot of the commits list. You'll need this to submit it as verification of compliance with our security policy.
+
 ## Github Desktop
 
 The Github Mac app does not support signed commits at the time of this writing. While that may change in the future, for now you must use Git in a terminal window to sign your commits. You may still use the app for creating, cloning, and updating repositories, but anything requiring a commit (including rebases) must be done via the command line.
