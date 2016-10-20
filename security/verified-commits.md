@@ -45,6 +45,10 @@ A window will popup asking you to enter your GPG passphrase. Open 1Password and 
 
 The Github Mac app does not support signed commits at the time of this writing. While that may change in the future, for now you must use Git in a terminal window to sign your commits. You may still use the app for creating, cloning, and updating repositories, but anything requiring a commit (including rebases) must be done via the command line.
 
+## Keeping Your Key Safe
+
+As explained in the beginning, you have a _public key_ and a _private key_. Wherever this guide talks about sharing a key (specifically, with Github) it means the _public key_. As an absurd example, this key could be posted on an Interstate billboard and you would have nothing to worry about. It is designed to be shared far and wide with anyone who may want to verify your identity. The _private key_ however is altogether different. This should __never__ be shared with any person or service. It should never leave the confines of your computer, except to be transferred to a new computer. Ideally this transfer happens offline, as infrequently as possible, with a trusted removable storage device. Don't hesitate to get help with this step if you are at all unsure. A compromised private key can be used to impersonate you.
+
 [why-verified-is-important]: https://github.com/sparkbox/standard/pull/64
 [gpg-tools-website]: https://gpgtools.org/
 [github-account-keys]: https://github.com/settings/keys
