@@ -10,7 +10,7 @@ The solution to this is "Verified" commits. Verified commits are changes to a gi
 
 ## Adding Your Public Key to Github
 
-Once you have generated your keys copy the public key by two-finger clicking on the line labeled with your name and email address and then clicking `copy`. Add this to your [Github account keys][github-account-keys] just like you would a new SSH key. You'll see a separate section on that screen got GPG keys.
+Once you have generated your keys copy the public key by two-finger clicking on the line labeled with your name and email address and then clicking `copy`. Add this to your [Github account keys][github-account-keys] just like you would a new SSH key. You'll see a separate section on that screen for GPG keys.
 
 ## Configuring Git
 
