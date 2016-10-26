@@ -67,6 +67,7 @@ Desktop
 * [ ] are we going to have compatibility mode issues in IE?
 * [ ] content accessible in IE 7,8,9
 * [ ] design/content right in IE 9/10
+* [ ] design/content right in Micrsoft Edge
 * [ ] design/content right in latest PC Chrome
 * [ ] design/content right in latest PC FireFox
 * [ ] design/content right in latest Mac Safari
