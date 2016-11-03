@@ -1,13 +1,13 @@
 # Summary
 
 * Community
-  * [Meetups](./meetups/README.md)
-* [Planning](./project_management/README.md)
+  * [Meetups]
+* [Planning]
 * Developing
-  * [Style](./style/README.md)
-  * [Build & Deployment](./build_process/README.md)
-    * [Node & NPM](./build_process/node.md)
-* [Security](./security/README.md)
+  * [Style]
+  * [Build & Deployment]
+    * [Node & NPM]
+* [Security]
   * [Principles]
   * [General Policy]
   * [Instructions]
@@ -16,6 +16,13 @@
     * [Filevault Full Disk Encryption]
     * [Device Security]
     * [Verified Git Commits]
+
+[Meetups]: ./meetups/README.md
+[Planning]: ./project_management/README.md
+[Style]: ./style/README.md
+[Build & Deployment]: ./build_process/README.md
+[Node & NPM]: ./build_process/node.md
+[Security]: ./security/README.md
 
 [Principles]: ./security/README.md#principles
 [General Policy]: ./security/README.md#general-policy
