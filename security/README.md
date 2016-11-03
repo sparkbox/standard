@@ -23,11 +23,16 @@ Slack channel.
 
 ## Instructions
 
-- [Device Security]
+
+- [Recommended Mac Updates]
 - [Time Machine Backup Disk Encryption]
 - [Filevault Full Disk Encryption]
+- [Device Security]
+- [Verified Git Commits]
 
 
+[Recommended Mac Updates]: ./security/mac-updates.md
 [Device Security]: ./devices.md
 [Time Machine Backup Disk Encryption]: ./timemachine.md
 [Filevault Full Disk Encryption]: ./filevault.md
+[Verified Git Commits]: ./security/verified-commits.md
