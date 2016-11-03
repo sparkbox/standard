@@ -12,7 +12,13 @@ The solution to this is "Verified" commits. Verified commits are changes to a gi
 
 Once you have generated your keys copy the public key by two-finger clicking on the line labeled with your name and email address and then clicking `copy`. Add this to your [Github account keys][github-account-keys] just like you would a new SSH key. You'll see a separate section on that screen for GPG keys.
 
+### Github Email Address
+
+Now is a good opportunity to make sure Github knows about your `@heysparkbox.com` email address. Because we used this address when creating your GPG keys, Github needs to know about it to associate commits which have this address with you. Visit your [Github email settings][github-email-settings] and, if necessary, follow their instructions for adding that address. Also, make sure that it is [verified][github-verified-email]
+
 ## Configuring Git
+
+### Adding Your Signing Key
 
 Git must be made aware of your new key and must be directed to sign all new commits by default. To do that, first return to the GPG Keychain app, highlight the line identifying your keys, and click `Details` at the top-right of the window.
 
@@ -25,7 +31,19 @@ Copy the `Key ID` near the middle of that new window to your clipboard. Git uses
 Replace `keyid` with the value you copied from GPG Keychain. Git also needs to know that you want to sign all commits. That's one more terminal command:
 
     $ git config --global commit.gpgsign true
+    
+### Setting Your Email Address
 
+Each Git commit includes your email address which Git stores in its configuration. For your commits to be verified that email address must match one of the email addresses included in your GPG key. This guide had you create your keys with your `@heysparkbox.com` address. To see if Git is configured to use that address, run this command in a terminal window:
+
+    $ git config --global user.email
+    
+If this prints your `@heysparkbox.com` email address you do not have to do anything. If it prints anything else, you can set it like this:
+
+    $ git config --global user.email me@heysparkbox.com
+    
+Replace `me` with your own name and you are set.
+    
 ## macOS Keychain and Testing
 
 The final step is to setup a new Git repository to test that commit signing works as expected. In making your first commit you'll also save your passphrase to macOS Keychain so that you never need to enter the passphrase again. In a temporary folder, initialize a new Git repository:
@@ -63,3 +81,5 @@ As explained in the beginning, you have a _public key_ and a _private key_. Wher
 [gpg-tools-website]: https://gpgtools.org/
 [github-account-keys]: https://github.com/settings/keys
 [wikipedia-digital-signature]: https://en.wikipedia.org/wiki/Digital_signature
+[github-email-settings]: https://github.com/settings/emails
+[github-verified-email]: https://help.github.com/articles/verifying-your-email-address/
