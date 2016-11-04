@@ -7,6 +7,7 @@
   * [Style]
   * [Build & Deployment]
     * [Node & NPM]
+  * [Almanac]
 * [Security]
   * [Principles]
   * [General Policy]
@@ -23,6 +24,7 @@
 [Build & Deployment]: ./build_process/README.md
 [Node & NPM]: ./build_process/node.md
 [Security]: ./security/README.md
+[Almanac]: ./almanac/README.md
 
 [Principles]: ./security/README.md#principles
 [General Policy]: ./security/README.md#general-policy
