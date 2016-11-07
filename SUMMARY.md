@@ -8,6 +8,8 @@
   * [Build & Deployment]
     * [Node & NPM]
   * [Almanac]
+    * [IE9]
+    * [IE11]
 * [Security]
   * [Principles]
   * [General Policy]
@@ -25,7 +27,8 @@
 [Node & NPM]: ./build_process/node.md
 [Security]: ./security/README.md
 [Almanac]: ./almanac/README.md
-
+[IE9]: ./almanac/IE9.md
+[IE11]: ./almanac/IE11.md
 [Principles]: ./security/README.md#principles
 [General Policy]: ./security/README.md#general-policy
 [Instructions]: ./security/README.md#instructions
