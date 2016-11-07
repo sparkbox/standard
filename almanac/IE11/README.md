@@ -1,0 +1,6 @@
+# IE11
+
+## Distorted image with Flexbox
+Using Flexbox for vertical-centering will distort the image. Better to use another vertical-centering technique like [the translate approach](https://css-tricks.com/centering-css-complete-guide/).
+
+See [codepen example](http://codepen.io/chriscoyier/pen/lpema).
