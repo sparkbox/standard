@@ -3,6 +3,12 @@ Just like our dev efforts, everything is in [constant flux to best serve our cli
 
 We dig using the right tools for each project, which often includes [Basecamp](https://basecamp.com/) (for project updates, discussions, and file sharing) and [InVision](https://www.invisionapp.com/) (for design collaboration).
 
+When choosing tools to help our teams collaborate around work, we use the following principles as our guide:
+
+1. Be simple
+2. Be accessible
+3. Efficiently surface remaining work
+
 ###Organization
 To help counter the confusion that comes with using numerous tools and repositories for large projects, we find it's helpful to create a [Project Hub (centralized repository of project information)](https://github.com/sparkbox/standard/blob/master/project_management/base-hub.md). This helps everyone access exactly what they need when they need it and can help as teammembers join the project. 
 
