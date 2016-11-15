@@ -6,7 +6,7 @@ macOS ships with a tool called `softwareupdate` to scan, list, download, and
 install updates. If you're comfortable with typing in commands, you can see if
 recommended updates are available:
 
-  sudo softwareupdate -l
+    $ sudo softwareupdate -l
 
 The message _No updates are available._ will print at the end.
 
@@ -23,7 +23,7 @@ message _No Updates Available_.
 You can install updates from the command line using the `softwareupdate` tool.
 To install recommended updates with progress indication run:
 
-  sudo softwareupdate -ir --verbose
+    $ sudo softwareupdate -ir --verbose
 
 ## Installing Updates from the App Store
 

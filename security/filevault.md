@@ -6,7 +6,7 @@ FileVault is full-disk encryption for macOS and required for all Sparkbox laptop
 
 macOS ships with a tool called `fdesetup` to manage FileVault from the command line. If you're comfortable with typing in commands, you can see if FileVault is already enabled by running:
 
-    fdesetup status
+    $ fdesetup status
 
 A message will print to the commnd line stating that FileVault is either `On` or `Off`.
 
