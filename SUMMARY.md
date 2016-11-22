@@ -7,6 +7,7 @@
   * [Style]
   * [Build & Deployment]
     * [Node & NPM]
+    * [Drops Process]
   * [Almanac]
     * [IE9]
     * [IE11]
@@ -37,3 +38,4 @@
 [Filevault Full Disk Encryption]: ./security/filevault.md
 [Device Security]: ./security/devices.md
 [Verified Git Commits]: ./security/verified-commits.md
+[Drops Process]: ./build_process/drops.md
