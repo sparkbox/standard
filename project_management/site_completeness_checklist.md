@@ -5,15 +5,13 @@ This list uses [Github Checklists](https://github.com/blog/1375-task-lists-in-gf
 
 ## Early Dev Checklist 
 
-* [ ] Dev site disallows indexing
-* [ ] Other item
-* [ ] all states of navigation/buttons (active, hover, inactive, etc)
-* [ ] dropdown menus
-* [ ] pagination
-* [ ] headline styles that work when very long (wrap to multiple lines)
+### Hosting
+
+* [ ] Automated Deployments
+* [ ] Preproduction Environments: Disallows indexing
+* [ ] Preproduction Environments: Require Basic Authentication
 * [ ] Purchase CMS license (if applicable)
 * [ ] Transition/Purchase Font accounts in Customer Specific Account
-
 
 ### Design
 
