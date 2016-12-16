@@ -9,6 +9,7 @@
     * [Node & NPM]
     * [Drops Process]
   * [Almanac]
+    * [General]
     * [IE9]
     * [IE11]
 * [Security]
@@ -30,6 +31,7 @@
 [Almanac]: ./almanac/README.md
 [IE9]: ./almanac/IE9.md
 [IE11]: ./almanac/IE11.md
+[General]: ./almanac/general.md
 [Principles]: ./security/README.md#principles
 [General Policy]: ./security/README.md#general-policy
 [Instructions]: ./security/README.md#instructions
