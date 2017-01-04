@@ -30,4 +30,4 @@ _Burndowns give a great visual view of project health._
 We like to work in iterations, and can use your priorities to create appropriate milestones—and when we match up those issues with estimates, and milestones for a project, we get the power of burndown charts. We use all of these resources and tools to keep you updated on checkins/standup calls and walk through work/progress together. We get to a testing environment early to not only _tell_ you the progress we've made, but actually show you and anyone else you want to see, the reality of where the project stands early and often.
 
 ### People
-Drew, Emily, and Melissa are our main project managers. They plan things, keep us on task, scope hours, and so much more. And Austin asissts project managers as a project coordinator.
+Drew, Emily, and Austin are our main project managers. They plan things, keep us on task, scope hours, and so much more.
