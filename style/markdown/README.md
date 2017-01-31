@@ -25,20 +25,24 @@ Style
     [link]: http://linkzilla.biz
     ```
 
-* Use underlines for H1 and H2s
+* Use hash marks for consistent header markup
 
     ```markdown
     // bad
-    # Hey There Big Boy
-
-    ## Check Out My H2
-
-    // good
     Hey There Big Boy
     =================
 
     Check Out My H2
     ---------------
+    
+    ### Inconsistent H3
+
+    // good
+    # Hey There Big Boy
+
+    ## Check Out My H2
+    
+    ### My H3 looks like everything else now
     ```
 
 [product]: http://daringfireball.net/projects/markdown/
