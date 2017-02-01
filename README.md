@@ -22,3 +22,4 @@ _Inspired by [Thoughtbot's Playbook][inspiration]_
 
 [inspiration]: https://playbook.thoughtbot.com
 [sparkbox]: http://seesparkbox.com
+[build right]: http://buildright.io
