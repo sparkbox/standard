@@ -6,13 +6,13 @@ We recognize and submit to the idea that software projects are sufficiently comp
 
 As such, our guiding principles for navigating projects are:
 
-  - **Limit surprises / Be transparent:** We do everything in our power to eliminate surprises for our clients at all times in a project. Keeping an open, honest dialogue about positive and difficult subjects is the best way we’ve found to make projects successful. 
-  - **Small, frequent increments:** Iterative delivery gives us the cues necessary to navigate early and often towards the most appropriate end.
+  - **Limit surprises / Be transparent:** We do everything in our power to eliminate surprises for our clients at all times in a project. Keeping an open, honest dialogue about positive and difficult subjects is the best way we’ve found to make projects successful.
+  - **Small, frequent increments:** Iterative delivery gives us the queues necessary to navigate early and often towards the most appropriate end.
   - **Shared responsibility:** Our team members and our clients share in the success and failure of our project by being timely, sharing information, and supporting one another constructively.
 
 
 ## Tooling
-Just like our dev efforts, everything is in [constant flux to best serve our clients](http://webstandardssherpa.com/reviews/responsive-discovery/) around here. Many of us adore  [ZenHub](https://www.zenhub.io/) or [Trello](https://trello.com/). And we make [Jira](https://www.atlassian.com/software/) work when needed. :) 
+Just like our dev efforts, everything is in [constant flux to best serve our clients](http://webstandardssherpa.com/reviews/responsive-discovery/) around here. Many of us adore  [ZenHub](https://www.zenhub.io/) or [Trello](https://trello.com/). And we make [Jira](https://www.atlassian.com/software/) work when needed. :)
 
 We dig using the right tools for each project, which often includes [Basecamp](https://basecamp.com/) (for project updates, discussions, and file sharing) and [InVision](https://www.invisionapp.com/) (for design collaboration).
 
@@ -23,7 +23,7 @@ When choosing tools to help our teams collaborate around work, we use the follow
 3. Efficiently surface remaining work
 
 ## Project Hub
-To help counter the confusion that comes with using numerous tools and repositories for large projects, we find it's helpful to create a [Project Hub (centralized repository of project information)](https://github.com/sparkbox/standard/blob/master/project_management/base-hub.md). This helps everyone access exactly what they need when they need it and can help as teammembers join the project. 
+To help counter the confusion that comes with using numerous tools and repositories for large projects, we find it's helpful to create a [Project Hub (centralized repository of project information)](https://github.com/sparkbox/standard/blob/master/project_management/base-hub.md). This helps everyone access exactly what they need when they need it and can help as teammembers join the project.
 
 <img width="904" alt="hub" src="https://cloud.githubusercontent.com/assets/1993557/16318431/32db682e-395d-11e6-8c01-16ca42f7e1ef.png">
 
@@ -44,3 +44,45 @@ We estimate work early and do at least weekly transparent reality checks of budg
 _Burndowns give a great visual view of project health._
 
 We like to work in iterations, and can use your priorities to create appropriate milestones—and when we match up those issues with estimates, and milestones for a project, we get the power of burndown charts. We use all of these resources and tools to keep you updated on checkins/standup calls and walk through work/progress together. We get to a testing environment early to not only _tell_ you the progress we've made, but actually show you and anyone else you want to see, the reality of where the project stands early and often.
+
+## Team Roles
+
+Creating environments for collaboration, and having generally-defined roles is helpful as we see that development and design have great overlaps. To unlock the key potential between that strong collaborative working relationship we have outlined our first iteration of roles that we’re using and intend to refine over time.
+
+**Project Manager:** enables the team and client
+* Wherever possible defaults to inviting everyone to meetings and pulls back to what is adding value based on team input.
+* Helps spread knowledge across the team and highlights decisions that impact disciplines.
+
+**Development Lead:** enables the development team
+* Creates (and helps estimate) Issues/Stories
+* Assures high quality of code in implementation
+* Writes some code
+* Manages drops and handoff as appropriate
+
+**Development Advocate:** helps highlight decisions that impact development
+* Attends related meetings (UX/Content/Design)
+* Communicates impactful decisions across the team: bringing them up in meetings where they are being decided and bringing up the decisions to the dev team
+* Smaller projects: one advocate for frontend and backend
+* Large projects: one advocate for frontend and one for backend
+
+**Design Lead & Advocate:** enables the design team
+* Attends related meetings (UX/Content/Dev)
+* Assures high quality of design in implementation
+* Pairing with team
+
+**Frontend Hammer:**
+* Determines constraints, tooling, and solutions to make a frontend component exist
+* Writes the majority of code to make a frontend component exist
+* Shares progress with a chisel for final refinement (just like when you would have previously consulted with the designer to have your work reviewed, only the design/dev chisel will code the refinements)
+
+**Frontend Chisel:**
+* Primarily refines the work of others
+* Can fill in and create some new elements when it makes sense
+* Own performance from a design perspective (Image & SVG optimization)
+* Could be the Design Advocate
+* Prefer this person to not be the Hammer
+
+**UX/Content:**
+* Helps spread knowledge across the team and highlights decisions that impact disciplines.
+* Works closely with design & dev leads
+Assures high quality for UX/Content in implementation
