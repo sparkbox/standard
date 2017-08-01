@@ -11,5 +11,6 @@ Software [we](https://seesparkbox.com) prefer to use when the need arises.
 
 ## Editors
 * **[Emacs](emacs)**
+* **[Atom](atom)**
 * **[Vim](vim)**
 * **[Sublime](sublime)**
