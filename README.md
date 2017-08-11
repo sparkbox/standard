@@ -17,6 +17,9 @@ How we dance.
 * **[Meetups](/meetups)** _Our MO for preparing and facilitating meetups._
 * **[Foundry](/foundry)** _How we write on the Foundry._
 * **[Culture](/culture)** _How we Sparkbox._
+* **[Build Process](/build_process)** _How we build, deploy, and deliver._
+* **[Almanac](/almanac)** _Our list of browser bugs and quirks._
+
 
 _Inspired by [Thoughtbot's Playbook][inspiration]_
 
