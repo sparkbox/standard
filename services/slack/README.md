@@ -18,7 +18,7 @@ By default slack has two channels, General and Random, and all users are added. 
 
 ### Public Channels
 
-Additional channels have been created which any memember of the Sparkbox team can join at any time. These channels cover a range of topics from discussion on design, to video games, to weekly lunches. Any member of the team can start a new channel or join an existing one. There are currently over 150 channels.
+Additional channels have been created which any member of the Sparkbox team can join at any time. These channels cover a range of topics from discussion on design, to video games, to weekly lunches. Any member of the team can start a new channel or join an existing one. There are currently over 150 channels.
 
 ### ext-
 
