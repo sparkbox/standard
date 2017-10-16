@@ -1,5 +1,5 @@
-Style
-=====
+Code Style
+==========
 
 * **[All Code](all_code)**
 * **[Ruby](ruby)**
@@ -9,5 +9,4 @@ Style
 * **[Git](git)**
 * **[Code Reviews](code_reviews)**
 * **[Readme](readme)**
-* **[Non-code](non-code)**
 * **[Authentication](authentication)**
