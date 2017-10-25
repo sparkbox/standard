@@ -16,17 +16,6 @@ Pull Requests
 PRs are the perfect place for code reviews to happen. Please use these as a place to ask questions about how/why things are done, make suggestions, give praise for an awesome solution to a problem, or use that new animated GIF that you've been dying to show off. Conversations here will only lead to better products in the end.
 
 
-Concierge
------
-
-Each project should have a [`Concierge`](http://dictionary.reference.com/browse/concierge) who has been designated to approve all PRs and handle merging code into the `master` branch. PRs should generally be approved and merged by the `Concierge`. If the `Concierge` is submitting a PR for their own code, it should be reviewed by someone else on the team and then the `Concierge` can merge it in to `master` once it has been given the :thumbsup:.
-
-Exceptions:
-If for some reason this person is unavailable, PRs should be reviewed by someone else on the team. It is the `Concierge`'s responsibility to go back and review those requests when they have a chance.
-
-If you, as the `Concierge` are pairing on something with someone else, it should be to your discretion to review/merge that code. It would not hurt, however, to have someone else (who didn't help to write it) also take a look before merging.
-
-
 The Lone Wolf
 -----
 
