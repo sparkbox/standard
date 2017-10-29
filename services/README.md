@@ -14,7 +14,4 @@ The services we use. Some we pay for, others we mooch off. We love them all.
 * **[SendGrid](sendgrid)**
 * **[Slack](slack)**
 * **[Zenhub](zenhub)**
-
-_Todo_
-
 * **[Mailchimp](mailchimp)**
