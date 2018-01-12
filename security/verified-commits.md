@@ -67,7 +67,8 @@ Make a change to your text file and commit that change. Verify that nothing asks
 
 ## Capturing Status
 
-You'll need to capture your "Verified" label on Github to submit it as verification of compliance with our security policy.
+You'll need to capture your "Verified" label on Github to submit it as verification of compliance with our security policy. If you already have a recent commit (the last week or so) in a repo on Github, take a screenshot and use that as your status. If you don't have a recent Github commit, you can use the repo below.
+
 There is a [dedicated repo](https://github.com/sparkbox/gpg-verification) for capturing the status of your verified commits. It's easy to generate a commit to screenshot by following these steps:
 
 1. Clone the repo: `git clone git@github.com:sparkbox/gpg-verification.git`.
