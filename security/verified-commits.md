@@ -31,19 +31,19 @@ Copy the `Key ID` near the middle of that new window to your clipboard. Git uses
 Replace `keyid` with the value you copied from GPG Keychain. Git also needs to know that you want to sign all commits. That's one more terminal command:
 
     $ git config --global commit.gpgsign true
-    
+
 ### Setting Your Email Address
 
 Each Git commit includes your email address which Git stores in its configuration. For your commits to be verified that email address must match one of the email addresses included in your GPG key. This guide had you create your keys with your `@heysparkbox.com` address. To see if Git is configured to use that address, run this command in a terminal window:
 
     $ git config --global user.email
-    
+
 If this prints your `@heysparkbox.com` email address you do not have to do anything. If it prints anything else, you can set it like this:
 
     $ git config --global user.email me@heysparkbox.com
-    
+
 Replace `me` with your own name and you are set.
-    
+
 ## macOS Keychain and Testing
 
 The final step is to setup a new Git repository to test that commit signing works as expected. In making your first commit you'll also save your passphrase to macOS Keychain so that you never need to enter the passphrase again. In a temporary folder, initialize a new Git repository:
@@ -67,7 +67,13 @@ Make a change to your text file and commit that change. Verify that nothing asks
 
 ## Capturing Status
 
-Once you're able to see your verified commits on Github, take a screenshot of the commits list. You'll need this to submit it as verification of compliance with our security policy.
+You'll need to capture your "Verified" label on Github to submit it as verification of compliance with our security policy.
+There is a [dedicated repo](https://github.com/sparkbox/gpg-verification) for capturing the status of your verified commits. It's easy to generate a commit to screenshot by following these steps:
+
+1. Clone the repo: `git clone git@github.com:sparkbox/gpg-verification.git`.
+2. Make a [empty commit](https://git-scm.com/docs/git-commit#git-commit---allow-empty) in the repo: `git commit --allow-empty -m "$(git config --get user.name): verifying commits on $(date "+%Y-%m-%d")"`.
+3. Push up your newly made commit: `git push`.
+4. [Browse the repo](https://github.com/sparkbox/gpg-verification/commits/master) and take a screenshot showing your commit. Be sure to include the time and "Verified" badge.
 
 ## Github Desktop
 
