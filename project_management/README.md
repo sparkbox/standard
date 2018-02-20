@@ -7,7 +7,7 @@ We recognize and submit to the idea that software projects are sufficiently comp
 As such, our guiding principles for navigating projects are:
 
   - **Limit surprises / Be transparent:** We do everything in our power to eliminate surprises for our clients at all times in a project. Keeping an open, honest dialogue about positive and difficult subjects is the best way we’ve found to make projects successful. 
-  - **Small, frequent increments:** Iterative delivery gives us the queues necessary to navigate early and often towards the most appropriate end.
+  - **Small, frequent increments:** Iterative delivery gives us the cues necessary to navigate early and often towards the most appropriate end.
   - **Shared responsibility:** Our team members and our clients share in the success and failure of our project by being timely, sharing information, and supporting one another constructively.
 
 
