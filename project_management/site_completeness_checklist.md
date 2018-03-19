@@ -58,7 +58,8 @@ based
 * [ ] CSS in the header
 * [ ] JS in the footer
 * [ ] Run Through [a11yproject](http://a11yproject.com/checklist.html) accessibility checklist
-
+* [ ] Automated [cache-busting](https://css-tricks.com/strategies-for-cache-busting-css/) of CSS and JS assets
+    - Consider the Sparkbox [cachebust package](https://github.com/sparkbox/cachebust) for node builds
 ### Testing
 
 Desktop
