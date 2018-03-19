@@ -255,6 +255,6 @@ Voila! You're done. You've successfully rebased a branch onto the master branch!
 [karmac]: http://karma-runner.github.io/0.8/dev/git-commit-msg.html
 [365]: http://365git.tumblr.com/post/3308646748/writing-git-commit-messages
 [tpope]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-[pull_request]: khttps://help.github.com/articles/using-pull-requests
+[pull_request]: https://help.github.com/articles/using-pull-requests
 [Sparkbox]: http://seesparkbox.com
 [Sprintly]: https://sprint.ly/
