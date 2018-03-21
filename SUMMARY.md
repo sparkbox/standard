@@ -3,6 +3,7 @@
 * Community
   * [Meetups]
 * [Planning]
+  * [Site Completeness Checklist]
 * Developing
   * [Style]
   * [Build & Deployment]
@@ -43,3 +44,4 @@
 [Device Security]: ./security/devices.md
 [Verified Git Commits]: ./security/verified-commits.md
 [Drops Process]: ./build_process/drops.md
+[Site Completeness Checklist]: ./project_management/site_completeness_checklist.md
