@@ -7,6 +7,7 @@
 * [ ] Automated Deployments
 * [ ] Preproduction Environments: Disallows indexing
 * [ ] Preproduction Environments: Require Basic Authentication
+* [ ] Preproduction Environments: Allow access without Basic Authentication for users on the Sparkbox network - [instructions] (./project_management/htaccess_snippets.md)
 * [ ] Purchase CMS license (if applicable)
 * [ ] Transition/Purchase Font accounts in Customer Specific Account
 
