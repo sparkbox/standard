@@ -1,4 +1,4 @@
-# Adding access for Sparkbox users to QA instances
+# Whitelisting the Sparkbox Network on QA Sites
 
 Depending on your version of Apache, add one of the two snippets shown below to your `.htaccess` file wherever you are serving your QA site in order to allow all users on the Sparkbox network (in the office or signed into the VPN) to load your site without needing to use login credentials. Logging in will still be required for anyone not on the Sparkbox network.
 
