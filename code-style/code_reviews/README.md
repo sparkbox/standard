@@ -19,4 +19,4 @@ PRs are the perfect place for code reviews to happen. Please use these as a plac
 The Lone Wolf
 -----
 
-Don't be a one man wolf pack. If for some reason we have a project with only one active team member, they should have PRs reviewed by another Sparkboxer. This gives that user someone else to bounce ideas off of and have some discussion about the project. It also keeps at least one other person up to speed on the project.
+Don't be a one person wolf pack. If for some reason we have a project with only one active team member, they should have PRs reviewed by another Sparkboxer. This gives that user someone else to bounce ideas off of and have some discussion about the project. It also keeps at least one other person up to speed on the project.
