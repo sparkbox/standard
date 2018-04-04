@@ -37,6 +37,14 @@ questions or challenges.
 - [Device Security]
 - [Verified Git Commits]
 
+If you wish, you can run the following in a terminal to check for 
+[Recommended Mac Updates], [Time Machine Backup Disk Encryption], and
+[FileVault Full Disk Encryption].
+
+```
+curl -s https://raw.githubusercontent.com/sparkbox/standard/master/security/policy-checks.sh | sh
+```
+
 
 [Recommended Mac Updates]: ./mac-updates.md
 [Device Security]: ./devices.md
