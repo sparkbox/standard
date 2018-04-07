@@ -164,7 +164,7 @@ Copy and paste the following vhost configuration inside that file:
     <VirtualHost 127.0.0.1:80>
       ServerAdmin youremail@heysparkbox.com
       DocumentRoot "<your_path_to_files>/<your_project_name>/web"
-      ServerName <your_project_name>.dev
+      ServerName <your_project_name>.local
 
       <Directory "<your_path_to_files>/<your_project_name>/web">
         Options Indexes MultiViews FollowSymLinks
@@ -181,7 +181,7 @@ Save this file, and restart apache.
 Host file, open with `sudo` to make changes to /etc/hosts
 Add the following to the end of the file.
 
-    127.0.0.1 <your_project_name>.dev
+    127.0.0.1 <your_project_name>.local
 
 ## Installing Composer
 
