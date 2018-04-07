@@ -14,6 +14,7 @@ This guide walks you through setting up Apache natively on your MacOS with the a
   * [Vhosts and the Hosts File](#vhosts-and-the-hosts-file)
   * [Install Sequel Pro](#install-sequel-pro)
   * [Installing Composer](#installing-composer)
+  * [Common Issues](#common-issues)
 
 ## Prerequisites
 
@@ -191,3 +192,16 @@ We’ll be installing composer globally.
     $ wget https://raw.githubusercontent.com/composer/getcomposer.org/1b137f8bf6db3e79a38a5bc45324414a6b1f9df2/web/installer -O - -q | php -- --quiet
     $ mv composer.phar /usr/local/bin/composer
 
+## Common Issues
+
+### PHP Segfaults
+
+In PHP versions similar to 7.0.27, and httpd versions similar to 2.4.29, you might run into errors like this within your log file:
+
+    [Thu Feb 15 09:16:51.849759 2018] [core:notice] [pid 3230:tid 140735914537792] AH00052: child pid 3254 exit signal Segmentation fault (11)
+
+To fix this, you must enable the `mpm_prefork_module` by adding this line to your `httpd.conf` file:
+
+    LoadModule mpm_prefork_module lib/httpd/modules/mod_mpm_prefork.so
+
+:warning: **Note:** You may also need to comment out the `mpm_event_module` in order to get this to load.
