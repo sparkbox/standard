@@ -62,7 +62,7 @@ This guide walks you through setting up Apache natively on your MacOS with the a
 
   Important file locations:
 
-    /usr/local/etc/apache2/2.4/httpd.conf
+    /usr/local/etc/httpd/httpd.conf
 
 ## Installing PHP
 
@@ -104,7 +104,7 @@ Edit your Apache Configuration File, DocumentRoot to the following. (Replace the
 
 Add
 
-    Include /usr/local/etc/apache2/2.4/vhosts/*
+    Include /usr/local/etc/httpd/vhosts/*.conf
 
 User/Group
 
@@ -120,7 +120,7 @@ Uncomment the line:
 
 ### Turning on PHP in Apache.
 
-Open the Apache Config file (`/usr/local/etc/apache2/2.4/httpd.conf`)
+Open the Apache Config file (`/usr/local/etc/httpd/httpd.conf`)
 
 **Edit the following lines:**
 
@@ -152,7 +152,7 @@ Open the Apache Config file (`/usr/local/etc/apache2/2.4/httpd.conf`)
 
 Using Apache 2.4  you should be able to add vhosts using the vhost directory.
 
-In your local apache `/usr/local/etc/apache2/2.4/` directory run the following commands.
+In your local apache `/usr/local/etc/httpd/` directory run the following commands.
 
     $ mkdir vhosts
     $ cd vhosts
