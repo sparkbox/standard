@@ -35,19 +35,18 @@ This guide walks you through setting up Apache natively on your MacOS with the a
 
 ## Installing Apache
 
+Disable MacOS Apache
     $ which apachectl
     $ sudo apachectl stop
     $ sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist 2>/dev/null
-    $ brew install httpd24 --with-privileged-ports --with-http2
 
-  :warning:Note: 2.4.27 might not be what you installed, check your version and replace it in the following command: 
+Install latest Apache from homebrew
 
-    $ sudo cp -v /usr/local/Cellar/httpd24/2.4.27/homebrew.mxcl.httpd24.plist /Library/LaunchDaemons
-    $ sudo chown -v root:wheel /Library/LaunchDaemons/homebrew.mxcl.httpd24.plist
-    $ sudo chmod -v 644 /Library/LaunchDaemons/homebrew.mxcl.httpd24.plist
-    $ sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.httpd24.plist
+    $ brew install httpd
 
-    $ sudo apachectl -k restart
+Configure Apache to auto start using Homebrew services
+
+    $ sudo brew services start httpd
 
   Useful commands to know:
 
@@ -61,13 +60,10 @@ This guide walks you through setting up Apache natively on your MacOS with the a
 
 ## Installing PHP
 
-    $ brew install php56 --with-httpd24
-    $ brew unlink php56
-    $ brew install php70 --with-httpd24
-
-You also need to install mcrypt. 
-
-    $ brew install php70-mcrypt --with-httpd24
+    $ brew install php@5.6
+    $ brew install php@7.0
+    $ brew install php@7.1
+    $ brew install php@7.2
 
 Important file locations:
 
@@ -117,15 +113,12 @@ Uncomment the line:
 
 Open the Apache Config file (`/usr/local/etc/httpd/httpd.conf`)
 
-**Edit the following lines:**
+Below the `rewrite_module` line, add the following:
 
-    LoadModule php5_module        /usr/local/Cellar/php56/5.6.26_3/libexec/apache2/libphp5.so
-    LoadModule php7_module        /usr/local/Cellar/php70/7.0.11_5/libexec/apache2/libphp7.so
-
-**To the following:**
-
-    # LoadModule php5_module    /usr/local/opt/php56/libexec/apache2/libphp5.so
-    LoadModule php7_module    /usr/local/opt/php70/libexec/apache2/libphp7.so
+    LoadModule php5_module /usr/local/opt/php@5.6/lib/httpd/modules/libphp5.so
+    #LoadModule php7_module /usr/local/opt/php@7.0/lib/httpd/modules/libphp7.so
+    #LoadModule php7_module /usr/local/opt/php@7.1/lib/httpd/modules/libphp7.so
+    #LoadModule php7_module /usr/local/opt/php@7.2/lib/httpd/modules/libphp7.so
 
 **Edit the following lines:**
 
