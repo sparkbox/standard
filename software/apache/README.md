@@ -26,17 +26,12 @@ This guide walks you through setting up Apache natively on your MacOS with the a
 
     $ xcode-select --install
 
-## Installing Homebrew Taps
+## Confirm Homebrew
 
     $ brew --version
     $ brew doctor
 
-    $ brew tap homebrew/dupes
-    $ brew tap homebrew/versions
-    $ brew tap homebrew/php
-    $ brew tap homebrew/apache
-
-    $ brew update
+    Resolve any issues with Homebrew
 
 ## Installing Apache
 
