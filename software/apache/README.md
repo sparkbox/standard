@@ -11,6 +11,7 @@ This guide walks you through setting up Apache natively on your MacOS with the a
   * [Installing PHP](#installing-php)
   * [Setting up Apache](#setting-up-apache)
   * [Turning on PHP in Apache.](#turning-on-php-in-apache)
+  * [PHP Switcher Script](#php-switcher-script)
   * [Vhosts and the Hosts File](#vhosts-and-the-hosts-file)
   * [Install Sequel Pro](#install-sequel-pro)
   * [Installing Composer](#installing-composer)
@@ -136,9 +137,19 @@ Below the `rewrite_module` line, add the following:
       SetHandler application/x-httpd-php
     </FilesMatch>
 
+### PHP Switcher Script
+
+    $ curl -L https://gist.githubusercontent.com/rhukster/f4c04f1bf59e0b74e335ee5d186a98e2/raw > /usr/local/bin/sphp
+    $ chmod +x /usr/local/bin/sphp
+
+Test PHP switcher by running
+
+    $ sphp 7.0
+
+This should uncomment out the php 7.0 `LoadModule` line in `/usr/local/etc/httpd/httpd.conf` and make your shell's `php -v` report 7.0.*
 ### Vhosts and the Hosts File
 
-Using Apache 2.4  you should be able to add vhosts using the vhost directory.
+Using Apache 2.4  you should be able to add vhosts using the `vhost` directory.
 
 In your local apache `/usr/local/etc/httpd/` directory run the following commands.
 
