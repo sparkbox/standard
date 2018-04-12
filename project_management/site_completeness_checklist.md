@@ -1,7 +1,5 @@
 # Site Completeness Checklist
 
----
-
 ## Early Dev Checklist 
 
 ### Hosting
@@ -11,6 +9,13 @@
 * [ ] Preproduction Environments: Require Basic Authentication
 * [ ] Purchase CMS license (if applicable)
 * [ ] Transition/Purchase Font accounts in Customer Specific Account
+
+### DevOps
+
+* [ ] Record deployments using a service like [Rollbar]
+* [ ] Capture and Monitor ongoing performance using a service like [NewRelic]
+* [ ] Assure log rotation is in place using a utility like [LogRotate]
+* [ ] Require SSL
 
 ### Design
 
@@ -154,3 +159,8 @@ galleries such as:
 mediaqueri.es
 http://www.mobileawesomeness.com/
 http://creattica.com/
+
+[Rollbar]: https://rollbar.com
+[NewRelic]: https://newrelic.com
+[LogRotate]: https://support.rackspace.com/how-to/understanding-logrotate-utility/
+ 
