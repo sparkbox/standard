@@ -70,18 +70,19 @@ Uncomment out the following lines (they will not be together):
 concurrently installed versions of PHP.
 
 ### vHost file support
+Each vhost (site) will be configured in it's own file in the
+`/usr/local/etc/httpd/vhosts` directory. Allow this to happen by:
 
-Add the the following line to the end of your `httpd.conf`
+  1. Add the the following line to the end of your `httpd.conf`
 
     Include /usr/local/etc/httpd/vhosts/*.conf
 
-In your local apache `/usr/local/etc/httpd/` directory run the following commands.
+  2. `mkdir -p /usr/local/etc/httpd/vhosts`
 
-    mkdir vhosts
-    cd vhosts
-    touch <project_name>.conf
+### Finishing up
 
-Restart apache with `brew services restart httpd`
+  1. Make sure httpd is configured to start on reboot: `brew services restart httpd`
+  1. Restart Apache with the changes made: `sudo apachectl -k restart`
 
 ## Installing PHP
 
