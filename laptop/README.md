@@ -8,4 +8,7 @@ After that re-install the current and latest Mac OS X.
 
 ## Laptop Script
 
+Follow the instructions for the [Sparkbox Laptop] script.
+
 [apple-cli]: https://support.apple.com/en-us/HT201372
+[Sparkbox Laptop]: https://github.com/sparkbox/laptop
