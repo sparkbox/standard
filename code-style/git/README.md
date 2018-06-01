@@ -209,6 +209,9 @@ Every place you work will have a different Git flow. At Sparkbox the Git flow is
 
     -  Protip: Sometimes we create pull requests early as a place to collaborate on a solution. Consider labeling these as `DO NOT MERGE` or `WIP`.
 
+
+1. To make the pull request process more consistant, your project may include a [pull request template][]. An [example PR template][] is included in the Standard as a starting point. There is also an [example issue template][].
+
 1. Assign a reviewer to your pull request. Leave some nice documentation or even a [screencast](https://viewedit.com/) to give your reviewer a bit more background about the code you wrote in this pull request (include information about any interesting or difficult code, and where the reviewer can see the code that you are referencing).  It can also be very helpful to include some instructions in the description of your pull request about how to test the changes you've made to the code.  
 
 1. Your reviewer will either approve or request changes on your pull request.  
@@ -282,6 +285,7 @@ style: add missing semi colons
 
 It's totally ok to include all of those commits on your bug fix branch. We always leave the code better than we found it.
 
+
 [angularc]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
 [karmac]: http://karma-runner.github.io/0.8/dev/git-commit-msg.html
 [365]: http://365git.tumblr.com/post/3308646748/writing-git-commit-messages
@@ -289,3 +293,6 @@ It's totally ok to include all of those commits on your bug fix branch. We alway
 [pull_request]: https://help.github.com/articles/using-pull-requests
 [Sparkbox]: http://seesparkbox.com
 [Sprintly]: https://sprint.ly/
+[pull request template]: https://seesparkbox.com/foundry/better_pull_requests_merge_requests_with_templates
+[example PR template]: ./PULL_REQUEST_TEMPLATE.md
+[example issue template]: ./ISSUE_TEMPLATE.md
