@@ -3,8 +3,18 @@
 
 Many of our projects, especially [CMS projects](./cms) projects, are based on PHP or require a traditional server. We tend to prefer Apache in those cases, because it's prevalent and widely used.
 
-This guide walks you through setting up Apache natively on your MacOS with the ability to support multiple versions of PHP. It is based on the fantastic instructions provided by [MacOS Sierra Apache Multiple PHP Versions](https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions) and [Apache httpd 2.4 and PHP 7 in macOS](https://htr3n.github.io/2017/09/apache-httpd-php-macos/)
+This guide walks you through setting up Apache natively on your MacOS with the ability to support multiple versions of PHP using PHP-FPM (FastCGI Process Manager). It is based on the fantastic instructions provided by [MacOS Sierra Apache Multiple PHP Versions](https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions) and [Apache httpd 2.4 and PHP 7 in macOS](https://htr3n.github.io/2017/09/apache-httpd-php-macos/)
 
+After running this setup guide, you will have 2 types of services running:
+
+1. `httpd` Apache accepting incoming http(s) requests and matching them up with configured VirtualHost entries.
+1. `php-fpm` PHP FastCGI Process Manager receiving requests from Apache to process a PHP file.
+
+PHP runs as a service to allow us to have multiple versions of PHP active for Apache at any time. Without FPM, Apache must be configured for a specific version of PHP. Switching for a project requires reconfiguring and restarting Apache.
+
+## Steps
+
+  * [Prerequisites](#prerequisites)
   * [Installing Xcode Libraries](#installing-xcode-libraries)
   * [Installing Apache](#installing-apache)
   * [Setting up Apache](#setting-up-apache)
@@ -16,7 +26,7 @@ This guide walks you through setting up Apache natively on your MacOS with the a
 ## Prerequisites
 
   * MacOS Sierra 10.12.6 or greater
-  * Successfully run the [Sparkbox laptop](https://github.com/sparkbox/laptop) script to install HomeBrew and MySQL.
+  * Successfully run the [Sparkbox laptop](https://github.com/sparkbox/laptop) script to install HomeBrew, PHP FPM, and MySQL.
   * Reader must be comfortable issuing commands in the terminal
 
 ## Installing Xcode Libraries
@@ -84,43 +94,12 @@ Each vhost (site) will be configured in it's own file in the
   1. Make sure httpd is configured to start on reboot: `brew services restart httpd`
   1. Restart Apache with the changes made: `sudo apachectl -k restart`
 
-## Installing PHP
+## PHP
 
-The following script will install each version of PHP, with FPM, configure
-their listening ports for 90## (9071, for example), and configure
-FPM to start using brew services. Each version of PHP starts it's own FPM
-service with a matching port number: 9056 for PHP 5.6, 9070 for PHP 7.0, etc.
+Multiple versions of PHP were installed and configured to run as [brew services]
+by the Sparkbox [laptop script](https://github.com/sparkbox/laptop). You can see each version running with
 
-    php_versions=("5.6" "7.0" "7.1" "7.2")
-
-    for version in ${php_versions[*]}; do
-      formula="php@$version"
-
-      # Install php version
-      brew install "$formula"
-
-      # Configure each PHP-FPM (FastCGI Process Manager) listening port
-      www_conf_path="/usr/local/etc/php/$version/php-fpm.d/www.conf"
-      fpm_conf_path="/usr/local/etc/php/$version/php-fpm.conf"
-      conf_path="unknown file"
-      port_suffix=${version/\./}
-
-      if grep -q "listen = 127.0.0.1:90\d\d" "$www_conf_path" 2>/dev/null; then
-        conf_path="$www_conf_path"
-      elif grep -q "listen = 127.0.0.1:90\d\d" "$fpm_conf_path"; then
-        conf_path="$fpm_conf_path"
-      fi
-
-      if [ -f "$conf_path" ]; then
-        echo "Updating listen port to $port_suffix in $conf_path"
-        sed -i.bak "s/listen = 127\.0\.0\.1\:90[[:digit:]][[:digit:]]/listen = 127.0.0.1:90$port_suffix/g" "$conf_path"
-      else
-        echo "Unable to locate fpm conf file for $version $conf_path"
-      fi
-
-      # Configure PHP-FPM to auto start using Homebrew services
-      brew services start "$formula"
-    done
+    brew services list | grep php
 
 Important file locations:
 
