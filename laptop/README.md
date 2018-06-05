@@ -1,4 +1,4 @@
-# Sparkbox Laptop Maintence
+# Sparkbox Laptop Maintenance
 
 ## Wipe it clean
 
