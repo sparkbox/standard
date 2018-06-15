@@ -89,11 +89,6 @@ Each vhost (site) will be configured in it's own file in the
 
   2. `mkdir -p /usr/local/etc/httpd/vhosts`
 
-### Finishing up
-
-  1. Make sure httpd is configured to start on reboot: `brew services restart httpd`
-  1. Restart Apache with the changes made: `sudo apachectl -k restart`
-
 ## PHP
 
 Multiple versions of PHP were installed and configured to run as [brew services]
@@ -142,7 +137,12 @@ file `/usr/local/etc/httpd/vhosts/<project_name>.conf`:
        </Directory>
     </VirtualHost>
 
-Save this file, and restart apache.
+Save this file.
+
+### Finishing up
+
+  1. Make sure httpd is configured to start on reboot: `brew services restart httpd`
+  1. Restart Apache with the changes made: `sudo apachectl -k restart`
 
 ### Add the site to your `hosts` file
 With `sudo` open `/etc/hosts` and add the following to the end of the file:
