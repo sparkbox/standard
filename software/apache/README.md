@@ -62,7 +62,7 @@ Change the `Listen` setting from `8080` to `80`.
 ### Enable Apache Modules
 Uncomment out the following lines (they will not be together):
 
-    LoadModule rewrite_module libexec/mod_rewrite.so
+    LoadModule rewrite_module lib/httpd/modules/mod_rewrite.so
     LoadModule proxy_module lib/httpd/modules/mod_proxy.so
     LoadModule proxy_fcgi_module lib/httpd/modules/mod_proxy_fcgi.so
 
