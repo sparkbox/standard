@@ -15,6 +15,8 @@ For many years, Sparkbox has relied on and recommended [ExpressionEngine] as the
 
 Drupal provides a extremely extensible and robust CMS platform well suited for complex and enterprise scenarios.
 
+[Read about Sparkbox best practices and recommendations](./drupal.md)
+
 [CraftCMS]: https://craftcms.com
 [Drupal]: https://www.drupal.org/
 [pixelandtonic]: https://pixelandtonic.com/blog/eeharbor-acquires-ee-addons
