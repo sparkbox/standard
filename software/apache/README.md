@@ -41,11 +41,7 @@ Disable MacOS Apache
     sudo apachectl stop
     sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist 2>/dev/null
 
-Install latest Apache from homebrew
-
-    brew install httpd
-
-Configure Apache to auto start using Homebrew services
+Configure Apache (httpd), which was already installed via the [laptop script](https://github.com/sparkbox/laptop), to auto start using Homebrew services. 
 
     brew services start httpd
 
