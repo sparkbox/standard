@@ -1,7 +1,7 @@
 
 # Apache at Sparkbox
 
-Many of our projects, especially [CMS projects](./cms) projects, are based on PHP or require a traditional server. We tend to prefer Apache in those cases, because it's prevalent and widely used.
+Many of our projects, especially [CMS projects](../cms) projects, are based on PHP or require a traditional server. We tend to prefer Apache in those cases, because it's prevalent and widely used.
 
 This guide walks you through setting up Apache natively on your MacOS with the ability to support multiple versions of PHP using PHP-FPM (FastCGI Process Manager). It is based on the fantastic instructions provided by [MacOS Sierra Apache Multiple PHP Versions](https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions) and [Apache httpd 2.4 and PHP 7 in macOS](https://htr3n.github.io/2017/09/apache-httpd-php-macos/)
 
@@ -26,7 +26,7 @@ PHP runs as a service to allow us to have multiple versions of PHP active for Ap
 ## Prerequisites
 
   * MacOS Sierra 10.12.6 or greater
-  * Successfully run the [Sparkbox laptop](https://github.com/sparkbox/laptop) script to install HomeBrew, PHP FPM, and MySQL.
+  * Successfully run the [Sparkbox laptop](https://github.com/sparkbox/laptop) script to install Homebrew, PHP-FPM, and MySQL.
   * Reader must be comfortable issuing commands in the terminal
 
 ## Installing Xcode Libraries
@@ -75,11 +75,11 @@ Uncomment out the following lines (they will not be together):
 :memo: Note: `mod_proxy` will support using PHP-FPM for executing multiple
 concurrently installed versions of PHP.
 
-### vHost file support
-Each vhost (site) will be configured in it's own file in the
+### vhost file support
+Each vhost (site) will be configured in its own file in the
 `/usr/local/etc/httpd/vhosts` directory. Allow this to happen by:
 
-  1. Add the the following line to the end of your `httpd.conf`
+  1. Add the following line to the end of your `httpd.conf`
 
     Include /usr/local/etc/httpd/vhosts/*.conf
 
@@ -99,8 +99,8 @@ Important file locations:
 
 ## Setting up a new PHP site in Apache
 
-### Create the vHost file
-Each site will have it's own _vhost_ file in `/usr/local/etc/httpd/vhosts`.
+### Create the vhost file
+Each site will have its own _vhost_ file in `/usr/local/etc/httpd/vhosts`.
 
 :warning: You’ll need to swap out the following placeholders with your own settings:
 
