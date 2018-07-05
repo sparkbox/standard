@@ -127,11 +127,10 @@ file `/usr/local/etc/httpd/vhosts/<project_name>.conf`:
         ProxyPassMatch ^/(.*\.php(/.*)?)$ fcgi://127.0.0.1:<php_port><project_root>/$1
         ErrorLog "/usr/local/var/log/httpd/<project_name>-error_log"
         CustomLog "/usr/local/var/log/httpd/<project_name>-access_log" common
-        DirectoryIndex index.php index.html
+        DirectoryIndex index.html index.php
 
         <Directory "<project_root>">
           AllowOverride All
-          DirectoryIndex index.php index.html
           Options Indexes MultiViews FollowSymLinks
           Require all granted
        </Directory>
