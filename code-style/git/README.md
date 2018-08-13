@@ -250,6 +250,37 @@ For the purposes of this example explaining rebasing, let's say that the branch 
 
 Voila! You're done. You've successfully rebased a branch onto the master branch!
 
+Naming Branches
+-------------------------
+
+The way we name branches is similar to the style of our commit message. We use types (feat, fix, docs, etc.) to group our branch names so that we know what part of our workflow the branch belongs to combined with a brief subject to describe what the branch does.
+
+**Type**
+
+The allowed types for a branch name are the same as the [commit types above](https://github.com/sparkbox/standard/tree/master/code-style/git#the-art-of-the-commit-message). Branch types are followed by two hyphens.
+
+`feat--`
+
+**Subject**
+
+Subjects need to be short, but descriptive, and they may be the same as the subject of your commit message. Multiword subjects are separated by a single hyphen in between words.
+
+`feat--onUrlChange-event`
+
+`fix--unit-tests-IE9`
+
+**Branches with Multi-type Commits**
+
+Even though our branches tend to be named similarly to our commit style, it's ok if you're working on a bug fix branch `fix--` and include other types of commits. For example, maybe you have a branch named `fix--unit-tests-IE9`, but you've done some `refactor`ing and made some `style` adjustments. Your commit messages for the branch may include:
+```
+fix: unit tests for IE9
+
+refactor: remove unnecessary conditionals
+
+style: add missing semi colons
+```
+
+It's totally ok to include all of those commits on your bug fix branch. We always leave the code better than we found it.
 
 [angularc]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
 [karmac]: http://karma-runner.github.io/0.8/dev/git-commit-msg.html
