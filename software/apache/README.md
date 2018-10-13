@@ -106,7 +106,7 @@ Each site will have its own _vhost_ file in `/usr/local/etc/httpd/vhosts`.
 
   * `<project_name>`: Domain safe name such as `seesparkbox`
   * `<php_port>`: Port to the PHP-FPM instance, such as `9071` for 7.1
-  * `<project_root>`: Web root such as `/projects/seesparkbox/static/dist`
+  * `<project_root>`: Web root such as `/projects/seesparkbox.com/ee`
 
   :warning: You should _not_ place your Apache projects under `~/Documents`. Apache
   requires both write and execute permissions on all paths in the site directory,
