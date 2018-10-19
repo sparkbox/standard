@@ -11,6 +11,8 @@
 * [ ] Transition/Purchase Font accounts in Customer Specific Account
 
 ### DevOps
+* [ ] Plan to SSL all the things, including http -> https in redirect
+* [ ] Plan how deployments will happen
 
 * [ ] Record deployments using a service like [Rollbar]
 * [ ] Capture and Monitor ongoing performance using a service like [NewRelic]
