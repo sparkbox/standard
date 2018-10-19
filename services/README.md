@@ -13,5 +13,5 @@ The services we use. Some we pay for, others we mooch off. We love them all.
 * **[InVision](invision)**
 * **[SendGrid](sendgrid)**
 * **[Slack](slack)**
-* **[Zenhub](zenhub)**
+* **[Jira](jira)**
 * **[Mailchimp](mailchimp)**
