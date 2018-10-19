@@ -7,4 +7,4 @@ Software [we](https://seesparkbox.com) prefer to use when the need arises.
 * **[SSH](ssh)**
 * **[Vim](vim)**
 * **[Sublime](sublime)**
-* **[Expression Engine](expression_engine)**
+* **[CMS Platforms](cms)**

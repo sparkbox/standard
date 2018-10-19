@@ -1,6 +1,8 @@
 Content Management Systems
 ==========================
 
+See also [Platforms][].
+
 Drupal
 ------
 - Perfect for enterprise teams
@@ -33,3 +35,5 @@ Other CMSs
 Sparkbox also has extensive experience with:
 - ExpressionEngine ([website](https://expressionengine.com/))
 - WordPress ([website](https://wordpress.org/))
+
+[Platforms]: ../../platforms
