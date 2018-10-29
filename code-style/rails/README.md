@@ -10,7 +10,7 @@ We use Ruby on Rails as the back-end for many of our custom apps.
 
 ## Gems
 
-We use these gems in most of our projects.
+We often use these gems in our projects.
 
 * [Devise](https://github.com/plataformatec/devise) for authentication
 * [CanCan](https://github.com/ryanb/cancan) for authorization
@@ -20,7 +20,7 @@ We use these gems in most of our projects.
 
 ## Services
 
-We use these services with our Rails projects.
+We often use these services with our Rails projects.
 
 * [CircleCI](https://circleci.com/) for continuous integration
 * [Rollbar](https://rollbar.com/) for exception reporting

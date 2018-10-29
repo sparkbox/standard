@@ -2,7 +2,7 @@
 
 At its core, Sparkbox is our people. We exist to inspire and build a better web. We do this through our work with customers—crafting beautiful web products that inspire others to build right. We do this by sharing what we know—on [the Foundry](../foundry), in our Build Right trainings and workshops, and by speaking at industry events and writing for industry publications. We also do this by running apprenticeships—finding people who share our desire but lack our experience and pouring into them for the first six months of each year.
 
-Every new initiative is considered through this lens: whether it will inspire and empower a Web built right.
+Every new initiative is considered through this lens: whether it will inspire and empower a better web.
 
 ## The Sparkbox Code of Conduct
 
