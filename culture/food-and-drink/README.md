@@ -1,5 +1,4 @@
-Food & Drink
-============
+# Food & Drink
 
 - **Friday Lunches**
 - **Snacks**

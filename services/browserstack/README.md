@@ -1,5 +1,4 @@
-BrowserStack
-============
+# BrowserStack
 
 [![Image of BrowserStack][browserstack_image]][browserstack]
 

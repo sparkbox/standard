@@ -1,5 +1,4 @@
-CircleCI
-========
+# CircleCI
 
 [![Image of CircleCI][producti]][product]
 

@@ -1,5 +1,4 @@
-Code Style
-==========
+# Code Style
 
 * **[All Code](all_code)**
 * **[Ruby](ruby)**

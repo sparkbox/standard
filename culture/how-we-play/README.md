@@ -1,5 +1,4 @@
-How We Play
-============
+# How We Play
 
 - **Volley Pong**
 - **Parties**

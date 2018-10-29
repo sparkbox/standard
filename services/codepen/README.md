@@ -1,5 +1,4 @@
-Codepen
-=======
+# Codepen
 
 [![Image of CodePen][codepen_logo]][codepen]
 

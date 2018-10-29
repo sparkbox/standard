@@ -1,5 +1,4 @@
-Software
-========
+# Software
 
 Software [we](https://seesparkbox.com) prefer to use when the need arises.
 

@@ -1,5 +1,4 @@
-Slack
-========
+# Slack
 
 [![Image of Sack][producti]][product]
 

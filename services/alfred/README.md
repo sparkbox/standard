@@ -1,5 +1,4 @@
-Alfred
-======
+# Alfred
 
 [![Image of Alfred][alfred_image]][alfred]
 

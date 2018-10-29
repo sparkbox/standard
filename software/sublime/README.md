@@ -1,5 +1,4 @@
-Sublime
-=======
+# Sublime
 
 ![Sublime in Action](http://i.imgur.com/45niD1Y.jpg)
 

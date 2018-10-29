@@ -1,17 +1,14 @@
-Rails
-=====
+# Rails
 
 [![The Ruby on Rails Logo][producti]][product]
 
-We use Ruby on Rails as the back-end for most of our custom apps.
+We use Ruby on Rails as the back-end for many of our custom apps.
 
-Style
------
+## Style
 
 * Follow the [The Rails Style Guide][rails_style].
 
-Gems
-----
+## Gems
 
 We use these gems in most of our projects.
 
@@ -21,8 +18,7 @@ We use these gems in most of our projects.
 * [SASS](http://sass-lang.com/) for CSS
 * [Simple Form](https://github.com/plataformatec/simple_form) for forms
 
-Services
---------
+## Services
 
 We use these services with our Rails projects.
 

@@ -1,5 +1,4 @@
-Our Space
-=========
+# Our Space
 
 - **Device Wall**
 - **Makerbox**

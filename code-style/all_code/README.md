@@ -1,5 +1,4 @@
-All Code
-========
+# All Code
 
 ![Code Quality][xkcd]
 

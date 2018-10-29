@@ -1,12 +1,10 @@
-Readme
-======
+# Readme
 
 The `README.md` file in our project's root folder is the central location for
 all information about the project. The template below is the starting point for
 all new projects at Sparkbox.
 
-Template
---------
+## Template
 
 A file in the root of your project called `README.md`.
 

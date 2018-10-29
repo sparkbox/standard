@@ -1,5 +1,4 @@
-Mailchimp
-========
+# Mailchimp
 
 ![Image of Mailchimp](mailchimp.png)
 

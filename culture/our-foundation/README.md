@@ -1,5 +1,4 @@
-Our Foundation
-==============
+# Our Foundation
 
 - **Values**
   - Fluency
@@ -12,6 +11,6 @@ Our Foundation
 - **KYC**
 - **Inclusiveness**
   - What is acceptable behavior?
-  - How can we make *everyone* feel welcome?
+  - How can we make _everyone_ feel welcome?
   - Where to have sensitive conversations
 - **Benefits & Handbook**

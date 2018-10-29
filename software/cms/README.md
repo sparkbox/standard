@@ -1,10 +1,7 @@
-Content Management Systems
-==========================
+# Content Management Systems
 
-See also [Platforms][].
+## Drupal
 
-Drupal
-------
 - Perfect for enterprise teams
 - Runs on PHP
 - Highly customizable
@@ -12,8 +9,8 @@ Drupal
 
 ([website](https://www.drupal.org/))
 
-Craft
------
+## Craft
+
 - Perfect for small teams & startups
 - Runs on PHP
 - Highly customizable
@@ -21,8 +18,8 @@ Craft
 
 ([website](https://craftcms.com/))
 
-Squarespace
------------
+## Squarespace
+
 - Perfect for small teams & startups
 - Website builder with the option to customize some code
 - Moderately customizable
@@ -30,10 +27,9 @@ Squarespace
 
 ([website](https://www.squarespace.com/))
 
-Other CMSs
-----------
+## Other CMSs
+
 Sparkbox also has extensive experience with:
+
 - ExpressionEngine ([website](https://expressionengine.com/))
 - WordPress ([website](https://wordpress.org/))
-
-[Platforms]: ../../platforms

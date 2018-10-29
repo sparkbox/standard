@@ -1,5 +1,4 @@
-Knowledge Sharing
-=================
+# Knowledge Sharing
 
 - **[Foundry](../../foundry)**
 - **Apprenticeships**

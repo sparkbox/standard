@@ -1,5 +1,4 @@
-Printing
-========
+# Printing
 
 [![Image of the Product][printeri]][instructions]
 

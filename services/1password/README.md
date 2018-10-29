@@ -1,5 +1,4 @@
-[1Password][1password]
-=====
+# [1Password][1password]
 
 [![1password][1password_image]][1password]
 
@@ -8,7 +7,7 @@ We use 1Password to keep our logins, passwords, notes, databases, and servers se
 > With great power comes great responsibility
 > ~ Uncle Ben
 
-Authenticated assets for Sparkbox and many of our clients are maintained in 1Password.  Be mindful of this and use appropriately.
+Authenticated assets for Sparkbox and many of our clients are maintained in 1Password. Be mindful of this and use appropriately.
 
 [1password]: https://1password.com
 [1password_image]: ./1Password.png

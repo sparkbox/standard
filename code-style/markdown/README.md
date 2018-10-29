@@ -1,49 +1,47 @@
-Markdown
-========
+# Markdown
 
 [![The Markdown Mark][producti]][product]
 
 Markdown is a terse markup langauge that produces HTML.
 
-Style
------
+## Style
 
 * Prefer footnotes to inline [links][links]
 
-    ```markdown
-    // bad
-    Sweet [link](http://linkzilla.biz) coming.
+  ```markdown
+  // bad
+  Sweet [link](http://linkzilla.biz) coming.
 
-    // good
-    Sweet [link][link] coming.
+  // good
+  Sweet [link][link] coming.
 
-    [link]: http://linkzilla.biz
+  [link]: http://linkzilla.biz
 
-    // also good
-    Sweet [link][] coming.
+  // also good
+  Sweet [link][] coming.
 
-    [link]: http://linkzilla.biz
-    ```
+  [link]: http://linkzilla.biz
+  ```
 
 * Use hash marks for consistent header markup
 
-    ```markdown
-    // bad
-    Hey There Big Boy
-    =================
+  ```markdown
+  // bad
+  Hey There Big Boy
+  =================
 
-    Check Out My H2
-    ---------------
-    
-    ### Inconsistent H3
+  ## Check Out My H2
 
-    // good
-    # Hey There Big Boy
+  ### Inconsistent H3
 
-    ## Check Out My H2
-    
-    ### My H3 looks like everything else now
-    ```
+  // good
+
+  # Hey There Big Boy
+
+  ## Check Out My H2
+
+  ### My H3 looks like everything else now
+  ```
 
 [product]: http://daringfireball.net/projects/markdown/
 [producti]: http://i.imgur.com/TUYGZBI.png

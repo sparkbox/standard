@@ -1,5 +1,4 @@
-InVision
-========
+# InVision
 
 [![Image of InVision][invision_image]][invision]
 

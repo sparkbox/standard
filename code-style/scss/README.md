@@ -1,5 +1,4 @@
-Naming Conventions
-=====
+# Naming Conventions
 
 We follow [SMACSS](http://smacss.com/) conventions when naming CSS classes.
 When you are naming something, **do not** name it based on its content, as this will be difficult to

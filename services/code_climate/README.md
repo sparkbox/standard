@@ -1,5 +1,4 @@
-Code Climate
-============
+# Code Climate
 
 [![Code Climate's Logo][producti]][product]
 
