@@ -3,24 +3,24 @@
 **Table of Contents**
 
 1. [Introduction](#Introduction)
-1. [Class Naming Theory](#Class-Naming-Theory)
-1. [BEM](#BEM)
-  2. [Using BEM](#Using-BEM)
-    3. [Block](#Block)
-    4. [Element](#Element)
-    5. [Modifier](#Modifier)
-  3. [BEM in Sass](#BEM-in-Sass)
+2. [Class Naming Theory](#Class-Naming-Theory)
+3. [BEM](#BEM)
+  1. [Using BEM](#Using-BEM)
+    1. [Block](#Block)
+    2. [Element](#Element)
+    3. [Modifier](#Modifier)
+  2. [BEM in Sass](#BEM-in-Sass)
 4. [ITCSS](#ITCSS)
-  5. [File Naming](#File-Naming)
-    6. [Settings](#Settings)
-    7. [Tools](#Tools)
-    8. [Generic](#Generic)
-    9. [Elements](#Elements)
-    10. [Objects](#Objects)
-    11. [Components](#Components)
-    12. [Utilities](#Utilities)
-13. [ITCSS and BEM](#ITCSS-and-BEM)
-2. [Name Spacing](#Name-Spacing)
+  1. [File Naming](#File-Naming)
+    1. [Settings](#Settings)
+    2. [Tools](#Tools)
+    3. [Generic](#Generic)
+    4. [Elements](#Elements)
+    5. [Objects](#Objects)
+    6. [Components](#Components)
+    7. [Utilities](#Utilities)
+5. [Name Spacing](#Name-Spacing)
+6. [ITCSS and BEM](#ITCSS-and-BEM)
 
 
 ## Introduction
@@ -144,7 +144,7 @@ Let's use our example from above to see what our Sass would look like:
 
 ## ITCSS
 
-ITCSS stands for Inverted Triangle CSS. It separates CSS into sections to help developers manage CSS specificity and the cascade. There are seven layers of the inverted triangle. The idea is that you start with a wide reach and low specificty at the top, and as you go down, the reach narrows and the properties get more specific. This helps you avoid specifity issues.
+ITCSS stands for Inverted Triangle CSS. It separates CSS into sections to help developers manage CSS specificity and the cascade. There are seven layers of the inverted triangle. The idea is that you start with a wide reach and low specificity at the top, and as you go down, the reach narrows and the properties get more specific. This helps you avoid specificity issues.
 
 #### Settings
 
@@ -182,7 +182,7 @@ Utilities are helper classes with the ability to override anything that goes bef
 
 We namespace to articulate what class names we wrote. As with the [class naming section above](#Class-Naming-Theory), namespacing is a useful tool to describe what kind of class this is and how it functions. Also, like class naming, the more information in the namespace, the easier it is to comprehend for future developers.
 
-A namespace title should consist of more than one character but no more than four characters. One character rarely provides enough information to describe the type of class, and more than four characters causes the namespace to compete with the class name. Namespaces should be quick to comprehend, but only act as an aid to define the type of styles that will exist and how they function.
+A namespace title should consist of more than one character but no more than four characters. One character rarely provides enough information to describe the type of class, and more than four characters cause the namespace to compete with the class name. Namespaces should be quick to comprehend but only act as an aid to define the type of styles that will exist and how they function.
 
 Our namespacing is derived from the ITCSS section the class belongs in. Since settings, tools, generic, and elements are only used in file naming (and usually use the whole title in the file name), we have only defined ITCSS prefixes for the sections used for class naming:
 
@@ -190,7 +190,8 @@ Our namespacing is derived from the ITCSS section the class belongs in. Since se
 - `.cmp-` (components)
 - `.util-` (utilities)
 
-It's important to note that these prefixes are only used in _class_ naming. Sometimes we want to prefix a _file_ name with the ITCSS section to communicate what the file includes, and in that case we would use the entire name of the section.
+It's important to note that these prefixes are only used in _class_ naming. Sometimes we want to prefix a _file_ name with the ITCSS section to communicate what the file includes, and in that case, we would use the entire name of the section.
+
 
 ---
 
@@ -215,23 +216,23 @@ Objects, components, and utilities are the parts of ITCSS that are used in class
 
 ```html
 <section class="hero">
-  <h1 class="hero__title"></h1>
-  <p class="hero__description"></p>
-  <button class="hero__button hero__button--dark"></p>
+  <h1 class="hero__title">...</h1>
+  <p class="hero__description">...</p>
+  <button class="hero__button hero__button--dark">...</button>
 </section>
 ```
 
-Right now, we're only using BEM here, but we can add ITCSS to better communicate to other developers what this piece of code is (a component), and what it's for (defining classes for the hero block). This example is a hero section, which is a specific part of our site's UI. That means it's a component in ITCSS. For components, we prefix class names with `.cmp`:
+Right now, we're only using BEM here, but we can add ITCSS to better communicate to other developers what this piece of code is (a component), and what it's for (defining classes for the hero block). This example is a hero section, which is a specific part of our site's UI. That means it's a component in ITCSS. For components, we use `cmp-` to prefix class names and denote their purpose.
 
 ```html
 <section class="cmp-hero">
-  <h1 class="cmp-hero__title"></h1>
-  <p class="cmp-hero__description"></p>
-  <button class="cmp-hero__button cmp-hero__button--dark"></p>
+  <h1 class="cmp-hero__title">...</h1>
+  <p class="cmp-hero__description">...</p>
+  <button class="cmp-hero__button cmp-hero__button--dark">...</button>
 </section>
 ```
 
-Maybe we want this component to have some layout styles, like centering it on the page and giving it a max-width. That would require a layout class, which is on the object level of ITCSS. To do this, we can create a stylesheet file called `objects.layout.scss` (remembering that we use the full name of the ITCSS section in file naming, and the prefix of the ITCSS section in class naming) and include something like:
+Maybe we want this component to have some layout styles, like centering it on the page and giving it a max-width. That would require a layout class, which is on the object level of ITCSS. To do this, we can create a stylesheet file called `objects.layout.scss` (remembering that we use the full name of the ITCSS section in file naming and the prefix of the ITCSS section in class naming) and include something like:
 
 ```scss
 .obj-layout {
@@ -240,14 +241,17 @@ Maybe we want this component to have some layout styles, like centering it on th
 }
 ```
 
-Then, we'll apply our new class to our hero section:
+Then, we'll apply our new class to our hero section.
 
 ```html
-<section class="obj-layout cmp-hero">
-  <h1 class="cmp-hero__title"></h1>
-  <p class="cmp-hero__description"></p>
-  <button class="cmp-hero__button cmp-hero__button--dark"></p>
-</section>
+<div class="obj-layout">
+  <section class="cmp-hero">
+    <h1 class="cmp-hero__title">...</h1>
+    <p class="cmp-hero__description">...</p>
+    <button class="cmp-hero__button cmp-hero__button--dark">...</button>
+  </section>
+</div>
 ```
+Notice that the `obj-layout` class is applied to its own container. Class names should not mix for component and object elements. The only instance a component or object element has more than one class should be in the cases of modifier or when using utility classes.
 
 Future developers will be able to learn a lot about this piece of code by the class names we've used. The more we can communicate in the code, the easier it will be for current and future developers to understand and work with the same code.
