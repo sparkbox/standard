@@ -5,20 +5,20 @@
 1. [Introduction](#Introduction)
 2. [Class Naming Theory](#Class-Naming-Theory)
 3. [BEM](#BEM)
-  1. [Using BEM](#Using-BEM)
-    1. [Block](#Block)
-    2. [Element](#Element)
-    3. [Modifier](#Modifier)
-  2. [BEM in Sass](#BEM-in-Sass)
+   1. [Using BEM](#Using-BEM)
+      1. [Block](#Block)
+      2. [Element](#Element)
+      3. [Modifier](#Modifier)
+   2. [BEM in Sass](#BEM-in-Sass)
 4. [ITCSS](#ITCSS)
-  1. [File Naming](#File-Naming)
-    1. [Settings](#Settings)
-    2. [Tools](#Tools)
-    3. [Generic](#Generic)
-    4. [Elements](#Elements)
-    5. [Objects](#Objects)
-    6. [Components](#Components)
-    7. [Utilities](#Utilities)
+   1. [File Naming](#File-Naming)
+     1. [Settings](#Settings)
+     2. [Tools](#Tools)
+     3. [Generic](#Generic)
+     4. [Elements](#Elements)
+     5. [Objects](#Objects)
+     6. [Components](#Components)
+     7. [Utilities](#Utilities)
 5. [Name Spacing](#Name-Spacing)
 6. [ITCSS and BEM](#ITCSS-and-BEM)
 
@@ -39,15 +39,15 @@ Keep in mind that naming is for humans, so verboseness is useful if it helps com
 
 ## BEM
 
-BEM stands for block element modifier, which is the order you follow for naming with BEM.
+BEM stands for “Block Element Modifier”, which is the order you follow for naming with BEM. We use BEM to name our CSS classes.
 
 #### Block
 
-`.block` is the parent wrapper of the component. This would be something like site navigation, the hero section, or a footer. Any container that holds other code could be a block.
+`.block` is the primary, or parent, component. We start our BEM class names with the name of the Block. An example of a Block might be a site's navigation, hero section, or footer. Any container that holds other code could be a Block.
 
 #### Element
 
-`.block__element` is an element inside the component, or inside the parent wrapper. This could be a title or a link. It's anything inside the parent wrapper. It's important here to note that BEM isn't meant to reflect nesting. For example, say you have a section that includes an image element inside an anchor element:
+`.block__element` is an Element inside a Block, or inside the parent component. We use two underscorces between the Block and Element to denote that the Element is a child, or descendent, of the Block. An Element could be a title or a link. It's anything inside the parent Block. It's important here to note that BEM isn't meant to reflect nesting. For example, say you have a section that includes an image tag inside an anchor tag:
 
 ```html
 <section>
@@ -61,14 +61,14 @@ Our BEM naming doesn't need to show that we nested that image tag, so we would g
 
 #### Modifier
 
-Modifiers are the most specific of the three parts of BEM. They should only define one or two properties that change the previously defined properties on the block or element. You can use a modifier on a block or an element.
+Modifiers are the most specific of the three parts of BEM. They should only define one or two properties that change the previously defined properties on the Block or Element. Since Modifiers only change one or two properties, they have to live alongside the unmodified version of the class name. That way, you still get all the properties you already defined in the original Block or Element level class (we have an example of this below). You can use a Modifier on a Block or an Element.
 
-`.block--modifier` modifies the entire component.
+`.block--modifier` modifies the entire Block.
 
-`.block__element--modifier` modifies a single element inside a component.
+`.block__element--modifier` modifies a single Element inside a Block.
 
 #### Example
-Let's look at an example. Maybe we have a hero section that's reused on each page of a site. The block might be called `.hero`, because that's what the entire section is. The title, description, and button are all elements, so they would be `.hero__title`, `.hero__description`, and `.hero__button`. We don't need any modifiers yet, because a modifier is really specific.
+Let's look at an example. Let's say we have a hero section that's reused on each page of a site. The Block might be called `.hero`, because that's what the entire parent section is. The title, description, and button are all Elements, so they would be `.hero__title`, `.hero__description`, and `.hero__button`. We don't need any Modifiers here, because we have nothing to modify yet.
 
 ```html
 <section class="hero">
@@ -78,7 +78,7 @@ Let's look at an example. Maybe we have a hero section that's reused on each pag
 </section>
 ```
 
-Now, what if on one page where we want a dark version of our button? We can create a modifier class for the `background-color` property so that we're only changing the color of the button with that modifier class. Notice that you still need to include the original `.hero__button` element level class. That's because the modifier is only changing the `background-color`, and you still want all the other properties from the original button class.
+Now, what if on one page we want a dark version of our button? We can create a Modifier class for the `background-color` property so that we're only changing the color of the button that has that Modifier class applied to it. Notice that you still need to include the original `.hero__button` Element level class. That's because the Modifier is only changing the `background-color`, and you still want all the other properties from the original button class.
 
 ```html
 <section class="hero">
@@ -90,7 +90,7 @@ Now, what if on one page where we want a dark version of our button? We can crea
 
 ### BEM in Sass
 
-The formatting of BEM relies on Sass local variables to ease the amount of repetitiveness inherent with BEM. Using the same structure above looks like this in the SCSS file:
+In combination with Sass local variables and nesting, BEM is an efficient and communicative way to write CSS class names. This is a rough idea of what BEM looks like in a SCSS file:
 
 ```scss
 .block {
@@ -110,13 +110,15 @@ The formatting of BEM relies on Sass local variables to ease the amount of repet
 }
 ```
 
-Let's use our example from above to see what our Sass would look like:
+Let's use our example from above to see what our SCSS file would look like:
 
+```html
 <section class="hero">
   <h1 class="hero__title"></h1>
   <p class="hero__description"></p>
   <button class="hero__button hero__button--dark"></p>
 </section>
+```
 
 ```scss
 .hero {
@@ -144,7 +146,7 @@ Let's use our example from above to see what our Sass would look like:
 
 ## ITCSS
 
-ITCSS stands for Inverted Triangle CSS. It separates CSS into sections to help developers manage CSS specificity and the cascade. There are seven layers of the inverted triangle. The idea is that you start with a wide reach and low specificity at the top, and as you go down, the reach narrows and the properties get more specific. This helps you avoid specificity issues.
+ITCSS stands for Inverted Triangle CSS. It separates CSS into sections to help developers manage CSS specificity and the cascade. There are seven layers of the inverted triangle, though not every project will need all seven. The idea is that you start with a wide reach and low specificity at the top, and as you go down, the reach narrows and the properties get more specific. This helps you avoid specificity issues.
 
 #### Settings
 
@@ -162,27 +164,27 @@ Here we define any generic styles that are not specific to the styles of the sit
 
 #### Elements
 
-This is where we define styling for bare HTML elements (like H1, A, etc.). These elements come with default styling from the browser, so we can redefine them here.
+This is where we define styling for bare HTML elements (`h1`, `a`, etc.). These elements come with default styling from the browser, so we can redefine them here.
 
 #### Objects
 
-Objects are class-based selectors that define undecorated design patterns, for example [the media object](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/) (a pattern with an image on the left and descriptive content on the right, like a Tweet for example) from OOCSS.
+Objects are class-based selectors that define undecorated design patterns like layout or spacing pattens. An example of an undecorated design pattern would be [the media object pattern](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/) (a pattern with an image on the left and descriptive content on the right, like a Tweet for example) from OOCSS.
 
 #### Components
 
-This section is where we define our specific UI components. This is where the majority of our work takes place, and our UI components are often composed of Objects and Components.
+This section is where we define our specific UI components. This is where the majority of our work takes place, and our UI components are often composed of Objects and Components. A component could be a button, or a textarea, or even a hero section.
 
 #### Utilities
 
-Utilities are helper classes with the ability to override anything that goes before it in the triangle. Utility classes are very specific. Sometimes we use utility classes to set up spacing systems, which would consist of creating classes for certain sizes of padding or margin to be used anywhere on the site, or to establish a hide helper class that our JavaScript can interact with to toggle the visibility of elements.
+Utilities, sometimes called trumps, are helper classes with the ability to override anything that goes before it in the triangle. Since these classes have an overriding nature, we use a prefix of `.util` on the class name to help communicate their purpose in larger projects (see more about this in our [Namespacing](#Namespacing) section). Utility classes are very specific. Sometimes we use utility classes to set up spacing systems, which would consist of creating classes for certain sizes of padding or margin to be used anywhere on the site, or to establish a hide helper class that our JavaScript can interact with to toggle the visibility of elements.
 
 ---
 
 ## Namespacing
 
-We namespace to articulate what class names we wrote. As with the [class naming section above](#Class-Naming-Theory), namespacing is a useful tool to describe what kind of class this is and how it functions. Also, like class naming, the more information in the namespace, the easier it is to comprehend for future developers.
+As with the [class naming section above](#Class-Naming-Theory), namespacing is a useful tool to describe the kind of class it is and how it functions. Also like class naming, the more information in the namespace, the easier it is to comprehend for future developers. In cases where you're working on existing code, it's important to know the difference between what your team wrote and what already existed in the codebase. Namespaces are an important communication tool to identify the classes that your team is creating and working on.
 
-A namespace title should consist of more than one character but no more than four characters. One character rarely provides enough information to describe the type of class, and more than four characters cause the namespace to compete with the class name. Namespaces should be quick to comprehend but only act as an aid to define the type of styles that will exist and how they function.
+A namespace title should consist of more than one character but no more than four characters. One character rarely provides enough information to describe the type of class, and more than four characters cause the namespace to compete with the class name. For example, a class name prefix of `.c-` could mean component, or color, or anything else. Including just two more characters `.cmp-` makes it much easier to understand that we're looking at the class for a component. Namespaces should be quick to comprehend, and act as an aid to define the type of styles that will exist and how they function.
 
 Our namespacing is derived from the ITCSS section the class belongs in. Since settings, tools, generic, and elements are only used in file naming (and usually use the whole title in the file name), we have only defined ITCSS prefixes for the sections used for class naming:
 
@@ -197,18 +199,18 @@ It's important to note that these prefixes are only used in _class_ naming. Some
 
 ## How ITCSS works with BEM
 
-We use ITCSS and BEM together to help us communicate the purpose of a class. ITCSS shows up both in file naming and in class naming, while BEM is only used for class naming.
+We often use ITCSS and BEM together to help us communicate the purpose of a class. ITCSS shows up both in file naming and in class naming, while BEM is only used for class naming.
 
 ### ITCSS File Naming
 
-The parts of ITCSS that are used for file naming don't use BEM. An example of this might be color variables. Those belong in the settings section of the inverted triangle, so we would create a file for that called `settings.variables.color.scss` in which we might define some colors:
+The parts of ITCSS that are used for file naming don't use BEM. An example of this might be color variables. Those belong in the settings section of the inverted triangle, so we would create a file for that called `_settings.variables.color.scss` in which we might define some colors:
 
 ```scss
-$c-sky-blue: //value for blue
-$c-crimson: //value for red
+$color-sky-blue: //value for blue
+$color-crimson: //value for red
 ```
 
-We don't need BEM for this because we're not defining classes.
+Since these are variable names, we don't have to use BEM here. It's important to use BEM for class names, but it's optional to use in naming your variables.
 
 ### ITCSS and BEM Class Naming
 
@@ -222,7 +224,7 @@ Objects, components, and utilities are the parts of ITCSS that are used in class
 </section>
 ```
 
-Right now, we're only using BEM here, but we can add ITCSS to better communicate to other developers what this piece of code is (a component), and what it's for (defining classes for the hero block). This example is a hero section, which is a specific part of our site's UI. That means it's a component in ITCSS. For components, we use `cmp-` to prefix class names and denote their purpose.
+Right now, we're only using BEM here, but we can add ITCSS to better communicate to other developers what this piece of code is (a component), and what it's for (defining classes for the hero Block). When you're working on an existing codebase, ITCSS also helps to communicate to other developers that this is _our_ code, and not code that already existed in the codebase. This example is a hero section, which is a specific part of our site's UI. That means it's a component in ITCSS. For components, we use `cmp-` to prefix class names and denote their purpose.
 
 ```html
 <section class="cmp-hero">
@@ -255,3 +257,11 @@ Then, we'll apply our new class to our hero section.
 Notice that the `obj-layout` class is applied to its own container. Class names should not mix for component and object elements. The only instance a component or object element has more than one class should be in the cases of modifier or when using utility classes.
 
 Future developers will be able to learn a lot about this piece of code by the class names we've used. The more we can communicate in the code, the easier it will be for current and future developers to understand and work with the same code.
+
+
+## Additional Resources
+
+- [ITCSS: Scalable and Maintainable CSS Architecture](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
+- [BEM Website](http://getbem.com)
+- [BEM by Example](https://seesparkbox.com/foundry/bem_by_example)
+- [Thoughtful CSS Architecture](https://seesparkbox.com/foundry/thoughtful_css_architecture)
