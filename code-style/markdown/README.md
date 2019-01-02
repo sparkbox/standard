@@ -2,7 +2,7 @@
 
 [![The Markdown Mark][producti]][product]
 
-Markdown is a terse markup langauge that produces HTML.
+Markdown is a terse markup language that produces HTML.
 
 ## Style
 
@@ -27,7 +27,7 @@ Markdown is a terse markup langauge that produces HTML.
 
   ```markdown
   // bad
-  Hey There Big Boy
+  This is an inconsistent H1
   =================
 
   ## Check Out My H2
@@ -36,7 +36,7 @@ Markdown is a terse markup langauge that produces HTML.
 
   // good
 
-  # Hey There Big Boy
+  # This is still a big, friendly H1
 
   ## Check Out My H2
 
