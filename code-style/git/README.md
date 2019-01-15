@@ -1,5 +1,4 @@
-Git
-===
+# Git
 
 ![Git plus GitHub](http://i.imgur.com/R1imkCJ.png)
 
