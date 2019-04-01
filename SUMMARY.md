@@ -14,6 +14,7 @@
     * [IE11]
 * [Security]
   * [Principles]
+  * [Two Factor Authentication]
   * [General Policy]
   * [Instructions]
     * [Recommended Mac Updates]
@@ -33,6 +34,7 @@
 [IE11]: ./almanac/IE11.md
 [General]: ./almanac/general.md
 [Principles]: ./security/README.md#principles
+[Two Factor Authentication]: ./security/two-factor-authentication.md
 [General Policy]: ./security/README.md#general-policy
 [Instructions]: ./security/README.md#instructions
 [Recommended Mac Updates]: ./security/mac-updates.md
