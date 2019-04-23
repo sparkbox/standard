@@ -12,6 +12,7 @@ Don’t be nasty or mean—be considerate and respectful.
 
 * **[Our Foundation](our-foundation/README.md)**
 * **[Our Space](our-space/README.md)**
+* **[Working with our Remote Teammates](remote/README.md)**
 * **[Knowledge Sharing](knowledge-sharing/README.md)**
 * **[Food & Drink](food-and-drink/README.md)**
 * **[How we Play](how-we-play/README.md)**
