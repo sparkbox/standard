@@ -1,45 +1,46 @@
 # Node
 
+## Managing Your Local Node Versions
+
+To manage your own Node versions we have a few recommendations, but you should do what works for you. Whichever method is reliable and comfortable is the right one.
+
+### Happy Path
+
+Use [`nvm`](https://github.com/nvm-sh/nvm). See documentation for [installation](https://github.com/nvm-sh/nvm#installation-and-update) and [usage](https://github.com/nvm-sh/nvm#usage). 
+
+### Secondary Options
+
+- [`n`](https://www.npmjs.com/package/n) - this is an `npm` install-able node-based tool. It's real nice.
+- [`brew`](https://brew.sh/) - this is a perfectly fine option. See [instructions](./managing-node-with-brew.md) for using `brew`.
+
 ## Project Node Versions
-There are a few things we can do to help enforce version requirements on a per-project basis.
-1. The `package.json` for any given project should specify the required Node version in the `engines` field.
-2. Optionally, we can set `engine-strict=true` in a repository's [`.npmrc`](https://docs.npmjs.com/misc/config#npmrc-files). With this setting, NPM will refuse to install dependencies that claim to not be supported by the current Node version.
-3. Use the [`check-node-version`](https://github.com/parshap/check-node-version) package to check node, npm, or yarn versions in a `prestart` script.
 
-## Local Node Versions
+All projects that rely on Node for build process or otherwise should use an [LTS release](https://github.com/nodejs/Release). The specific required version should be clearly defined for developers.
 
-Switching Node versions is often necessary as we move from project to project. Our recommended method of handling version installation and switching is to use [Homebrew](https://brew.sh/).
-
-`brew search` will show you the versions available on your machine.
-```bash
-❯ brew search node
-==> Searching local taps...
-node ✔            leafnode          llnode            node@4            nodeenv
-node@6 ✔          libbitcoin-node   node-build        nodebrew          nodenv
+The `package.json` for any given project _should_ specify the required `node` version in the `engines` field. This field supports semver ranges. It looks like this...
+```json
+{
+  "engines": {
+    "node": "^10.0.0"
+  }
+}
 ```
 
-To switch to a different version, you must first `unlink` the current version and then `link` the target version. Note that some brew packages are "keg-only," and you may need to run `link --force`:
-```bash
-❯ node -v
-v8.9.2
+## Version Automation
 
-❯ brew unlink node
-Unlinking /usr/local/Cellar/node/8.9.2... 7 symlinks removed
+There are a few things we can do to help automate and/or enforce version requirements on a per-project basis. 
 
-❯ brew link node@6
-Warning: node@6 is keg-only and must be linked with --force
-Note that doing so can interfere with building software.
+### Happy Path
 
-❯ brew link node@6 --force
-Linking /usr/local/Cellar/node@6/6.10.3... 7 symlinks created
+Install [`node`](https://www.npmjs.com/package/node) as a `devDependency`. You can add the latest LTS release with `npm i -D node@lts`. With this, all `npm run` scripts (as well as [`npx`](https://www.npmjs.com/package/npx) run from the project root) will use the locally installed binary.
 
-❯ node -v
-v6.10.3
-```
+### Secondary Options 
 
-Other possible options to manage node versions include [`n`](https://github.com/tj/n) and [`nvm`](https://github.com/creationix/nvm)
+- Use a [`.nvmrc`](https://github.com/nvm-sh/nvm#nvmrc) file. This will work for those who use [`nvm`](https://github.com/nvm-sh/nvm) to manage versions. The `nvm use` command will automatically pick up the version specified in `.nvmrc`.
+- Use the [`check-node-version`](https://github.com/parshap/check-node-version) package to check node, npm, or yarn versions in a `prestart` script. This will not automatically change node versions, but will add a fast failure when running `npm start` so developers know immediately of a need to switch versions. Use the `--package` flag to read version requirements directly from the `engines` field in `package.json`.
+- You can further automate version switching by extending your shell with [`avn`](https://github.com/wbyoung/avn). This is unlikely to be needed if projects are installing `node` as a devDep, but it is an option worth knowing about. The package supports `nvm`, `n`, and `brew`.
 
-## NPM Scripts
+## `npm` Scripts
 
 Our projects use different build systems (Gulp, Grunt, custom, etc), but many
 times they have tasks that do similar things on every project. As developers
