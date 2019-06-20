@@ -24,7 +24,7 @@ Your disk should show _Encrypted_ under the name and after the disk size. If not
 
 If you previously set up Time Machine, but the steps for [Capturing Status][#capturing-status]
 show that disk is _not_ encrypted, follow these Apple provided instructions for
-[changing from unencrypted to encrypted](https://support.apple.com/kb/PH18852?locale=en_US)
+[changing from unencrypted to encrypted](https://support.apple.com/guide/mac-help/keep-your-time-machine-backup-disk-secure-mh21241/mac)
 
 
  [iOS Screenshot]: https://support.apple.com/en-us/HT200289
