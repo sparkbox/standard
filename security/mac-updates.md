@@ -12,11 +12,19 @@ The message _No updates are available._ will print at the end.
 
 ## Capturing Status from the App Store
 
-You can check for updates from the App Store. From the Apple menu ()
-click on `App Store`, followed by `Updates` on the top row. You should see the
-message _No Updates Available_.
+You can check for non-system updates from the App Store. From the Apple menu ()
+click on `App Store`, followed by `Updates` on the sidebar. You should not see any
+available updates.
 
-![MacOS Updates in App Store](mac-updates.png)
+![macOS Updates in the App Store](macos-updates-mas.png)
+
+## Capturing Status from System Preferences
+
+You can check for system updates from System Preferences. From the Apple menu ()
+click on `System Preferences`, followed by `Software Update`. You should see a
+message that includes _Your Mac is up to date_.
+
+![MacOS Updates in System Preferences](macos-updates-system.png)
 
 ## Installing Updates on the Command Line
 
@@ -27,6 +35,12 @@ To install recommended updates with progress indication run:
 
 ## Installing Updates from the App Store
 
-You can install updates from the App Store. From the Apple menu () click on 
-`App Store`, followed by `Updates` on the top row. You can install individual
+You can install non-system updates from the App Store. From the Apple menu () 
+click on `App Store`, followed by `Updates` on the sidebar. You can install individual
 updates by clicking `Install` or install all updates by clicking `Install All`.
+
+## Installing Updates from System Preferences
+
+You can install system updates from from System Preferences. From the Apple 
+menu () click on `System Preferences`, followed by `Software Update`. If any 
+updates are available, click the Update Now button to install them.
