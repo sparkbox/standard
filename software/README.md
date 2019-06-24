@@ -10,6 +10,7 @@ Software [we](https://seesparkbox.com) prefer to use when the need arises.
 * **[Expression Engine](expression_engine)**
 
 ## Editors
+* **[Visual Studio Code (VS Code)](vs-code)**
 * **[Emacs](emacs)**
 * **[Atom](atom)**
 * **[Vim](vim)**
