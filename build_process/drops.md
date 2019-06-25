@@ -1,7 +1,5 @@
 # Sparkbox Iterative Drops Process
 
-Sparkbox has put an immense amount of time, thought, and effort into its website and web app [build process][generator-mg]. By gluing powerful tools like [Grunt][grunt], [Sass][sass], [Yeoman][yeoman], [Ember][ember], [Knockout][knockout], and others together, we are able to frequently deliver increments of a website/app for integration and feedback with a final hosting environment.
-
 We’ve found the following process to ease the handoff and integration of each increment where technologies often collide.  This is a model most appropriate when Sparkbox is not involved in the final CMS integration.
 
 ## Github
@@ -32,12 +30,6 @@ Also included is a link to view the differences between the previous Release Tag
 
 ![Github Differences](differences.png)
 
-[generator-mg]: https://github.com/sparkbox/generator-mg
-[grunt]: http://gruntjs.com/
-[sass]: http://sass-lang.com/
-[yeoman]: http://yeoman.io/
-[ember]: http://emberjs/ember.js
-[knockout]: http://knockoutjs.com/
 [github-flow]: https://guides.github.com/introduction/flow/index.html
 [sparkbox-git-style]: https://github.com/sparkbox/how_to/tree/master/style/git
 [sparkbox-code-reviews]: https://github.com/sparkbox/how_to/tree/master/style/code_reviews
