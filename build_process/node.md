@@ -32,12 +32,11 @@ There are a few things we can do to help automate and/or enforce version require
 
 ### Happy Path
 
-Install [`node`](https://www.npmjs.com/package/node) as a `devDependency`. You can add the latest LTS release with `npm i -D node@lts`. With this, all `npm run` scripts (as well as [`npx`](https://www.npmjs.com/package/npx) run from the project root) will use the locally installed binary.
+Install [`node`](https://www.npmjs.com/package/node) as a `devDependency`. You can add the latest LTS release with `npm i -D node@lts`. With this, all `npm run` scripts (as well as [`npx`](https://www.npmjs.com/package/npx) run from the project root) will use the locally installed binary. Use the [`check-node-version`](https://github.com/parshap/check-node-version) package to check node, npm, or yarn versions in a `prestart` script. This will not automatically change node versions, but will add a fast failure when running `npm start` so developers know immediately of a need to switch versions. Use the `--package` flag to read version requirements directly from the `engines` field in `package.json`.
 
 ### Secondary Options 
 
 - Use a [`.nvmrc`](https://github.com/nvm-sh/nvm#nvmrc) file. This will work for those who use [`nvm`](https://github.com/nvm-sh/nvm) to manage versions. The `nvm use` command will automatically pick up the version specified in `.nvmrc`.
-- Use the [`check-node-version`](https://github.com/parshap/check-node-version) package to check node, npm, or yarn versions in a `prestart` script. This will not automatically change node versions, but will add a fast failure when running `npm start` so developers know immediately of a need to switch versions. Use the `--package` flag to read version requirements directly from the `engines` field in `package.json`.
 - You can further automate version switching by extending your shell with [`avn`](https://github.com/wbyoung/avn). This is unlikely to be needed if projects are installing `node` as a devDep, but it is an option worth knowing about. The package supports `nvm`, `n`, and `brew`.
 
 ## `npm` Scripts
