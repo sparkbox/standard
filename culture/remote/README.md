@@ -41,6 +41,7 @@ Here are some links to articles and videos we love.
 - [The 5 Ways We Build Trust on a Fully Remote Team and Why It’s So Valuable][] - Buffer, Hailley Griffis
 - [Effective Collaboration in Remote Project Management][] - Sparkbox, Caralyn Green
 - [The Ultimate Guide to Remote Meetings 2019][] - Slack, Deanna deBara
+- [All Remote][] - Gitlab
 
 [Slack]: https://slack.com/
 [Zoom]: https://www.zoom.us/
@@ -54,3 +55,4 @@ Here are some links to articles and videos we love.
 [Why do remote meetings suck so much?]: https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/
 [Effective Collaboration in Remote Project Management]: https://seesparkbox.com/foundry/effective_collaboration_in_remote_project_management
 [The Ultimate Guide to Remote Meetings 2019]: https://slackhq.com/ultimate-guide-remote-meetings
+[All Remote]: https://about.gitlab.com/company/culture/all-remote/
