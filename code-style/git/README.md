@@ -140,7 +140,7 @@ Breaks foo.bar api, foo.baz should be used instead
 feat: ng:disabled, ng:checked, ng:multiple, ng:readonly, ng:selected
 
 New directives for proper binding these attributes in older browsers (IE).
-Added coresponding description, live examples and e2e tests.
+Added corresponding description, live examples and e2e tests.
 
 Closes #351
 ```
@@ -208,15 +208,24 @@ Every place you work will have a different Git flow. At Sparkbox the Git flow is
 
     -  Protip: Sometimes we create pull requests early as a place to collaborate on a solution. Consider labeling these as `DO NOT MERGE` or `WIP`.
 
-
-1. To make the pull request process more consistant, your project may include a [pull request template][]. An [example PR template][] is included in the Standard as a starting point. There is also an [example issue template][].
+1. To make the pull request process more consistent, your project may include a [pull request template][]. An [example PR template][] is included in the Standard as a starting point. There is also an [example issue template][].
 
 1. Assign a reviewer to your pull request. Leave some nice documentation or even a [screencast](https://viewedit.com/) to give your reviewer a bit more background about the code you wrote in this pull request (include information about any interesting or difficult code, and where the reviewer can see the code that you are referencing).  It can also be very helpful to include some instructions in the description of your pull request about how to test the changes you've made to the code.  
+
+1. The reviewer may have to rebase off master if the branch has diverged.
 
 1. Your reviewer will either approve or request changes on your pull request.  
     - If they request changes, please implement or further discuss their comments with them.
 
-1. If your reviewer approves your pull request, they will *rebase* your branch on top of master (see my description of rebasing in the next section for more information).
+1. If your reviewer approves your pull request, they will fast-forward merge your branch into master using the CLI.
+
+    ```cli
+    git merge --ff-only <branch-name>
+    ```
+
+1. The reviewer will then lets you know your changes have been merged so you can move your Jira card.
+
+1. Once the PR is merged, the reviewer deletes the branch.
 
 Rebasing a Branch onto the Master Branch
 ----------------------------------------------
