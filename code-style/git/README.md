@@ -223,7 +223,7 @@ Every place you work will have a different Git flow. At Sparkbox the Git flow is
     git merge --ff-only <branch-name>
     ```
 
-1. The reviewer will then lets you know your changes have been merged so you can move your Jira card.
+1. The reviewer will then let you know your changes have been merged so you can move your Jira card.
 
 1. Once the PR is merged, the reviewer deletes the branch.
 
