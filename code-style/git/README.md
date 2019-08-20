@@ -206,13 +206,13 @@ Every place you work will have a different Git flow. At Sparkbox the Git flow is
 
 1. Push this branch up to GitHub, and create a pull request when you are ready.
 
-    -  Protip: Sometimes we create pull requests early as a place to collaborate on a solution. Consider labeling these as `DO NOT MERGE` or `WIP`.
+    -  Protip: Sometimes we create pull requests early as a place to collaborate on a solution. Consider labeling these as `DO NOT MERGE` or `WIP`. You may also utilize [Draft PRs][].
 
 1. To make the pull request process more consistent, your project may include a [pull request template][]. An [example PR template][] is included in the Standard as a starting point. There is also an [example issue template][].
 
 1. Assign a reviewer to your pull request. Leave some nice documentation or even a [screencast](https://viewedit.com/) to give your reviewer a bit more background about the code you wrote in this pull request (include information about any interesting or difficult code, and where the reviewer can see the code that you are referencing).  It can also be very helpful to include some instructions in the description of your pull request about how to test the changes you've made to the code.  
 
-1. The reviewer may have to rebase off master if the branch has diverged.
+1. The reviewer may ask you to rebase off master if the branch has diverged.
 
 1. Your reviewer will either approve or request changes on your pull request.  
     - If they request changes, please implement or further discuss their comments with them.
@@ -298,6 +298,7 @@ It's totally ok to include all of those commits on your bug fix branch. We alway
 [karmac]: http://karma-runner.github.io/0.8/dev/git-commit-msg.html
 [365]: http://365git.tumblr.com/post/3308646748/writing-git-commit-messages
 [tpope]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[Draft PRs]: https://github.blog/2019-02-14-introducing-draft-pull-requests/
 [pull_request]: https://help.github.com/articles/using-pull-requests
 [Sparkbox]: http://seesparkbox.com
 [Sprintly]: https://sprint.ly/
