@@ -4,7 +4,7 @@ backup was taken. For this reason, encrypting these backups is important.
 
 ## First-Time Setup
 
-If you are not currently backing up the machine, follow the [Apple provided instructions](https://support.apple.com/kb/PH18852?locale=en_US) for setting up encrypted Time Machine backups to an external disk.
+If you are not currently backing up the machine, follow the [Apple provided instructions](https://support.apple.com/en-us/HT201250) for setting up encrypted Time Machine backups to an external disk.
 
 ## Capturing Status
 Per the Sparkbox security policy, we regulary capture and record employees'
