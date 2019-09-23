@@ -34,7 +34,7 @@ As we manage a project, we have a unique perspective and opportunity to develop 
 
 ### We Manage Expectations
 
-No other person has as broad and nuanced a project view as the project's manager (PM). While the client and team may be invested and informed, the PM has the unique opportunity and responsibility to draw from the entire contributing landscape and provide appropriate context for each person involved in the project. We manage expectations so that each person involved in the project is equipped to perform at their best.
+No other person has as broad and nuanced a project view as the project manager (PM). While the client and team may be invested and informed, the PM has the unique opportunity and responsibility to draw from the entire contributing landscape and provide appropriate context for each person involved in the project. We manage expectations so that each person involved in the project is equipped to perform at their best.
 
 * For the team working on the project
 
@@ -72,7 +72,7 @@ No other person has as broad and nuanced a project view as the project's manager
 
     * Understand the work well enough to know when the client needs to make a decision
 
-    * When the client’s expectations don’t align with the project goals or the reality of the project’s timeline, scope, or budget, the client’s expectations need to be corrected ASAP or the timeline, scope, or budget must change.
+    * When the client’s expectations don’t align with the project goals or the reality of the project’s timeline, scope, or budget, the client’s expectations need to be corrected ASAP, or the timeline, scope, or budget must change.
 
     * Help your point of contact look good
 
@@ -82,7 +82,7 @@ No other person has as broad and nuanced a project view as the project's manager
 
     * Expose risks to the ops team
 
-        * How the project impacts other projects
+        * How the project is impacting other projects
 
         * How the project is affecting our team
 
@@ -96,11 +96,11 @@ No other person has as broad and nuanced a project view as the project's manager
 
 ### We Manage the Work
 
-While we want to empower and encourage self-motivating teams, our project managers are ultimately responsible for the work of our teams. As we manage the project, our goal is to facilitate the appropriate conversations and environments in which the team can best identify, prioritize, and execute on the work. When this is happening, the team is able to drive much of the work with the project manager providing support and correction as needed. We can do this by...
+While we want to empower and encourage self-motivating teams, our project managers are ultimately responsible for the work of our teams. As we manage the project, our goal is to facilitate the appropriate conversations and environments in which the team can best identify, prioritize, and execute the work. When this is happening, the team is able to drive much of the work with the project manager providing support and correction as needed. We can do this by...
 
 * Establishing a project cadence
 
-    * Take into account Sparkbox norms plus special project conditions
+    * Take into account Sparkbox norms and special project conditions
 
     * Communicate and facilitate cadence with the client and team
 
@@ -116,7 +116,7 @@ While we want to empower and encourage self-motivating teams, our project manage
 
     * Work remaining
 
-    * Confidence level in completing work remaining within budget and timeline
+    * Confidence level in completing remaining work within budget and timeline
 
     * Options the client can take to increase confidence
 
