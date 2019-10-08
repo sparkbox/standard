@@ -29,7 +29,7 @@ _[delete anything irrelevant to this PR]_
 ---
 
 #### Browser Testing
-**This template was written July of 2018. Browser list should be tailored to specific engagement and client needs.**
+**This template was written October of 2019. Browser list should be tailored to specific engagement and client needs.**
 _[delete if irrelevant to this issue]_
 
 #### Gold Level Support
@@ -37,22 +37,23 @@ _[delete if irrelevant to this issue]_
 In these browsers, behavior & design closely match original specifications. A user able to access all content and functionality, including usability of required assistive devices, such as keyboard and screenreader.
 
 **macOS**
-* [ ] Safari 10+ (latest subversion)
-* [ ] Chrome (latest version)
-* [ ] Firefox (latest version)
+* [ ] Safari 10+ 
+* [ ] Chrome (last 6 months)
+* [ ] Firefox (last 6 months)
 
 **Windows**
 * [ ] IE 11+
-* [ ] Chrome (latest version)
-* [ ] Firefox (latest version)
-* [ ] Edge 16
+* [ ] Chrome (last 6 months)
+* [ ] Firefox (last 6 months)
+* [ ] Edge 18
 
 **Mobile**
 
-* [ ] Safari 9+
+* [ ] Safari 10+
 * [ ] Android 7+
-* [ ] Samsung Browser (latest version)
-* [ ] Chrome (latest version)
+* [ ] Samsung Browser (last year)
+* [ ] Chrome (last 6 months)
+* [ ] Firefox (last 6 months)
 
 #### Silver Level Support
 
@@ -61,6 +62,8 @@ In these browsers, behavior & design are acceptable, but may not be as originall
 * [ ] IE 10 on Windows
 * [ ] Android 6+
 * [ ] Safari 7+
+* [ ] Edge 16
+* [ ] Samsung Browser (last 3 years)
 
 #### Bronze Level Support
 
@@ -69,7 +72,6 @@ In these browsers, behavior & design may not be great, but the content doesn't a
 * [ ] IE 9 on Windows
 * [ ] Android 5+
 * [ ] Safari 6+
-
 
 ---
 
