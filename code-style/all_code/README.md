@@ -8,7 +8,9 @@ The following guidelines apply to all code.
 * Delete your [trailing whitespace][space]
 * Each file should have an empty line at the end
 * Leave comments when necessary that follow the comment style of the particular language
-* When naming things such as variables or classes, be descriptive. Using abbreviations, for example, may not be easy to understand for other developers.
+  * Tip: an example of when a comment would be helpful is when you've done math to reach a number, but that math isn't included in the code
+  * Tip: comments should be concise, but descriptive enough to communicate value to another developer
+* When naming things such as variables or classes, be descriptive. Using abbreviations, for example, may not be easy to understand for other developers
 
 Need help? A lot of these things can be controlled within the settings of the particular editor you are using. There also extensions such as [Prettier][prettier] that can automatically format your code for you.
 
