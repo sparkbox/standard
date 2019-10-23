@@ -25,7 +25,7 @@ Running this script is one of the first things we do on a new laptop. Its purpos
 
 If any hardware issues arise while using the laptop, let the office manager know, and they will help get them resolved.
 
-## Wiping a laptop
+## Wiping a Laptop
 
 When an employee is done using their laptop, it will need to be wiped clean for the next person to use. Here are some steps to follow:
 
