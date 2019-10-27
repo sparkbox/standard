@@ -9,7 +9,7 @@ and deploy within a few moments of cloning a project repository.
 
 ## In This Guide
 * [What is a "build process"?](#what-is-a-build-process)
-* ["Building" projects in your local environment](#building-projects-in-your-local-environment)
+* [How we do build processes at Sparkbox](#how-we-do-build-processes-at-sparkbox)
 * [Common build tasks](#common-build-tasks)
 
 ### What is a "Build Process"?
@@ -17,7 +17,7 @@ When we use the phrase "build process", we are describing an activity that trans
 
 You may hear or see the term "task" or "build task". You can think of a build task as an individual piece of a larger build process. A build task can also serve as a single process that can be executed on its own, outside of the larger build process.
 
-### Building Projects In Your Local Environment
+### How we do build processes at Sparkbox
 Our build process is Node-based, meaning that we rely on [Node](https://nodejs.org/en/) to translate our source files into production-ready files. Specifically, our build processes use [npm scripts](https://github.com/sparkbox/standard/blob/master/build_process/node.md#npm-scripts) to handle the translation of source files into build artifacts.
 
 Note that in the past, we have used other Node-based build methods, including [Grunt](https://gruntjs.com/) and [Gulp](https://gulpjs.com/).
@@ -27,12 +27,11 @@ Ultimately, regardless of the tools we choose, our goal is to have a build proce
 ### Common Build Tasks
 Build tasks are used to compile or transpile our source code into production-ready code.
 
-Some of our common build tasks include:
+Some of our common build tasks may include:
 * Compiling Sass to CSS
-* Using PostCSS with Autoprefixer
+* Adding browser and vendor prefixes to our CSS by using PostCSS with Autoprefixer
 * Transpiling JavaScript
-
-
+* Optimizing and/or minifying code
 
 ## Quality Expectations
 
