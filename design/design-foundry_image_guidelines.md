@@ -163,16 +163,21 @@ We follow this file naming convention to keep things organized and easy to find.
 
 **General Post images**
 Use the author’s first initial, last name, year, month.
+
 Example:  **a-spencer_19-5.jpg**
 
 **Case Study images**
 Use the “case-study”, client name, project (if needed).
+
 Example:  **case-study_ncsbn-timeline.jpg**
+
 Example:  **case-study_boom-crate.jpg**
 
 **Announcement images**
 Use the “announcement”, name of conference or podcast (if applicable), year, month.
+
 Example:  **announcement_how_19-5.jpg**
+
 Example:  **announcement_generic.jpg**
 
 
