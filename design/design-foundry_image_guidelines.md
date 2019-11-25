@@ -66,7 +66,10 @@ A case study image will belong in one of the four Foundry categories: UX & Conte
 
 
 ![This is a case study that belongs in the  Design category.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560351236090_case-study_boom-crate.jpg)
+This is a case study that belongs in the  Design category.
+
 ![This is a case study that belongs in  the Development category.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560351250646_case-study_dealer-tire-01.jpg)
+This is a case study that belongs in  the Development category.
 
 
 
@@ -94,10 +97,16 @@ After running the action, it should look like these:
 The announcement post image is used for Foundry posts that contain announcements like a job opening, appearance on a podcast, call for apprentice applications, workshop promotion, etc. Similar to case study images, announcement images could apply to any category. Announcement posts generally contain a title and Sparkbox logo. They can also optionally contain subtext which can serve to give more context. There are a few different types and variations of announcement images explained below:
 
 ![This is an announcement image in the  Design Category.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560351763090_announcement-design-systems-survey.jpg)
+This is an announcement image in the  Design Category.
+
 ![This is an announcement image in the  UX/Content category.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560351755506_announcement-marketing-mentor.jpg)
+This is an announcement image in the  UX/Content category.
 
 ![This is an announcement image with a title only.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560352066870_announcement-hiring.jpg)
+This is an announcement image with a title only.
+
 ![This is a generic announcement image that can be used if a title doesn’t make sense.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560352080505_announcement-generic.jpg)
+This is a generic announcement image that can be used if a title doesn’t make sense.
 
 
 
@@ -106,7 +115,10 @@ The announcement post image is used for Foundry posts that contain announcements
 Sparkbox newsletters like “Be Better” and “Let’s Talk” exist as posts in The Foundry. These images are also attached to one of the four categories. They use the icon associated with the newsletter. All of these images exist currently in the exported final images folder, so we’ll never need to create one, just pick the appropriate one to use.
 
 ![This is a Newsletter image for “Be Better” that lives in the Development Foundry category.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560353372082_newsletter_be-better_dev.png)
+This is a Newsletter image for “Be Better” that lives in the Development Foundry category.
+
 ![This is a Newsletter image for “Let’s Talk” that lives in the Design Foundry category.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560353348874_newsletter_lets-talk_design.png)
+This is a Newsletter image for “Let’s Talk” that lives in the Design Foundry category.
 
 
 ----------
