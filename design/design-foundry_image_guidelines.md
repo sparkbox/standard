@@ -16,22 +16,22 @@ While 80–90% of the images we create will fall into the general post image cat
 
 Follow these guidelines when creating a featured Foundry post image:
 
-1. **Keep things simple.**
+### 1. **Keep things simple.**
 
 Don’t try too hard to explain what the article is about with the image. The image is simply there to complement the post and provide a unique visual identifier. Latch on to a high level concept (i.e. improving performance) and run with it. A short description of the post will be provided by the Foundry team in the FED Trello board. Use that to determine what concept to go with.
 
-2. **Use the color palette for the post’s category.**
+### 2. **Use the color palette for the post’s category.**
 
 Each post falls into one of the four Foundry categories: UX/Content, Development, Culture, and Design. Each category has a pre-determined color palette (shown below): a background color, two accent colors, and a gradient. There are two global colors that may be used: white and Sparkbox Cyan. As seen in the examples, Sparkbox Cyan should be used as an accent in all images. The Foundry Starter Illustrator file has all of the swatches and backgrounds preloaded in layers/swatch palette.
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1547567134564_Screen+Shot+2019-01-15+at+10.45.20+AM.png)
 
-3. **Use basic shapes.**
+### 3. **Use basic shapes.**
 
 Use basic shapes like circles, squares, triangles, hexagons, etc. to create more complex shapes or patterns. More organic shapes are fine too—just make sure they aren’t too complex and fit with the visual intent of the existing images.
 
 
-4. **Use a 10px scale when sizing shapes and strokes.**
+### 4. **Use a 10px scale when sizing shapes and strokes.**
 
 For example, if you are using two circles, a large and small, try sizing them at 40px and 10px. Use the same scale for applying strokes to objects (always set the stroke on the inner or outer edge) with the default stroke weight being 20px. This maintains consistency and helps us create images quickly.
 
