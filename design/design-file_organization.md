@@ -16,7 +16,7 @@ This division of projects allows all users access to every current and past proj
 
 ## Root / -Projects / Project Name
 
-When you create a new project folder, the root project directory should contain six folders with two that are optional.
+When you create a new project folder, the root project directory should contain six folders (with two others that are optional).
 
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_76A2CDE662BC80FFEE513EA72F067BE0FAEA76B09B91F12E302C16DEA62A7533_1536344725279_Screen+Shot+2018-09-07+at+2.24.55+PM.png)
@@ -26,9 +26,9 @@ When you create a new project folder, the root project directory should contain 
 - **Assets for design** contains any assets relevant to the design files (inspiration, images, fonts, etc.).
 - **Assets for web** contains any exported assets that developers might need when building the site (icons, compressed images, logos, etc.).
 - **Assets from client** includes any assets that were delivered by the client (original logo, brand guidelines, etc.).
-- **Brand Design (optional)** if Sparkbox did any brand design work, that effort would live in this folder.
-- **Documentation** any documentation relevant to the project (link to Google Drive with kickoff notes, budget, process images, meeting notes, retros, etc.).
-- **Wireframe / UX (optional)** if Sparkbox did wireframes for this project, the folder would include a link to those or the actual files.
+- **Documentation** includes any documentation relevant to the project (link to Google Drive with kickoff notes, budget, process images, meeting notes, retros, etc.).
+- **Brand Design (optional)** contains any brand design work that Sparkbox has done.
+- **Wireframe / UX (optional)** includes a link to wireframes Sparkbox has created for this project or the actual files.
 
 
 ## Root / -Projects / Project Name / -UI Explorations
@@ -37,7 +37,7 @@ When you create a new project folder, the root project directory should contain 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_76A2CDE662BC80FFEE513EA72F067BE0FAEA76B09B91F12E302C16DEA62A7533_1536344951200_Screen+Shot+2018-09-07+at+2.28.53+PM.png)
 
 
-Within the UI Design (and Brand Design) folders, files are named with a consistent pattern so that it is easy to know which is most current while still maintaining a project’s history. A new version of a file is added whenever there is a milestone in the project. For example, if the design direction changes, after a demo, etc.
+Within the **UI Design** (and **Brand Design**) folders, files are named with a consistent pattern so that it is easy to know which is most current while still maintaining a project’s history. A new version of a file is added whenever there is a milestone in the project. For example, if the design direction changes, after a demo, etc.
 
 The goal is to no longer use an “Archive” tab within Sketch and instead use files to show the archived state. This allows us to use clean symbols and have smaller working files while still keeping a historical view of the project.
 
@@ -54,12 +54,12 @@ There is never a “final” file. Instead, the most recent numbered file is the
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_76A2CDE662BC80FFEE513EA72F067BE0FAEA76B09B91F12E302C16DEA62A7533_1536345369332_Screen+Shot+2018-09-07+at+2.35.45+PM.png)
 
 
-There are two ways the **-UI Iterations** folder could be structured. Every **-UI Iterations** folder will contain a Symbol Library file which will serve as the source of truth for all symbols and consistent styles across the project. It can either have a list of versioned files that use that Symbol Library, or it can have subfolders like **-Foundry** or **-Newsletter** that represent specific parts of a larger project. These sub-folders should be used when the project is too large to contain in one sketch file or to make it easier for multiple designers to work at the same time.
+There are two ways the **-UI Iterations** folder could be structured. Every **-UI Iterations** folder will contain a **Symbol Library** file, which will serve as the source of truth for all symbols and consistent styles across the project. It can either have a list of versioned files that use that symbol library, or it can have subfolders like **-Foundry** or **-Newsletter** that represent specific parts of a larger project. These sub-folders should be used when the project is too large to contain in one Sketch file or to make it easier for multiple designers to work at the same time.
 
 
 ## Root / Internal
 
-This folder is meant to hold all relevant assets that any Sparkbox designer might need access to or find helpful as they work on projects. Current internal projects live in this folder as well and are indexed with a **-**. Here’s an example of how this folder could be structured:
+This folder holds all relevant assets that any Sparkbox designer might need access to or find helpful as they work on projects. Current internal projects live in this folder as well and are indexed with a **-**. Here’s an example of how this folder could be structured:
 
 - **Foundry Images**
 - **Brand**
