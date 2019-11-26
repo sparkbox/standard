@@ -54,7 +54,7 @@ There is never a “final” file. Instead, the most recent numbered file is the
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_76A2CDE662BC80FFEE513EA72F067BE0FAEA76B09B91F12E302C16DEA62A7533_1536345369332_Screen+Shot+2018-09-07+at+2.35.45+PM.png)
 
 
-There are two ways the **-UI Iterations** folder could be structured. Every **-UI Iterations** folder will contain a **Symbol Library** file, which will serve as the source of truth for all symbols and consistent styles across the project. It can either have a list of versioned files that use that symbol library, or it can have subfolders like **-Foundry** or **-Newsletter** that represent specific parts of a larger project. These sub-folders should be used when the project is too large to contain in one Sketch file or to make it easier for multiple designers to work at the same time.
+There are two ways the **-UI Iterations** folder could be structured. Every **-UI Iterations** folder will contain a **Symbol Library** file, which will serve as the source of truth for all symbols and consistent styles across the project. It can either have a list of versioned files that use that symbol library, or it can have sub-folders like **-Foundry** or **-Newsletter** that represent specific parts of a larger project. These sub-folders should be used when the project is too large to contain in one Sketch file or to make it easier for multiple designers to work at the same time.
 
 
 ## Root / Internal
