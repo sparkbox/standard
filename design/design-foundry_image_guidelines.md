@@ -6,7 +6,7 @@ There are several different types of images:
 
 - General post images
 - Case study images
-- Meet the team Images
+- Meet the team images
 - General announcement images
 - Newsletter images
 
@@ -18,11 +18,11 @@ Follow these guidelines when creating a featured Foundry post image:
 
 ### 1. **Keep things simple.**
 
-Don’t try too hard to explain what the article is about with the image. The image is simply there to complement the post and provide a unique visual identifier. Latch on to a high level concept (i.e. improving performance) and run with it. A short description of the post will be provided by the Foundry team in the FED Trello board. Use that to determine what concept to go with.
+Don’t try too hard to explain what the article is about with the image. The image is simply there to complement the post and provide a unique visual identifier. Latch onto a high level concept (i.e. improving performance) and run with it. A short description of the post will be provided by the Foundry team in the FED Trello board. Use that to determine what concept to go with.
 
 ### 2. **Use the color palette for the post’s category.**
 
-Each post falls into one of the four Foundry categories: UX/Content, Development, Culture, and Design. Each category has a pre-determined color palette (shown below): a background color, two accent colors, and a gradient. There are two global colors that may be used: white and Sparkbox Cyan. As seen in the examples, Sparkbox Cyan should be used as an accent in all images. The Foundry Starter Illustrator file has all of the swatches and backgrounds preloaded in layers/swatch palette.
+Each post falls into one of the four Foundry categories: UX/Content, Development, Culture, and Design. Each category has a pre-determined color palette (shown below): a background color, two accent colors, and a gradient. There are two global colors that may be used: white and Sparkbox Cyan. As seen in the examples, Sparkbox Cyan should be used as an accent in all images. The Foundry Starter Illustrator file has all of the swatches and backgrounds preloaded in the layers/swatch palette.
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1547567134564_Screen+Shot+2019-01-15+at+10.45.20+AM.png)
 
@@ -43,7 +43,7 @@ For example, if you are using two circles, a large and small, try sizing them at
 - Don’t create complex backgrounds or environments
 
 
-### Feel free to:
+### Feel Free to:
 - Use transparency to create variation in the color palette
 - Use a pattern
 - Create recognizable objects or use icons that fit in the simplified style
@@ -51,7 +51,7 @@ For example, if you are using two circles, a large and small, try sizing them at
 When starting a post image, use this starter Illustrator file.
 https://www.dropbox.com/s/rx1m22xgybmh2mk/-Foundry%20Image%20Starter.ai?dl=0
 
-The file above, contains pre-created layers with each category background color. Designers can turn off the ones they don’t need, and they’re ready to go. Some layers also contain image examples, the color guide, and pre-populated color swatches.
+The file above contains pre-created layers with each category background color. Designers can turn off the ones they don’t need, and they’re ready to go. Some layers also contain image examples, the color guide, and pre-populated color swatches.
 
 ![](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560350441871_Screen+Shot+2019-06-12+at+10.40.26+AM.png)
 
@@ -66,10 +66,10 @@ A case study image will belong in one of the four Foundry categories: UX & Conte
 
 
 ![This is a case study that belongs in the  Design category.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560351236090_case-study_boom-crate.jpg)
-This is a case study that belongs in the  Design category.
+This is a case study that belongs in the Design category.
 
 ![This is a case study that belongs in  the Development category.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560351250646_case-study_dealer-tire-01.jpg)
-This is a case study that belongs in  the Development category.
+This is a case study that belongs in the Development category.
 
 
 
@@ -80,7 +80,7 @@ Meet the team images are used with Foundry posts that introduce new team members
 https://www.dropbox.com/s/aywolmsfn1pmrm4/Foundry%20Team%20Image.psd?dl=0
 
 
-…drop in the person’s photo and run this Photoshop action:
+Drop in the person’s photo and run this Photoshop action:
 
 https://www.dropbox.com/s/xxw877dh8u3o9lj/Foundry%20Culture%20Images.atn?dl=0
 
@@ -115,10 +115,10 @@ This is a generic announcement image that can be used if a title doesn’t make 
 Sparkbox newsletters like “Be Better” and “Let’s Talk” exist as posts in The Foundry. These images are also attached to one of the four categories. They use the icon associated with the newsletter. All of these images exist currently in the exported final images folder, so we’ll never need to create one, just pick the appropriate one to use.
 
 ![This is a Newsletter image for “Be Better” that lives in the Development Foundry category.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560353372082_newsletter_be-better_dev.png)
-This is a Newsletter image for “Be Better” that lives in the Development Foundry category.
+This is a newsletter image for “Be Better” that lives in the Development Foundry category.
 
 ![This is a Newsletter image for “Let’s Talk” that lives in the Design Foundry category.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560353348874_newsletter_lets-talk_design.png)
-This is a Newsletter image for “Let’s Talk” that lives in the Design Foundry category.
+This is a newsletter image for “Let’s Talk” that lives in the Design Foundry category.
 
 
 ----------
@@ -126,7 +126,7 @@ This is a Newsletter image for “Let’s Talk” that lives in the Design Found
 
 This is a guide for how we handle sizing and optimizing images on The Foundry.
 
-For images in The Foundry, both featured and in-post, it’s important that we not only create beautiful and engaging imagery to complement and enhance our written content, but the images should be optimized to ensure the best performance possible.
+For images on The Foundry, both featured and in-post, it’s important that we create beautiful and engaging imagery to complement and enhance our written content, but the images should be optimized to ensure the best performance possible.
 
 
 ## Goal
@@ -147,8 +147,9 @@ This depends on the content of the image. If it is a graphic or something with a
 
 ### In-Post — Aside: 600px wide
 
-A note on full-width images
-Currently, full-width Foundry images will never display larger than 720px wide. Why should they be saved as 1200px wide? The extra pixels are for retina screens where the image will be downsized to fit the 720px width but will have a higher pixel density, resulting in a sharper image. If the images were only 720px wide, they would appear blurry on retina screens. Why not double the 720px size and use 1440px wide images? So far we’ve been using 1200px wide images with no noticeable loss of quality, but the smaller size means smaller files and faster load times.
+* A note on full-width images:
+
+Currently, full-width Foundry images will never display larger than 720px wide. Why should they be saved as 1200px wide? The extra pixels are for retina screens, where the image will be downsized to fit the 720px width but will have a higher pixel density, resulting in a sharper image. If the images were only 720px wide, they would appear blurry on retina screens. Why not double the 720px size and use 1440px wide images? So far we’ve been using 1200px wide images with no noticeable loss of quality, but the smaller size means smaller files and faster load times.
 
 
 ## Compression
@@ -186,5 +187,5 @@ Example:  **announcement_generic.jpg**
 
 ## That’s It!
 
-Our images should be as small as they will get while still looking sharp. Our users will thank us!
-For more information on image performance see this foundry article.
+Our images should be as small as they can get while still looking sharp. Our users will thank us!
+For more information on image performance, see this foundry article.
