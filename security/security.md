@@ -20,4 +20,4 @@ Sparkbox requires that all members of the Sparkbox organization in Github set up
 
 ## VPN
 
-Sparkbox uses DataYard for their VPN so that team members can connect from anywhere and have their connection encrypted. Being connected to the VPN also allows us to connect to other client's internal network resources.
+Sparkbox partners with [DataYard](https://datayard.us) for their VPN so that team members can connect from anywhere and have their connection encrypted. Being connected to the VPN also allows us to connect to other client's internal network resources.
