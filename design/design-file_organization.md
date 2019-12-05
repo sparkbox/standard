@@ -39,7 +39,7 @@ When you create a new project folder, the root project directory should contain 
 
 Within the **UI Design** (and **Brand Design**) folders, files are named with a consistent pattern so that it is easy to know which is most current while still maintaining a project’s history. A new version of a file is added whenever there is a milestone in the project. For example, if the design direction changes, after a demo, etc.
 
-The goal is to no longer use an “Archive” tab within Sketch and instead use files to show the archived state. This allows us to use clean symbols and have smaller working files while still keeping a historical view of the project.
+The goal is to no longer use an **Archive** tab within Sketch and instead use files to show the archived state. This allows us to use clean symbols and have smaller working files while still keeping a historical view of the project.
 
 Whoever is working on a particular file adds their initials at the end so that multiple designers can be working on the same project without overwriting each other.
 
