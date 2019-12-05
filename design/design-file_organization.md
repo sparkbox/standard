@@ -70,7 +70,10 @@ This folder holds all relevant assets that any Sparkbox designer might need acce
 - **Swag and Decor**
 
 
-Root / Internal / -Foundry Images
+## Root / Internal / -Foundry Images
+
+The Foundry Images folder contains these folders:
+
 - **Exported Final Images** includes all the exports of approved Foundry images in their compressed format
 - **Working Images** includes all the active art files
 - **In Article Images** includes in-article images for posts that contain those. Inside this folder is a folder for each post that is named in the same format as a Foundry image (see below).
