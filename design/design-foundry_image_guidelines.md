@@ -94,7 +94,7 @@ After running the action, it should look like these:
 
 ## Announcement Images
 
-The announcement post image is used for Foundry posts that contain announcements like a job opening, appearance on a podcast, call for apprentice applications, workshop promotion, etc. Similar to case study images, announcement images could apply to any category. Announcement posts generally contain a title and Sparkbox logo. They can also optionally contain subtext which can serve to give more context. There are a few different types and variations of announcement images explained below:
+The announcement post image is used for Foundry posts that contain announcements like a job opening, appearance on a podcast, call for apprentice applications, workshop promotion, etc. Similar to case study images, announcement images could apply to any category. Announcement posts generally contain a title and Sparkbox logo. They can also optionally contain subtext which can serve to give more context. A [keynote template file](https://www.dropbox.com/s/ytdutynqgx9aohn/Foundry%20Announcement%20Template.key?dl=0) is provided for easy creation of these images. There are a few different types and variations of announcement images explained below:
 
 ![This is an announcement image in the  Design Category.](https://paper-attachments.dropbox.com/s_9EDE4747C43217AD4AEE83786B931C7D66AD1C729C8D13D539A157A9E65DAADB_1560351763090_announcement-design-systems-survey.jpg)
 This is an announcement image in the  Design Category.
