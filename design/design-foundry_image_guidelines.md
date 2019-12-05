@@ -143,11 +143,11 @@ This depends on the content of the image. If it is a graphic or something with a
 
 ### Featured Image: 600px by 400px
 
-### In-Post — Full-Width: 1200px wide *
+### In-Post — Full-Width: 1200px wide&#42;
 
 ### In-Post — Aside: 600px wide
 
-* A note on full-width images:
+&#42;A note on full-width images:
 
 Currently, full-width Foundry images will never display larger than 720px wide. Why should they be saved as 1200px wide? The extra pixels are for retina screens, where the image will be downsized to fit the 720px width but will have a higher pixel density, resulting in a sharper image. If the images were only 720px wide, they would appear blurry on retina screens. Why not double the 720px size and use 1440px wide images? So far we’ve been using 1200px wide images with no noticeable loss of quality, but the smaller size means smaller files and faster load times.
 
