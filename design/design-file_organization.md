@@ -63,7 +63,7 @@ This folder holds all relevant assets that any Sparkbox designer might need acce
 
 - **Foundry Images**
 - **Brand**
-- **Bookshelf`
+- **Bookshelf**
 - **Dribbble**
 - **Photos**
 - **Resources**
