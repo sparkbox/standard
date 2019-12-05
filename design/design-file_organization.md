@@ -74,7 +74,7 @@ Root / Internal / -Foundry Images
 - **Exported Final Images** includes all the exports of approved Foundry images in their compressed format
 - **Working Images** includes all the active art files
 - **In Article Images** includes in-article images for posts that contain those. Inside this folder is a folder for each post that is named in the same format as a Foundry image (see below).
-- **Video Graphics** includes in-article images for posts that contain those. Inside this folder is a folder for each post that is named in the same format as a Foundry image (see below).
+- **Video Graphics** includes graphics and artwork produced for videos. Inside this folder is a folder for each post that is named in the same format as a Foundry image (see below).
 
 Foundry images and in-article image folders are named using the following convention:
 
