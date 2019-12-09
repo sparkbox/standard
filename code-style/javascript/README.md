@@ -42,11 +42,11 @@ Automated testing is an important part of our development process. Here are some
 
 ### Mocha vs Jest comparison
 
-Mocha is a fast, highly configurable test runner, but does not provide assertions or mocking out of the box. At Sparkbox, we typically use a combination of Mocha + Chai + Sinon, rolling in jsdom or Enzyme when appropriate for component testing.
+Mocha is a fast, highly-configurable test runner but does not provide assertions or mocking out of the box. At Sparkbox, we typically use a combination of Mocha + Chai + Sinon, rolling in jsdom or Enzyme when appropriate for component testing.
 
-Jest, on the other hand, provides a complete "out of the box" testing solution, including assertions, mocking and jsdom with zero configuration. The downside of Jest is that it can run significantly slower than Mocha, particularly with large test suites.
+Jest, on the other hand, provides a complete "out of the box" testing solution, including assertions, mocking, and jsdom with zero configuration. The downside of Jest is that it can run significantly slower than Mocha, particularly with large test suites.
 
-When choosing a test runner, a general guideline is:
+When choosing a test runner, a general guideline is
 - For speed and configurability, choose Mocha
 - For ease-of-use and developer experience, choose Jest
 
