@@ -1,30 +1,13 @@
 # Harvest
 
-If you'd like to use the HH:MM format locally you can!
+We use Harvest to track time for all of our projects. Your project manager will add you to the correct projects.
 
-### Prior to the 2017 Update
+This is used in conjunction with Forecast for long term planning.
 
-By default, Harvest's time format is in decimal. To change this (locally) enter the following command in terminal:
-```defaults write com.getharvest.harvestxapp TimeFormat hours_minutes```
+The expectation is that time is being tracked throughout the day, or at least entered into Harvest by the end of each day.
 
-### 2017 Update
+## App
+There are apps available for macOS, iOS and Android. We recommend using these for daily time tracking.
 
-To read your settings, run:
-```
-defaults read ~/Library/Containers/com.getharvest.harvestxapp/Data/Library/Preferences/group.com.getharvest.Harvest.Documents.plist
-```
-
-To change the time format to HH:MM, run
-
-```
-defaults write ~/Library/Containers/com.getharvest.harvestxapp/Data/Library/Preferences/group.com.getharvest.Harvest.Documents.plist TimeFormat hours_minutes
-```
-
-Restart the Harvest App, and it should now display HH:MM (I tested this)
-
-To change back to decimal, run:
-```
-defaults write ~/Library/Containers/com.getharvest.harvestxapp/Data/Library/Preferences/group.com.getharvest.Harvest.Documents.plist TimeFormat decimal
-```
-
-Thanks to [this gist](https://gist.github.com/rcdilorenzo/ddee4da296e157e48b1efd0d1a193c3d)
+## Timesheets
+Timesheets need to be submitted through Harvest by Monday at 9am.

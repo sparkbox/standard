@@ -16,9 +16,9 @@ This document is meant to capture the typical responsibilities we accept when we
 
 As we manage a project, we have a unique perspective and opportunity to develop our business *while* we develop the business of our clients. This is a balance, building mutually beneficial, valuable situations between Sparkbox and our customers as we...
 
-* Contribute to proposals and estimates for new business opportunities 
+* Contribute to proposals and estimates for new business opportunities
 
-* Coordinate proposals and estimates of new work for existing clients 
+* Coordinate proposals and estimates of new work for existing clients
 
 * Manage handoff from our outreach team to the project team
 
@@ -40,7 +40,7 @@ No other person has as broad and nuanced a project view as the project manager (
 
     * Listen to the team and establish trust
 
-    * Make sure the team understands the project’s goals, constraints, and client background/expectations 
+    * Make sure the team understands the project’s goals, constraints, and client background/expectations
 
         * Also communicate Sparkbox’s internal goals for the project (e.g. "this is going to be an important portfolio piece, because...")
 
@@ -104,7 +104,7 @@ While we want to empower and encourage self-motivating teams, our project manage
 
     * Communicate and facilitate cadence with the client and team
 
-    * Own project management tools (like Basecamp, Zenhub, Jira)
+    * Own project management tools (like Basecamp, Jira)
 
     * Facilitate planning, definition, sizing, and prioritization of the work
 
@@ -152,7 +152,7 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
 ## When we design a project... 🎨
 
-### We Conceptualize and Ideate  
+### We Conceptualize and Ideate
 
 * For the client
 
@@ -178,7 +178,7 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
     * Give valuable, honest design review feedback in design reviews
 
-### We Present Concepts Intentionally 
+### We Present Concepts Intentionally
 
 * Participate in the design review before concept is presented to client
 
@@ -208,11 +208,11 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
     * May not show comps of every page
 
-### We Translate Concepts to Frontend Code 
+### We Translate Concepts to Frontend Code
 
 * Ensure that the product is polished and refined before launch
 
-* Transfer ownership of assets 
+* Transfer ownership of assets
 
     * fonts, photography and help client make necessary typography and image purchases
 
@@ -224,7 +224,7 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
 * As project progresses, provide alternate solutions to areas that can’t be built in time/budget
 
-* Help communicate the experience strategy with well articulated design concept notes 
+* Help communicate the experience strategy with well articulated design concept notes
 
 * Hit deadlines set for the project
 
@@ -236,7 +236,7 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
 ### We Share Design Learnings and Embrace Improvement
 
-* Educate others 
+* Educate others
 
     * Frontend Design apprenticeship
 
@@ -306,7 +306,7 @@ In support of **creating, reviewing, and feedback** during a project we know it 
 
     * [providing respectful](https://seesparkbox.com/foundry/github_pull_requests_for_everyone), [constructive critique of code](https://seesparkbox.com/foundry/stop_giving_depressing_code_reviews), architecture, designs, and other project artifacts
 
-### We Pursue Quality, Usability, Beauty, and Sustainability 
+### We Pursue Quality, Usability, Beauty, and Sustainability
 
 In support of **quality, usability, beauty, and sustainability** we feel a strong responsibility to…
 
@@ -346,7 +346,7 @@ In support of **learning, teaching, and improving** we recognize the importance 
 
     * offering references, explanations, and reasoning behind suggestions
 
-    * phrasing alternatives as, "What if we do it like this?" 
+    * phrasing alternatives as, "What if we do it like this?"
 
     * providing examples or pseudo code to help get your point across
 

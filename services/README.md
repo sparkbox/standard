@@ -2,15 +2,33 @@
 
 The services we use. Some we pay for, others we mooch off. We love them all.
 
+## Helpful Mac Apps
+* **[Slack](slack)**
 * **[1Password](1password)**
 * **[Alfred](alfred)**
-* **[BrowserStack](browserstack)**
-* **[CircleCI](circleci)**
-* **[Code Climate](code_climate)**
 * **[Dropbox](dropbox)**
 * **[Harvest](harvest)**
-* **[InVision](invision)**
+
+## Services
+* **[CircleCI](circleci)**
+* **[Jenkins](jenkins)**
+* **[Code Climate](code_climate)**
+* **[SonarQube](sonarqube)**
 * **[SendGrid](sendgrid)**
-* **[Slack](slack)**
-* **[Jira](jira)**
 * **[Mailchimp](mailchimp)**
+* **[FormBucket]**
+
+## Coding Tools
+* **[CodePen](codepen)**
+
+## Design Tools
+* **[InVision](invision)**
+* **[Sketch](sketch)**
+* **[Figma](figma)**
+
+## Testing Tools
+* **[BrowserStack](browserstack)**
+
+## Project Tools
+* **[Jira](jira)**
+* **[Basecamp]**
