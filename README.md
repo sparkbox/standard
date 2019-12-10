@@ -13,6 +13,7 @@ How we dance.
 * **[Build Process](/build_process)** _How we build, deploy, and deliver._
 * **[Code Style](/code-style/README.md)** _The way we write documentation and code._
 * **[Culture](/culture)** _How we Sparkbox._
+* **[Design](/design)** _How we do design._
 * **[Foundry](/foundry)** _How we write on the Foundry._
 * **[Hosting](/hosting)** _How we work with servers._
 * **[Meetups](/meetups)** _Our MO for preparing and facilitating meetups._
