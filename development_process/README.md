@@ -30,20 +30,18 @@ The build phase is where most of our software is created. In this phase, we prov
 
 ### Document Everything
 As a consultancy, we know we won’t always be around for our clients. Our goal isn’t to create a dependency on us but rather to empower them to fully adopt and embrace the work we do. This requires them to know how to change, maintain, and extend the software built for them.
-
-**Documentation for the business**
-All software exists to solve a business problem, which means even folks who were not involved in planning or building it often need to interact with it . We need to provide them with any tools and documentation needed to do this easily.
-
-**Documentation for the development team**
-Technical documentation is critical both during and after the software is in the build or improve phases. It allows the current development team to understand the software being built around them, and it allows any future development team to understand the context and reasoning behind why features were implemented.
+- Documentation for the business
+    - All software exists to solve a business problem, which means even folks who were not involved in planning or building it often need to interact with it . We need to provide them with any tools and documentation needed to do this easily.
+- Documentation for the development team
+    - Technical documentation is critical both during and after the software is in the build or improve phases. It allows the current development team to understand the software being built around them, and it allows any future development team to understand the context and reasoning behind why features were implemented.
 
 ## **Improve**
-The improve phase is where we gain insights through feedback. This could mean changing what we’re building based on stakeholder or user feedback, and that’s ok. This happens fairly often and is part of ensuring that we’re building the right thing. This is the portion of our process allows us to be flexible.
+The improve phase is where we gain insights through feedback. This could mean changing what we’re building based on stakeholder or user feedback, and that’s ok. This happens fairly often and is part of ensuring that we’re building the right thing. This is the portion of our process that allows us to be flexible.
 
 ### Enable Short Feedback Loops
-Short feedback loops in development are important in enabling quick iterations. Without the ability to change and deploy software from a development perspective, we cannot get new code in front of our stakeholders to review in a timely fashion. We address this by creating the automated deployment pipelines and testing suites mentioned in the build phase. When things change, as they often do in the improve phase, it’s important to keep those items up-to-date so they continue to serve the development team and enable their progress.
+Short feedback loops in development are important in enabling quick iterations. Without the ability to change and deploy software from a development perspective, we cannot get new code in front of our stakeholders for review in a timely fashion. We address this by creating the automated deployment pipelines and testing suites mentioned in the build phase. When things change, as they often do in the improve phase, it’s important to keep those items up-to-date so they continue to serve the development team and enable their progress.
 
-Short feedback loops from a stakeholder and user perspective ensure we are collectively marching towards the right thing. By releasing early, we can get a feature’s MVP (Minimum Viable Product) in front of stakeholders to gain insights in the direction we’re going. This allows us to make changes while a feature is in development instead of waiting until it’s finished before learning that it wasn’t quite right.
+Short feedback loops from a stakeholder and user perspective ensure we are collectively marching towards the right thing. By releasing early, we can get a feature’s MVP (minimum viable product) in front of stakeholders to gain insights in the direction we’re going. This allows us to make changes while a feature is in development instead of waiting until it’s finished before learning that it wasn’t quite right.
 
 ## **Release**
 The release phase is when we begin sending our built artifacts to production.
