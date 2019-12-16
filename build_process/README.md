@@ -70,7 +70,7 @@ Often, we create URLs for each environment so that the project can be tested and
 
 ### Deployments and Hosting
 
-At Sparkbox, we tend to favor hosting services that allow for ease of orchestration of deployment pipelines.
+At Sparkbox, we tend to favor hosting services that allow for easy orchestration of deployment pipelines.
 
 These are some services we prefer:
   * [Heroku](https://www.heroku.com/)
