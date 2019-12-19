@@ -57,7 +57,7 @@ newer; Face ID is available on the X or newer)
 ### Setting a Numeric Passcode
 A numeric passcode can be set by:
 
-1. Settings -> Security & Location
+1. Settings -> Security
 2. Turn Screen Lock On
 3. Enter a 6 digit number for your pin, OR set an alphanumeric password of 6 characters or longer
 
@@ -66,19 +66,19 @@ Some Android devices support Fingerprint security. Once a 6 or greater
 passcode has been set, Fingerprint ID is absolutely acceptable.
 
 ### Setting Passcode Activation Period
-Passcode activation period is the time after which an idle iPhone or iPad will
+Passcode activation period is the time after which an idle android device will
 require a passcode. This can be set by:
 
-1. Settings -> Security & Location
+1. Settings -> Security
 2. Screen Lock gear icon
-3. Choose a time of _5 minutes_ or less.
+3. Lock after screen timeout -> Choose _Immediately_.
 
 ### Capturing Status
 
-1. Settings -> Security & Location
+1. Settings -> Security
 2. Capture a screen shot which includes _Screen Lock_
 3. Touch the gear icon next to Screen lock
-4. Capture a screen shot which includes _Automatically lock_ setting
+4. Lock after screen timeout -> Capture a screen shot which includes _Immediately_ setting
 
 ![Android Passcode Status Example1]
 ![Android Passcode Status Example2]
