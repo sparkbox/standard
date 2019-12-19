@@ -162,7 +162,7 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
     * Spend the appropriate amount of time exploring design concepts to ensure our suggested design concept is the strongest solution to the problem
 
-    * Be responsible with performance based on client goals and audience (use of images, fonts, animation, etc.)
+    * Be responsible with performance based on the client goals and audience (use of images, fonts, animation, etc.)
 
     * Provide value when a project pivots or a new idea surfaces
 
@@ -180,7 +180,7 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
 ### We Present Concepts Intentionally
 
-* Participate in the design review before the concept is presented to client
+* Participate in the design review before the concept is presented to the client
 
     * Give valuable feedback in a respectful way
 
@@ -224,7 +224,7 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
 * As the project progresses, provide alternate solutions to areas that can’t be built in time/budget
 
-* Help communicate the experience strategy with well articulated design concept notes
+* Help communicate the experience strategy with well-articulated design concept notes
 
 * Hit deadlines set for the project
 
