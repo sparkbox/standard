@@ -21,3 +21,11 @@ Sparkbox requires that all members of the Sparkbox organization in Github set up
 ## VPN
 
 Sparkbox partners with [DataYard](https://datayard.us) for their VPN so that team members can connect from anywhere and have their connection encrypted. Being connected to the VPN also allows us to connect to other client's internal network resources.
+
+## npm audit
+
+When working on Node based projects, we use [npm audit](https://docs.npmjs.com/cli/audit) to assess security vulnerabilities in package dependencies for our projects.
+
+## OWASP ZAP
+
+We use the free and open source tool, [OWASP Zed Attack Proxy (ZAP)](https://www.zaproxy.org/), to find security vulnerabilities in our applications.
