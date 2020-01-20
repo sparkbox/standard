@@ -20,7 +20,7 @@ ensure that our commits stay small and are easy to browse.
 **The Layout**
 
 ```
-<type>: <subject>
+<type> (scope): <subject>
 
 <body>
 
