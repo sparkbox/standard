@@ -12,7 +12,7 @@ _[delete anything irrelevant to this PR]_
 
 * [ ] This PR has visual elements, so it was reviewed by a designer.
 * [ ] This PR has code changes, and our linters still pass.
-* [ ] This PR effects production code, so it was browser tested (see below).
+* [ ] This PR affects production code, so it was browser tested (see below).
 * [ ] This PR has new code, so new tests were added or updated, and they pass.
 * [ ] This PR has new SCSS functions, mixins, or variables, so [Sass Tests](https://seesparkbox.com/foundry/how_and_why_we_unit_test_our_sass) were added or updated, and they pass.
 * [ ] This PR has copy changes, so copy was proofread and approved.
