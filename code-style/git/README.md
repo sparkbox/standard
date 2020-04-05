@@ -6,35 +6,45 @@ We use Git version control for all of our projects at [Sparkbox][]. We host
 our code on GitHub. Large features get their own branch and are merged with a
 pull request by a person _other_ than yourself.
 
-_Never forget all this juicy knowledge!  Set your commit message template to
-[this wonderful example](./.gitmessage), by running:_
 
-```git config --global commit.template "path/to/.gitmessage"```
+## The Sparkbox Git Flow
 
-The Art of the Commit Message
------------------------------
+Every place you work will have a different Git flow. At Sparkbox the Git flow is as follows:
 
-We use a strict writing style for all of our commit messages. The style we use helps
-ensure that our commits stay small and are easy to browse.
+1. [Create a branch][] off of master to fix an issue assigned to you.
 
-**The Layout**
+1. Push this branch up to GitHub, and create a pull request when you are ready.
 
-```
-<type>: <subject>
+    -  Protip: Sometimes we create pull requests early as a place to collaborate on a solution. Consider labeling these as `DO NOT MERGE` or `WIP`. You might also utilize [Draft PRs][].
 
-<body>
+1. To make the pull request process more consistent, your project might include a [pull request template][]. An [example PR template][] is included in the Standard as a starting point. There is also an [example issue template][].
 
-<footer>
-```
+1. Assign a reviewer to your pull request. Leave some nice documentation or even a [screencast](https://viewedit.com/) to give your reviewer a bit more background about the code you wrote in this pull request (include information about any interesting or difficult code, and where the reviewer can see the code that you are referencing).  It can also be very helpful to include some instructions in the description of your pull request about how to test the changes you've made to the code.
 
-**The Title (the first line)**
+1. The reviewer might ask you to [rebase off master](#Rebasing-a-Branch-onto-the-Master-Branch) if the branch has gotten behind master.
 
-The title consists of the `<type>` and the `<subject>`.
+1. Your reviewer will either approve or request changes on your pull request.
+    - If they request changes, please implement or further discuss their comments with them.
 
-> Protip: Find yourself with an _and_ in that commit title?  Consider breaking
-> the commit down.  `git commit -p` is your friend!
+1. If your reviewer approves your pull request, they will fast-forward merge your branch into master using the CLI.
 
-**Allowed Values for `<type>`**
+    ```cli
+    git merge --ff-only <branch-name>
+    ```
+
+1. The reviewer will then let you know your changes have been merged so you can move your Jira card.
+
+1. Once the PR is merged, the reviewer deletes the branch.
+
+
+## Naming Branches
+
+Consistent branch naming can help with team communication. A branch name might be the first peek a reviewer gets at what the work is related to. We use types (feat, fix, docs, etc.) to group our branch names so that we know what part of our workflow the branch belongs to, and a brief subject to describe what the branch does.
+
+`feat--onUrlChange-event`
+
+### Allowed Values for Types
+There are several types allowed to prefix branches and commits.
 
 - **feat** (new feature)
 - **fix** (bug fix)
@@ -44,17 +54,75 @@ The title consists of the `<type>` and the `<subject>`.
 - **test** (adding missing tests, refactoring tests; no production code change)
 - **chore** (updating grunt tasks etc; no production code change)
 
-**Subject**
+### Subject
+
+Subjects need to be short, but descriptive. Multi-word subjects are separated by a single hyphen between words.
+
+`feat--onUrlChange-event`
+
+`fix--unit-tests-IE9`
+
+### Branches with Multi-type Commits
+
+Even though our branches tend to be named similarly to our commit style, it's ok if you're working on a bug fix branch `fix--` and include other types of commits. For example, maybe you have a branch named `fix--unit-tests-IE9`, but you've done some `refactor`ing and made some `style` adjustments. Your commit messages for the branch might include:
+```
+fix: unit tests for IE9
+
+refactor: remove unnecessary conditionals
+
+style: add missing semi colons
+```
+
+It's totally ok to include all of those commits on your bug fix branch. You might have any combination of types in one branch if the work is related. We always leave the code better than we found it. There has to be a line somewhere, though. Pay attention if at any point your branch starts
+
+- addressing multiple components
+- feels too big/would overwhelm you if you were reviewing
+- could be broken up into more than one branch
+
+If you identify any of these concerns in your branch, it's worth exploring whether all the work you're doing should be reviewed together. Sometimes work does need to be all together, but in a lot of cases we can [break up that work](https://www.netlify.com/blog/2020/03/31/how-to-scope-down-prs/) to make it easier for our code reviewers to provide a thorough review.
+
+
+## The Art of the Commit Message
+
+We use a strict writing style for all of our commit messages. The style we use helps ensure that our commits stay small and are easy to browse.
+
+_Never forget all this juicy knowledge!  Set your commit message template to
+[this wonderful example](./.gitmessage), by running:_
+
+```git config --global commit.template "path/to/.gitmessage"```
+
+### The Layout
+
+```
+<type>: <subject>
+
+<body>
+
+<footer>
+```
+
+### The Subject (the first line)
+
+The subject consists of the `<type>` and the `<subject>`.
+
+> Protip: Find yourself with an _and_ in that commit title?  Consider breaking
+> the commit down.  `git commit -p` is your friend!
+
+#### Allowed Types
+Find the [allowed types above](#Allowed-Values-for-Types).
+
+- **feat**
+
+### Subject
 
 An [imperative tone][365] is also helpful in conveying what a commit does,
 rather than what it did. For example, use **change**, not _changed_ or
 _changes_.
 
+### Funtip
 
-**Funtip**
+Work hard, play hard!  Consider prefixing your commit messages with a relevant emoji.
 
-Work hard, play hard!  Consider prefixing your commit messages with a relevant emoji for
-great good.
 * :art: `:art:` when improving the format/structure of the code
 * :racehorse: `:racehorse:` when improving performance
 * :non-potable_water: `:non-potable_water:` when plugging memory leaks
@@ -73,10 +141,10 @@ great good.
 
 Example:
 ```
-:fire: feat (buybox): removed unused container elements
+:fire: refactor: removed unused container elements
 ```
 
-**The Body**
+### The Body
 
 The body of the commit message should use a style similar to the one proposed
 in this [article by tpope][tpope]. The body, just like the subject, should use
@@ -101,18 +169,23 @@ This is a quick fix to prevent redundant lookups. This includes:
 
 _Inspired by [Angular][angularc] and [Karma's][karmac] commit style._
 
-**The Footer**
+### The Footer
 
-Here you can reference issues and pull-requests that relate to your commit, like so:
+Here you can reference issues and pull requests that relate to your commit, like so:
 
 ```
 closes #125
 ```
 
-You can see the [official Github doc](https://help.github.com/articles/closing-issues-via-commit-messages/) for all the keywords to close issues and pull-requests.
+If the issue is associated with a JIRA card, your footer should include the project prefix and card number to link the commit to JIRA:
 
-Example Commit Messages
------------------------
+```
+SC-235
+```
+
+You can see the [official Github doc](https://help.github.com/articles/closing-issues-via-commit-messages/) for all the keywords to close issues and pull requests.
+
+### Example Commit Messages
 
 ```
 feat: onUrlChange event (popstate/hashchange/polling)
@@ -142,7 +215,7 @@ feat: ng:disabled, ng:checked, ng:multiple, ng:readonly, ng:selected
 New directives for proper binding these attributes in older browsers (IE).
 Added corresponding description, live examples and e2e tests.
 
-Closes #351
+SC-351
 ```
 
 ```
@@ -197,38 +270,8 @@ scope: {
 The removed `inject` wasn't generally useful for directives so there should be no code using it.
 ```
 
-The Sparkbox Git Flow
----------------------
 
-Every place you work will have a different Git flow. At Sparkbox the Git flow is as follows:
-
-1. Create a branch off of master to fix an issue assigned to you.
-
-1. Push this branch up to GitHub, and create a pull request when you are ready.
-
-    -  Protip: Sometimes we create pull requests early as a place to collaborate on a solution. Consider labeling these as `DO NOT MERGE` or `WIP`. You may also utilize [Draft PRs][].
-
-1. To make the pull request process more consistent, your project may include a [pull request template][]. An [example PR template][] is included in the Standard as a starting point. There is also an [example issue template][].
-
-1. Assign a reviewer to your pull request. Leave some nice documentation or even a [screencast](https://viewedit.com/) to give your reviewer a bit more background about the code you wrote in this pull request (include information about any interesting or difficult code, and where the reviewer can see the code that you are referencing).  It can also be very helpful to include some instructions in the description of your pull request about how to test the changes you've made to the code.  
-
-1. The reviewer may ask you to rebase off master if the branch has diverged.
-
-1. Your reviewer will either approve or request changes on your pull request.  
-    - If they request changes, please implement or further discuss their comments with them.
-
-1. If your reviewer approves your pull request, they will fast-forward merge your branch into master using the CLI.
-
-    ```cli
-    git merge --ff-only <branch-name>
-    ```
-
-1. The reviewer will then let you know your changes have been merged so you can move your Jira card.
-
-1. Once the PR is merged, the reviewer deletes the branch.
-
-Rebasing a Branch onto the Master Branch
-----------------------------------------------
+## Rebasing a Branch onto the Master Branch
 
 Rather than merging commits from another branch into the master branch, Sparkbox prefers to rebase commits on top of the master branch.  One of the best reasons for why Sparkbox does this is that rebasing creates a very clear and clean commit history, free of "Merged branch `other-branch`" commits (which can muddy up the history). To learn a bit more about why rebasing is preferred over merging at Sparkbox, read Ryan Cromwell's post on [Taking Control of Your Commit History](https://seesparkbox.com/foundry/take_control_of_your_commit_history). Additionally, here is a diagram that depicts the differences between merging and rebasing:
 
@@ -261,39 +304,6 @@ For the purposes of this example explaining rebasing, let's say that the branch 
 
 Voila! You're done. You've successfully rebased a branch onto the master branch!
 
-Naming Branches
--------------------------
-
-The way we name branches is similar to the style of our commit message. We use types (feat, fix, docs, etc.) to group our branch names so that we know what part of our workflow the branch belongs to combined with a brief subject to describe what the branch does.
-
-**Type**
-
-The allowed types for a branch name are the same as the [commit types above](https://github.com/sparkbox/standard/tree/master/code-style/git#the-art-of-the-commit-message). Branch types are followed by two hyphens.
-
-`feat--`
-
-**Subject**
-
-Subjects need to be short, but descriptive, and they may be the same as the subject of your commit message. Multiword subjects are separated by a single hyphen in between words.
-
-`feat--onUrlChange-event`
-
-`fix--unit-tests-IE9`
-
-**Branches with Multi-type Commits**
-
-Even though our branches tend to be named similarly to our commit style, it's ok if you're working on a bug fix branch `fix--` and include other types of commits. For example, maybe you have a branch named `fix--unit-tests-IE9`, but you've done some `refactor`ing and made some `style` adjustments. Your commit messages for the branch may include:
-```
-fix: unit tests for IE9
-
-refactor: remove unnecessary conditionals
-
-style: add missing semi colons
-```
-
-It's totally ok to include all of those commits on your bug fix branch. We always leave the code better than we found it.
-
-
 [angularc]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
 [karmac]: http://karma-runner.github.io/0.8/dev/git-commit-msg.html
 [365]: http://365git.tumblr.com/post/3308646748/writing-git-commit-messages
@@ -305,3 +315,4 @@ It's totally ok to include all of those commits on your bug fix branch. We alway
 [pull request template]: https://seesparkbox.com/foundry/better_pull_requests_merge_requests_with_templates
 [example PR template]: ./PULL_REQUEST_TEMPLATE.md
 [example issue template]: ./ISSUE_TEMPLATE.md
+[Create a branch]: #naming-branches
