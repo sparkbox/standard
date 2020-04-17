@@ -1,6 +1,6 @@
 # Slack
 
-[![Image of Sack][producti]][product]
+[![Image of Slack][producti]][product]
 
 We use Slack to stay in touch with each other no matter where we are physically. It’s a great tool, and the following outlines a few tips to keep Slack useful—and navigable–for everyone.
 
