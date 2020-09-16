@@ -16,7 +16,7 @@ How we dance.
 * **[Design](/design)** _How we do design._
 * **[Development Process](/development_process)** _How we develop._
 * **[Foundry](/foundry)** _How we write on the Foundry._
-* **[Hosting](/hosting)** _How we work with servers._
+* **[Platforms](/platforms)** _How we host applications and content._
 * **[Meetups](/meetups)** _Our MO for preparing and facilitating meetups._
 * **[Office](/office)** _How we interact with traditional office supplies and services._
 * **[Project Management](/project_management/README.md)** _How we manage our projects._
