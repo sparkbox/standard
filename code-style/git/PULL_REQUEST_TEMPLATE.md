@@ -16,7 +16,7 @@ _[delete anything irrelevant to this PR]_
 * [ ] This PR has new code, so new tests were added or updated, and they pass.
 * [ ] This PR has new SCSS functions, mixins, or variables, so [Sass Tests](https://seesparkbox.com/foundry/how_and_why_we_unit_test_our_sass) were added or updated, and they pass.
 * [ ] This PR has copy changes, so copy was proofread and approved.
-* [ ] The content of this PR requires documentation, so we added a detailed description of the component's purpose, requirements, quirks, and instructions for use by designers and developers. Along with accessibility information if pertinent.
+* [ ] The content of this PR requires documentation, so we added a detailed description of the component's purpose, requirements, quirks, instructions, and accessibility information for use by designers and developers.
 
 #### To Validate
   1. Make sure all PR Checks have passed (CircleCI, Code Climate, Snyk, etc).
