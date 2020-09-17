@@ -1,6 +1,6 @@
 ### Description
 
-_[add description of work done here]_
+_[add a description of work done here]_
 
 ### Spec
 Designs: _[link to design if applicable]_
@@ -16,7 +16,7 @@ _[delete anything irrelevant to this PR]_
 * [ ] This PR has new code, so new tests were added or updated, and they pass.
 * [ ] This PR has new SCSS functions, mixins, or variables, so [Sass Tests](https://seesparkbox.com/foundry/how_and_why_we_unit_test_our_sass) were added or updated, and they pass.
 * [ ] This PR has copy changes, so copy was proofread and approved.
-* [ ] The content of this PR requires documentation, so we added a detailed description of component purpose, requirements, quirks, and instructions for use by designers and developers. Along with accessibility information if pertinent.
+* [ ] The content of this PR requires documentation, so we added a detailed description of the component's purpose, requirements, quirks, and instructions for use by designers and developers. Along with accessibility information if pertinent.
 
 #### To Validate
   1. Make sure all PR Checks have passed (CircleCI, Code Climate, Snyk, etc).
@@ -29,12 +29,12 @@ _[delete anything irrelevant to this PR]_
 ---
 
 #### Browser Testing
-**This template was written October of 2019. Browser list should be tailored to specific engagement and client needs.**
+**This template was written in October 2019. The browser list should be tailored to specific engagement and client needs.**
 _[delete if irrelevant to this issue]_
 
 #### Gold Level Support
 
-In these browsers, behavior & design closely match original specifications. A user able to access all content and functionality, including usability of required assistive devices, such as keyboard and screenreader.
+In these browsers, behavior & design closely match original specifications. A user is able to access all content and functionality, including the usability of required assistive devices, such as keyboard and screenreader.
 
 **macOS**
 * [ ] Safari 10+ 
@@ -75,9 +75,9 @@ In these browsers, behavior & design may not be great, but the content doesn't a
 
 ---
 
-### Change Log
+### Changelog
 
-_[This is a template to provide copy/paste-able change log notes. Please delete irrelevant sections, fill in blanks with accurate info, and change links to point to relevant commits.]_
+_[This is a template to provide copy/paste-able changelog notes. Please delete irrelevant sections, fill in blanks with accurate info, and change links to point to relevant commits.]_
 
 #### Features ✨
 
