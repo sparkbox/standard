@@ -58,12 +58,14 @@ Web accessibility benefits everyone, so let’s continue building a better web, 
 * [WebAIM: Web Accessibility and SEO]
 * [PopArt Studio: Inclusive Design: Making Websites Accessible to Everyone]
 
-## Future Installments - *Coming Soon*
+## Accessibility Guides
 
-We hope to soon have documents in the Standard on the specific ways Sparkbox views and implements web accessibility related to:
+The following guides document the specific ways Sparkbox views and implements web accessibility related to:
 
+* [Keyboard-Only Navigation](/accessibility/keyboard-accessibility/keyboard-accessibility.md)
+
+### Future Installments - *Coming Soon*
 * Screen Readers
-* Keyboard-Only Navigation
 * Color Contrast
 * Cognitive Disabilities
 
