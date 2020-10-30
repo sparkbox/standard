@@ -2,7 +2,7 @@
 A running list of dev tools that we use on our projects.
 
 ## CSS tooling
-* [Sass](https://sass-lang.com/) via [node-sass](https://github.com/sass/node-sass): for CSS preprocessing.
+* [Sass](https://sass-lang.com/) via [sass](https://www.npmjs.com/package/sass): for CSS preprocessing.
 * [Stylelint](https://www.npmjs.com/package/@sparkbox/stylelint-config-sparkbox): linting for CSS with our preferred configuration.
 * [PostCSS](https://github.com/postcss/postcss): for CSS post-processing.
   * [postcss-cli](https://github.com/postcss/postcss-cli): for running PostCSS via the command line and within your build.
