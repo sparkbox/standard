@@ -84,9 +84,14 @@ The Github Mac app does not support signed commits at the time of this writing. 
 
 As explained in the beginning, you have a _public key_ and a _private key_. Wherever this guide talks about sharing a key (specifically, with Github) it means the _public key_. As an absurd example, this key could be posted on an Interstate billboard and you would have nothing to worry about. It is designed to be shared far and wide with anyone who may want to verify your identity. The _private key_ however is altogether different. This should __never__ be shared with any person or service. It should never leave the confines of your computer, except to be transferred to a new computer. Ideally this transfer happens offline, as infrequently as possible, with a trusted removable storage device. Don't hesitate to get help with this step if you are at all unsure. A compromised private key can be used to impersonate you.
 
+## Expired Keys
+
+When a GPG key is created, an expiration date is set automatically. If you are still using the key on the date it expires, you will no longer have verified commit messages. You will need to either extend the date on your current key or generate a new key. GitHub will require you to re-add your expired key if you extend it, so we recommend that you take this opportunity to generate a new key for added security. Also leave the expired key connected to your account (rather than deleting it) as the dates on the key will match older commits. You will have to update your local `.gitconfig` file(s) to utilize the new signing key. [Check out the Github documentation on expired keys for more information.][github-expired-gpg].
+
 [why-verified-is-important]: https://github.com/sparkbox/standard/pull/64
 [gpg-tools-website]: https://gpgtools.org/
 [github-account-keys]: https://github.com/settings/keys
 [wikipedia-digital-signature]: https://en.wikipedia.org/wiki/Digital_signature
 [github-email-settings]: https://github.com/settings/emails
 [github-verified-email]: https://help.github.com/articles/verifying-your-email-address/
+[github-expired-gpg]: https://docs.github.com/en/github/authenticating-to-github/updating-an-expired-gpg-key
