@@ -21,7 +21,7 @@ Since we also know that usability testing is crucial, we are working on finding 
 
 **Sources**:
 * [W3C: WCAG 2.1 Reference]
-* [Deque: How to Get Development On Board with Accessibility Testing]how-to-get-development-on-board-with-accessibility-testing/
+* [Deque: How to Get Development On Board with Accessibility Testing]
 * [WebAIM: Accessibility User Testing]
 
 ## Accessibility is All or Nothing
