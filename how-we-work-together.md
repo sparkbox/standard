@@ -198,7 +198,7 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
     * Discuss how the presented concept will help to accomplish the project goals
 
-    * If the client doesn’t agree with our rational, we listen and take every effort to address their concerns
+    * If the client doesn’t agree with our rationale, we listen and take every effort to address their concerns
 
     * We believe it is acceptable and our job to respectfully push back when we feel strongly that a client suggestion is detrimental to the project, and give reasons why
 
