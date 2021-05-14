@@ -30,9 +30,4 @@ If any hardware issues arise while using the laptop, let the office manager know
 When an employee is done using their laptop, it will need to be wiped clean for the next person to use. Here are some steps to follow:
 
 1. Follow these [instructions](https://support.apple.com/en-us/HT201065) to remove important connections between your Mac and Apple cloud services
-1. Ensure the laptop is plugged into a power outlet and connected to the internet.
-2. Restart the computer.
-3. When the computer shuts off and powers back on, hold *Command+R* to access the macOS recovery system.
-4. In the macOS Utilities window, open *Disk Utility*, choose the main hard drive (usually Macintosh HD), and hit *Erase*, [as described in Apple's docs](https://support.apple.com/en-us/HT208496).
-5. After erasing the disk, quit *Disk Utility* and choose *Reinstall macOS*.
-6. Once the reinstall is done, the setup assistant will load and start asking basic questions about the region, etc. At this point, hit *Command+Q* and select *Shut Down*, allowing the next user to set it up.
+2. Follow [these instructions to erase a Mac with Apple silicon](https://support.apple.com/en-us/HT212030) or [these instructions to erase an Intel-based Mac](https://support.apple.com/en-us/HT208496)
