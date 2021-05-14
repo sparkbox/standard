@@ -29,6 +29,7 @@ If any hardware issues arise while using the laptop, let the office manager know
 
 When an employee is done using their laptop, it will need to be wiped clean for the next person to use. Here are some steps to follow:
 
+1. Follow these [instructions](https://support.apple.com/en-us/HT201065) to remove important connections between your Mac and Apple cloud services
 1. Ensure the laptop is plugged into a power outlet and connected to the internet.
 2. Restart the computer.
 3. When the computer shuts off and powers back on, hold *Command+R* to access the macOS recovery system.
