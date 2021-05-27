@@ -5,6 +5,8 @@
 #
 # <footer>
 #
+# ** A good message should complete this sentence: when applied, this commit will... **
+#
 # ** TYPES **
 # feat (new feature)
 # fix (bug fix)
