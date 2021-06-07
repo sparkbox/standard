@@ -1,56 +1,60 @@
 # Sparkbox Web Fundamentals: HTML & CSS
 
+HTML & CSS are involved in _every_ web project at Sparkbox.
+
+It's essential that a [Sparkbox Developer 1][career growth] be able to...
+
 ## Elements & Attributes
-A [Sparkbox Developer 1][career growth] can identify how common elements are used and configured using attributes.
+... identify how common elements are used and configured using attributes.
 
 * Callout common elements
-  * `<ul>` `<li>` `<p>` `<head>` `<h1>` (etc) 
+  * `<ul>` `<li>` `<p>` `<head>` `<h1>` (etc)
 * Callout attributes that are required
-  * `data` `href` `alt` `title` `style` `role` 
+  * `data` `href` `alt` `title` `style` `role`
 
 *Resources:*
-* [Girl Scouts cheat sheet][cheat-sheet]
+* [Girl Scouts cheat sheet][gs cheat sheet]
 
 
 ## Semantic HTML
-A [Sparkbox Developer 1][career growth] can differentiate between valid HTML and semantic HTML, explaining the difference between semantic and non-semantic elements (for example, `<article>` vs. `<div>`), and an example of inappropriate use of semantic elements (for example, using an `<h2>` followed by an `<h4>`.
+... differentiate between valid HTML and semantic HTML, explaining the difference between semantic and non-semantic elements (for example, `<article>` vs. `<div>`), and an example of inappropriate use of semantic elements (for example, using an `<h2>` followed by an `<h4>`.
 
 ## Validate HTML
-A [Sparkbox Developer 1][career growth] can demonstrate use of W3C Markup Validation Service to confirm the validity of markup for a webpage.
+... demonstrate use of W3C Markup Validation Service to confirm the validity of markup for a webpage.
 
 ## Page structure
-A [Sparkbox Developer 1][career growth] can explain the main components of a page (for example, `Header`, `Navigation`, `Main`, `Sidebar`, `Footer`), along with a use case.
+... explain the main components of a page (for example, `Header`, `Navigation`, `Main`, `Sidebar`, `Footer`), along with a use case.
 
 
-## Specificity 
-A [Sparkbox Developer 1][career growth] can identify how css weighs selectors for displaying the most relevant style.
+## Specificity
+... identify how css weighs selectors for displaying the most relevant style.
 
 *Resources:*
 * [How To Apply CSS Styles to HTML with Cascade and Specificity](https://www.digitalocean.com/community/tutorials/how-to-apply-css-styles-to-html-with-cascade-and-specificity)
 
 ## The Cascade
-A [Sparkbox Developer 1][career growth] can differentiate between css properties that trickle down from parent to child selectors (`color`, `font-size`), and properties that don’t necessarily move down the cascade (`margin`, `padding`). They can also give an example of a CSS conflict and how it relates to the cascade.
+... differentiate between css properties that trickle down from parent to child selectors (`color`, `font-size`), and properties that don’t necessarily move down the cascade (`margin`, `padding`). They can also give an example of a CSS conflict and how it relates to the cascade.
 
 ## Navigate browser developer tools
-A [Sparkbox Developer 1][career growth] can open the dev tools, inspect elements, and use the console.
+... open the dev tools, inspect elements, and use the console.
 
 ## Basic Sass things: Variables, functions, mixins
-A [Sparkbox Developer 1][career growth] can describe Sass variables, functions, and mixins, as well as why and when they should be used.
+... describe Sass variables, functions, and mixins, as well as why and when they should be used.
 
 ## Naming components: BEM & ITCSS
-A [Sparkbox Developer 1][career growth] can describe BEM and ITCSS. They can explain how BEM prep HTML to be styled and how ITCSS creates a framework to structure our CSS.
+... describe BEM and ITCSS. They can explain how BEM prep HTML to be styled and how ITCSS creates a framework to structure our CSS.
 
 ## Breakpoints & MediaQueries
-A [Sparkbox Developer 1][career growth] can identify how media queries can be uzed to provide layout on multiple screen sizes in a squishy web.
+... identify how media queries can be uzed to provide layout on multiple screen sizes in a squishy web.
 
 ## CSS Layout
-A [Sparkbox Developer 1][career growth] can understand different layout strategies for different levels of browser support.
+... understand different layout strategies for different levels of browser support.
 
 ## Box Model
-A [Sparkbox Developer 1][career growth] can describe the box model properties of border, margin, padding, and how those properties relate to the content and the layout of elements on a web page.
+... describe the box model properties of border, margin, padding, and how those properties relate to the content and the layout of elements on a web page.
 
 ## Document flow
-A [Sparkbox Developer 1][career growth] can describe how elements are arranged.
+... describe how elements are arranged.
 
 
 [career growth]: https://www.figma.com/proto/0FdKsjKvwf2H6KQpgRvT9Q/Sparkbox-Developer-Career-Growth-Framework?scaling=scale-down-width&hide-ui=1
