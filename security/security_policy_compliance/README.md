@@ -21,7 +21,7 @@ If you wish, you can run the following in a terminal to check for
 [FileVault Full Disk Encryption].
 
 ```
-curl -s https://raw.githubusercontent.com/sparkbox/standard/master/security/security_policy_compliance/policy-checks.sh | sh
+curl -s https://raw.githubusercontent.com/sparkbox/standard/main/security/security_policy_compliance/policy-checks.sh | sh
 ```
 
 
