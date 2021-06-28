@@ -22,6 +22,12 @@ function success {
   echo ""
 }
 
+function get_volume_attribute {
+  NEEDLE=$1
+  HAYSTACK=$2
+  echo $(echo "$HAYSTACK" | grep -e "$NEEDLE:" | sed "s/$NEEDLE: *//" | sed 's/^ *//g')
+}
+
 echo "Today is $(date)"
 
 echo "Getting sudo access..."
@@ -29,15 +35,37 @@ sudo ls &> /dev/null
 echo "";
 
 start "Checking Time Machine Backup Disk Encryption"
-BACKUP_STATUS="$(diskutil cs list | grep -e "Encryption Type" -e "Volume Name")"
-echo "${BACKUP_STATUS}" | grep 'AES-XTS' &> /dev/null
-if [ $? == 0 ]; then
-  success "${BACKUP_STATUS}"
-elif [ $? == 1 ]; then
-  fail "Unable to locate backup disk"
-else
-  fail "${BACKUP_STATUS}" "https://github.com/sparkbox/standard/blob/master/security/timemachine.md"
-fi
+# Replace spaces with three underscores so we can use spaces as a delimiter in an array
+TIME_MACHINE_VOLUMES=$(tmutil destinationinfo | grep -e "Name" | sed 's/Name.*: //' | sed -e "s/ /___/g")
+
+for VOLUME in $TIME_MACHINE_VOLUMES; do
+  VOLUME_NAME=$(echo $VOLUME | sed -e "s/___/ /g")
+  VOLUME_INFO=$(diskutil info "$VOLUME_NAME")
+  VOLUME_TYPE=$(get_volume_attribute "Type (Bundle)" "$VOLUME_INFO")
+
+  case $VOLUME_TYPE in
+    # APFS volumes will identify their encryption status under "FileValt"
+    "apfs")
+      VOLUME_ENCRYPTED=$(get_volume_attribute "FileVault" "$VOLUME_INFO")
+      ;;
+    # Core Storage volumes (Journaled HFS+) will identify their encryption status under "Encrypted"
+    *)
+      VOLUME_ENCRYPTED=$(get_volume_attribute "Encrypted" "$VOLUME_INFO")
+      ;;
+  esac
+
+  case $VOLUME_ENCRYPTED in
+    Yes)
+      success "$VOLUME_NAME"
+      ;;
+    No)
+      fail "$VOLUME_NAME is not encrypted (https://github.com/sparkbox/standard/blob/master/security/timemachine.md)."
+      ;;
+    *)
+      fail "Unable to locate $VOLUME_NAME. Please check your connection to this volume and try again."
+      ;;
+  esac
+done
 
 start "Checking for FileVault full disk encryption"
 FILEVAULT_STATUS="$(fdesetup status)"
