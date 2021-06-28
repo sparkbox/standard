@@ -1,8 +1,8 @@
 #!/bin/sh
 
-function start { 
+function start {
   echo "*****************************************************"
-  printf "* $1..."; 
+  printf "* $1...";
 }
 
 function fail {
