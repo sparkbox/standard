@@ -2,24 +2,20 @@
 
 function start {
   echo "*****************************************************"
-  printf "* $1...";
+  printf "* $1...\n";
 }
 
 function fail {
   DETAILS=$1
   HELP_URL=$2
 
-  echo "❌";
-  echo "${DETAILS}"
-  echo ""
+  echo "❌ ${DETAILS}\n"
 }
 
 function success {
   DETAILS=$1
 
-  echo "✅";
-  echo "${DETAILS}"
-  echo ""
+  echo "✅ ${DETAILS}\n";
 }
 
 function get_volume_attribute {
