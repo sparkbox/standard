@@ -22,6 +22,17 @@ function success {
   echo "✅ \033[1;32m${DETAILS}\033[0m\n";
 }
 
+function warning {
+  DETAILS=$1
+  HELP_URL=$2
+
+  echo "⚠️ \033[1;33m ${DETAILS}\033[0m";
+  if [ "${HELP_URL}" != "" ]; then
+    echo "\033[1;37m${HELP_URL}\031"
+  fi
+  echo ""
+}
+
 function get_volume_attribute {
   NEEDLE=$1
   HAYSTACK=$2
@@ -37,6 +48,10 @@ echo "";
 start "Checking Time Machine Backup Disk Encryption"
 # Replace spaces with three underscores so we can use spaces as a delimiter in an array
 TIME_MACHINE_VOLUMES=$(tmutil destinationinfo | grep -e "Name" | sed 's/Name.*: //' | sed -e "s/ /___/g")
+
+if [ "${TIME_MACHINE_VOLUMES}" == "" ]; then
+  warning "No backup disks configured with Time Machine." "https://github.com/sparkbox/standard/blob/main/security/security_policy_compliance/timemachine.md#first-time-setup"
+fi
 
 for VOLUME in $TIME_MACHINE_VOLUMES; do
   VOLUME_NAME=$(echo ${VOLUME} | sed -e "s/___/ /g")
@@ -56,10 +71,10 @@ for VOLUME in $TIME_MACHINE_VOLUMES; do
 
   case $VOLUME_ENCRYPTED in
     Yes)
-      success "${VOLUME_NAME}"
+      success "\"${VOLUME_NAME}\" is encrypted."
       ;;
     No)
-      fail "\"${VOLUME_NAME}\" is not encrypted" "https://github.com/sparkbox/standard/blob/master/security/timemachine.md"
+      fail "\"${VOLUME_NAME}\" is not encrypted." "https://github.com/sparkbox/standard/blob/main/security/timemachine.md"
       ;;
     *)
       fail "Unable to locate \"${VOLUME_NAME}\". Please check your connection to this volume and try again."
@@ -72,7 +87,7 @@ FILEVAULT_STATUS="$(fdesetup status)"
 
 echo "${FILEVAULT_STATUS}" | grep 'FileVault is On' &> /dev/null
 if [ $? != 0 ]; then
-  fail "${FILEVAULT_STATUS}" "https://github.com/sparkbox/standard/blob/master/security/timemachine.md"
+  fail "${FILEVAULT_STATUS}" "https://github.com/sparkbox/standard/blob/main/security/filevault.md"
 else
   success "${FILEVAULT_STATUS}"
 fi
@@ -82,7 +97,7 @@ UPDATE_LIST="$(sudo softwareupdate -l 2>&1)"
 UPDATE_STATUS="$(echo "${UPDATE_LIST}" | grep 'No new software available\.')"
 
 if [ "${UPDATE_STATUS}" == "" ]; then
-  fail "${UPDATE_LIST}" "https://github.com/sparkbox/standard/blob/master/security/mac-updates.md"
+  fail "${UPDATE_LIST}" "https://github.com/sparkbox/standard/blob/main/security/mac-updates.md"
 else
   success "${UPDATE_STATUS}"
 fi
