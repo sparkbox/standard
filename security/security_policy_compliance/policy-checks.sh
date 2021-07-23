@@ -43,9 +43,12 @@ function validate_time_machine {
   start "Checking Time Machine Backup Disk Encryption"
 
   # Replace spaces with three underscores so we can use spaces as a delimiter in an array
+  TIME_MACHINE_CONFIGURATION=$(tmutil destinationinfo)
   TIME_MACHINE_VOLUMES=$(tmutil destinationinfo | grep -e "Name" | sed 's/Name.*: //' | sed -e "s/ /___/g")
 
-  if [ "${TIME_MACHINE_VOLUMES}" == "" ]; then
+  if [ "${TIME_MACHINE_CONFIGURATION}" == "tmutil: No destinations configured." ]; then
+    success "Backups are not configured. Encryption not required."
+  elif [ "${TIME_MACHINE_VOLUMES}" == "" ]; then
     warning "No backup disks configured with Time Machine." "https://github.com/sparkbox/standard/blob/main/security/security_policy_compliance/timemachine.md#first-time-setup"
   fi
 
@@ -55,7 +58,7 @@ function validate_time_machine {
     VOLUME_TYPE=$(get_volume_attribute "Type (Bundle)" "${VOLUME_INFO}")
 
     case $VOLUME_TYPE in
-      # APFS volumes will identify their encryption status under "FileValt"
+      # APFS volumes will identify their encryption status under "FileVault"
       "apfs")
         VOLUME_ENCRYPTED=$(get_volume_attribute "FileVault" "${VOLUME_INFO}")
         ;;
