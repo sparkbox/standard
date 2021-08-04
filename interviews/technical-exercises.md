@@ -28,6 +28,25 @@ To complete a blind review:
 2. Follow the evaluation criteria in the exercise.
 3. Post to Workable the quantitative evaluation score, including a list of checks that passed or failed, along with qualitative feedback you have on the submission.
 
+Here's a template you can use:
+
+> **Recommendation:** Advance the applicant. Possible Developer 2 or early Developer 3
+> 
+>
+> **Quantitative Review:**
+> 12 of 13 criteria met!
+>
+> * ✅ ❌ Criteria 1
+> * ✅ ❌ Criteria 2
+> ...
+>
+> **Qualitative Review:** 
+> This is a nice solution overall. A few things that stood out:
+> * Structure is easy to follow
+> * Used XYZ element appropriately
+> * Nice use of framework feature X
+> * ABC is a nice bonus
+
 ## Preparing Blind Reviews
  To do this, we:
 
