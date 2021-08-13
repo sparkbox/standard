@@ -12,6 +12,7 @@ How we dance.
 * **[Almanac](/almanac)** _Our list of browser bugs and quirks._
 * **[Apprenticeship](/apprenticeship)** _How we teach._
 * **[Build Process](/build_process)** _How we build, deploy, and deliver._
+* **[Career](./career)** _How career growth happens and descriptions of roles._
 * **[Code Style](/code-style/README.md)** _The way we write documentation and code._
 * **[Culture](/culture)** _How we Sparkbox._
 * **[Design](/design)** _How we do design._
