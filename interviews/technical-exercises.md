@@ -24,28 +24,19 @@ _Note: The submission is anonymized as much as reasonably possible, but it is no
 
 To complete a blind review:
 
-1. Clone the repository locally.
+1. Clone the redacted repository locally.
 2. Follow the evaluation criteria in the exercise.
-3. Post to Workable the quantitative evaluation score, including a list of checks that passed or failed, along with qualitative feedback you have on the submission.
-
-Here's a template you can use:
+3. Complete the appropriate Scorecard in Breezy:
+   * Each type of technical exercise (_Frontend App Developer_, _Frontend Html & CSS Developer_, etc) has a corresponding "Scorecard" in breezy.
+   * **Quantitative Review:** For each criteria, choose either pass ![Double thumbs up](./pass-icon.png) or ![Double thumbs down](./fail-icon.png). _Note: Comments are encouraged, but optional._
+   - **Qualitative Review:** In “Thoughts on this Candidate” use the following template to provide qualitative feedback:
 
 > **Recommendation:** Advance the applicant. Possible Developer 2 or early Developer 3
-> 
->
-> **Quantitative Review:**
-> 12 of 13 criteria met!
->
-> * ✅ ❌ Criteria 1
-> * ✅ ❌ Criteria 2
-> ...
->
-> **Qualitative Review:** 
-> This is a nice solution overall. A few things that stood out:
-> * Structure is easy to follow
-> * Used XYZ element appropriately
-> * Nice use of framework feature X
-> * ABC is a nice bonus
+> **Qualitative review:** This is a nice solution overall. A few things that stood out:
+>  * Structure is easy to follow
+>  * Used XYZ element appropriately
+>  * Nice use of framework feature X
+>  * ABC is a nice bonus"  
 
 ## Preparing Blind Reviews
  To do this, we:
@@ -74,11 +65,11 @@ git push sparkbox main
 
 ### 2. Create an feedback link in Workable
 
-Feedback will be posted in Workable, our interviewing and hiring tool. For team and blind review feedback, we create a link that does not provide history of the candidates other interactions. It _will_ show their name, which is ok, but not great.
+Feedback will be posted in Breezy, our interviewing and hiring tool. For team and blind review feedback, we create a link that does not provide history of the candidates other interactions. It _will_ show their name, which is ok, but not great.
 
-To create this link, head to workable, navigate to the candidate, and use the "Share" menu. Use the "By Link" option and disable "Show timeline and evaluation".
+To create this link, head to Breezy, navigate to the candidate, click the More button (3 dots), and select Share Candidate. Select "Yes" for Scorecard, "No" for Team Discussion, and "No" for Candidate Questionnaire. 
 
-![](./workable-feedback-link.gif)
+![](./feedback-link.gif)
 
 ### 2. Share the repo with Anonymous reviewers 
 
@@ -87,7 +78,7 @@ Anonymous reviewers are in the #tech-exercises private channel. In this channel 
 > :tada: A blind review is needed for a candidate. Please have feedback posted within 48 hours. Thanks!
 >
 > * Exercise: [Exercise Name with a deep link][technical exercises]
-> * Feedback Link: Link to Workable created in step 2
+> * Feedback Link: Link to Breezy created in step 2
 > * Repository: https://github.com/sparkbox/sparkbox-tech-exercise-:candidate-id:
 
 [sparkbox-values]: https://github.com/sparkbox/standard/blob/bf409dd264db924c92909f2d477dc8b49d15539b/culture/our-foundation/README.md#our-foundation
