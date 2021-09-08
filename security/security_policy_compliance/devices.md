@@ -54,12 +54,22 @@ newer; Face ID is available on the X or newer)
 
 ## Android Passcode
 
-### Setting a Numeric Passcode
-A numeric passcode can be set by:
+### Setting a Numeric/Pattern Passcode
+A numeric or pattern passcode can be set by:
 
 1. Settings -> Security & Location
 2. Turn Screen Lock On
-3. Enter a 6 digit number for your pin, OR set an alphanumeric password of 6 characters or longer
+3. Enter a 6 digit number for your pin, set an alphanumeric password of 6 characters or longer, OR set to pattern
+  - If you opt for the pattern lock, see the next section
+
+### Increase Pattern Security
+While patterns can be less secure than a pin or alphanumeric password, there are tactics for making this option more secure if you prefer this route.
+
+1. Turn off "Make Pattern Visible." This will hide the visual path as you move your finger on the screen. How to set:
+  - Go to settings -> security -> screen lock (gear icon/ settings)
+  - Turn off the toggle for "Make Pattern Visible."
+2. Choose a pattern that crosses over itself. In other words, avoid patterns that could be solved by tracing the leftover marks on your screen.
+3. Set Fingerprint ID as your primary option and use the pattern as a backup (if the option is available to you)
 
 ### Fingerprint ID
 Some Android devices support Fingerprint security. Once a 6 or greater
@@ -87,4 +97,3 @@ require a passcode. This can be set by:
 [iOS Passcode Status Example]: ./ios-passcode-status.png
 [Android Passcode Status Example1]: ./android-passcode-status1.png
 [Android Passcode Status Example2]: ./android-passcode-status2.png
-
