@@ -67,8 +67,10 @@ popCheck() {
 }
 
 if isNix; then
+    printf "Detected NixOS, proceeding with NixOS-specific checks...\n"
     nixCheck
 else
+    printf "Proceeding with PopOS-specific checks...\n"
     popCheck
 fi
 
