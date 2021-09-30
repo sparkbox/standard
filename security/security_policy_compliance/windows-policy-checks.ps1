@@ -34,7 +34,7 @@ $bitlockerStatus = manage-bde -status
 
 $encryptedDrives = ([regex]::Matches($bitlockerStatus, "Fully Encrypted" )).Count
 
-$discs = Get-Disk
+$discs = (Get-Disk | measure)
 
 WriteMessage "  > $encryptedDrives / $($discs.Count) drives are encrypted."
 
@@ -64,7 +64,3 @@ foreach ($serviceEnabled in $servicesToCheck) {
 }
 
 WriteMessage "  > $totalServiceEnabledCount / $totalServiceCount windows defender services are enabled. `n"
-
-function pause{ $null = Read-Host 'press enter to continue...' }
-
-pause
