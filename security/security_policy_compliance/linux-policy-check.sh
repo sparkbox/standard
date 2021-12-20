@@ -20,7 +20,7 @@ checkGitSigning() {
 nixCheck() {
     # check if we're up to date with the channel (stable assumed)
     printf "Check if we're up to date with stable channel..."
-    stable=$(curl -s "https://monitoring.nixos.org/prometheus/api/v1/query?query=channel_revision" | jq -r '.data.result[] | .metric | select(.channel == "nixos-21.05") | .revision')
+    stable=$(curl -s "https://monitoring.nixos.org/prometheus/api/v1/query?query=channel_revision" | jq -r '.data.result[] | .metric | select(.channel == "nixos-21.11") | .revision')
     installed=$(nixos-version --hash)
 
     if [ "${stable}" = "${installed}" ]; then
