@@ -2,40 +2,42 @@
 
 ![Git plus GitHub](http://i.imgur.com/R1imkCJ.png)
 
-We use Git version control for all of our projects at [Sparkbox][]. We host
+We use Git version control for all of our projects at [Sparkbox]. We host
 our code on GitHub. Large features get their own branch and are merged with a
 pull request by a person _other_ than yourself.
-
 
 ## The Sparkbox Git Flow
 
 Every place you work will have a different Git flow. At Sparkbox the Git flow is as follows:
 
-1. [Create a branch][] off of master to fix an issue assigned to you.
+1. [Create a branch] off of master to fix an issue assigned to you.
 
-1. Push this branch up to GitHub, and create a pull request when you are ready.
+1. Push this branch up to GitHub, and create a [pull request] when you are ready.
 
-    -  Protip: Sometimes we create pull requests early as a place to collaborate on a solution. Consider labeling these as `DO NOT MERGE` or `WIP`. You might also utilize [Draft PRs][].
+   - Protip: Sometimes we create pull requests early as a place to collaborate on a solution. Consider opening a [Draft PR] to prevent your PR from accidentally being merged. You may also consider labeling these PRs as "DO NOT MERGE" or "WIP".
 
-1. To make the pull request process more consistent, your project might include a [pull request template][]. An [example PR template][] is included in the Standard as a starting point. There is also an [example issue template][].
+1. To make the pull request process more consistent, your project might include a [pull request template]. An [example PR template] is included in the Standard as a starting point. There is also an [example issue template].
 
-1. Assign a reviewer to your pull request. Leave some nice documentation or even a [screencast](https://viewedit.com/) to give your reviewer a bit more background about the code you wrote in this pull request (include information about any interesting or difficult code, and where the reviewer can see the code that you are referencing).  It can also be very helpful to include some instructions in the description of your pull request about how to test the changes you've made to the code.
+1. Assign a reviewer to your pull request. Leave some nice documentation or even a [screencast](https://viewedit.com/) to give your reviewer a bit more background about the code you wrote in this pull request (include information about any interesting or difficult code, and where the reviewer can see the code that you are referencing). It can also be very helpful to include some instructions in the description of your pull request about how to test the changes you've made to the code.
+
+   - Protip: Use interactive rebasing to [curate your commit history] before requesting a review. Squashing, reordering or rewording your commits will help [onboard the reviewer to your pull request][foundry_curated_commits].
 
 1. The reviewer might ask you to [rebase off master](#Rebasing-a-Branch-onto-the-Master-Branch) if the branch has gotten behind master.
 
 1. Your reviewer will either approve or request changes on your pull request.
-    - If they request changes, please implement or further discuss their comments with them.
+
+   - If they request changes, please implement or further discuss their comments with them.
+   - If no more changes to your code are needed, this will likely be a good time to ["squash your commits"][curate your commit history] before the reviewer merges them back into the main branch.
 
 1. If your reviewer approves your pull request, they will fast-forward merge your branch into master using the CLI.
 
-    ```cli
-    git merge --ff-only <branch-name>
-    ```
+   ```cli
+   git merge --ff-only <branch-name>
+   ```
 
 1. The reviewer will then let you know your changes have been merged so you can move your Jira card.
 
 1. Once the PR is merged, the reviewer deletes the branch.
-
 
 ## Naming Branches
 
@@ -44,7 +46,8 @@ Consistent branch naming can help with team communication. A branch name might b
 `feat--onUrlChange-event`
 
 ### Allowed Values for Types
-There are several types allowed to prefix branches and commits.
+
+Sparkbox follows the [Conventional Commits] specification. There are several types allowed to prefix branches and commits.
 
 - **feat** (new feature)
 - **fix** (bug fix)
@@ -65,6 +68,7 @@ Subjects need to be short, but descriptive. Multi-word subjects are separated by
 ### Branches with Multi-type Commits
 
 Even though our branches tend to be named similarly to our commit style, it's ok if you're working on a bug fix branch `fix--` and include other types of commits. For example, maybe you have a branch named `fix--unit-tests-IE9`, but you've done some `refactor`ing and made some `style` adjustments. Your commit messages for the branch might include:
+
 ```
 fix: unit tests for IE9
 
@@ -81,15 +85,14 @@ It's totally ok to include all of those commits on your bug fix branch. You migh
 
 If you identify any of these concerns in your branch, it's worth exploring whether all the work you're doing should be reviewed together. Sometimes work does need to be all together, but in a lot of cases we can [break up that work](https://www.netlify.com/blog/2020/03/31/how-to-scope-down-prs/) to make it easier for our code reviewers to provide a thorough review.
 
-
 ## The Art of the Commit Message
 
 We use a strict writing style for all of our commit messages. The style we use helps ensure that our commits stay small and are easy to browse.
 
-_Never forget all this juicy knowledge!  Set your commit message template to
+_Never forget all this juicy knowledge! Set your commit message template to
 [this wonderful example](./.gitmessage), by running:_
 
-```git config --global commit.template "path/to/.gitmessage"```
+`git config --global commit.template "path/to/.gitmessage"`
 
 ### The Layout
 
@@ -105,10 +108,11 @@ _Never forget all this juicy knowledge!  Set your commit message template to
 
 The subject consists of the `<type>` and the `<subject>`.
 
-> Protip: Find yourself with an _and_ in that commit title?  Consider breaking
-> the commit down.  `git commit -p` is your friend!
+> Protip: Find yourself with an _and_ in that commit title? Consider breaking
+> the commit down. `git commit -p` is your friend!
 
 #### Allowed Types
+
 Find the [allowed types above](#Allowed-Values-for-Types).
 
 - **feat**
@@ -121,25 +125,26 @@ _changes_.
 
 ### Funtip
 
-Work hard, play hard!  Consider prefixing your commit messages with a relevant emoji.
+Work hard, play hard! Consider prefixing your commit messages with a relevant emoji.
 
-* :art: `:art:` when improving the format/structure of the code
-* :racehorse: `:racehorse:` when improving performance
-* :non-potable_water: `:non-potable_water:` when plugging memory leaks
-* :memo: `:memo:` when writing docs
-* :penguin: `:penguin:` when fixing something on Linux
-* :apple: `:apple:` when fixing something on macOS
-* :checkered_flag: `:checkered_flag:` when fixing something on Windows
-* :bug: `:bug:` when fixing a bug
-* :fire: `:fire:` when removing code or files
-* :green_heart: `:green_heart:` when fixing the CI build
-* :white_check_mark: `:white_check_mark:` when adding tests
-* :lock: `:lock:` when dealing with security
-* :arrow_up: `:arrow_up:` when upgrading dependencies
-* :arrow_down: `:arrow_down:` when downgrading dependencies
-* :shirt: `:shirt:` when removing linter warnings
+- :art: `:art:` when improving the format/structure of the code
+- :racehorse: `:racehorse:` when improving performance
+- :non-potable_water: `:non-potable_water:` when plugging memory leaks
+- :memo: `:memo:` when writing docs
+- :penguin: `:penguin:` when fixing something on Linux
+- :apple: `:apple:` when fixing something on macOS
+- :checkered_flag: `:checkered_flag:` when fixing something on Windows
+- :bug: `:bug:` when fixing a bug
+- :fire: `:fire:` when removing code or files
+- :green_heart: `:green_heart:` when fixing the CI build
+- :white_check_mark: `:white_check_mark:` when adding tests
+- :lock: `:lock:` when dealing with security
+- :arrow_up: `:arrow_up:` when upgrading dependencies
+- :arrow_down: `:arrow_down:` when downgrading dependencies
+- :shirt: `:shirt:` when removing linter warnings
 
 Example:
+
 ```
 :fire: refactor: removed unused container elements
 ```
@@ -150,7 +155,7 @@ The body of the commit message should use a style similar to the one proposed
 in this [article by tpope][tpope]. The body, just like the subject, should use
 an imperative tone.
 
-Another nice thing you can do in the body of your commit is to state what the `issue` is that you worked on, and what your code changes and `fix` entailed.  The `fix`, or the _why_ of your code is really interesting, as well as important, and helps others understand the solution you chose.
+Another nice thing you can do in the body of your commit is to state what the `issue` is that you worked on, and what your code changes and `fix` entailed. The `fix`, or the _why_ of your code is really interesting, as well as important, and helps others understand the solution you chose.
 
 Example:
 
@@ -270,16 +275,23 @@ scope: {
 The removed `inject` wasn't generally useful for directives so there should be no code using it.
 ```
 
+## Curating Your Commit History
+
+There are a number of reasons why you may want to "rewrite" the history of your work.
+
+**Before requesting a review of your work**, you may want to clean up your commit history to better "tell the story" of what you did. Using interactive rebasing, you can curate your commit history to combine (squash or fixup), reorder, or reword your commits to better [onboard the reviewer to your pull request][foundry_curated_commits].
+
+**After your work has been approved**, there is no longer a need to preserve every step of your process for the record. Of course, your code changes must be preserved, but when merging them back into the main branch it's more important to communicate the high-level reasoning for the overall PR. This makes the flow of changes to the main branch more easily digestible for later viewers. Once again, you will use interactive rebasing to combine all of your changes into 1 or 2 commits, communicating notable changes in the body of the commit message. This is often referred to as "squashing your commits."
 
 ## Rebasing a Branch onto the Master Branch
 
-Rather than merging commits from another branch into the master branch, Sparkbox prefers to rebase commits on top of the master branch.  One of the best reasons for why Sparkbox does this is that rebasing creates a very clear and clean commit history, free of "Merged branch `other-branch`" commits (which can muddy up the history). To learn a bit more about why rebasing is preferred over merging at Sparkbox, read Ryan Cromwell's post on [Taking Control of Your Commit History](https://seesparkbox.com/foundry/take_control_of_your_commit_history). Additionally, here is a diagram that depicts the differences between merging and rebasing:
+Rather than merging commits from another branch into the master branch, Sparkbox prefers to rebase commits on top of the master branch. One of the best reasons for why Sparkbox does this is that rebasing creates a very clear and clean commit history, free of "Merged branch `other-branch`" commits (which can muddy up the history). To learn a bit more about why rebasing is preferred over merging at Sparkbox, read Ryan Cromwell's post on [Taking Control of Your Commit History]. Additionally, here is a diagram that depicts the differences between merging and rebasing:
 
 ![Merging](merge.png)
 
 ![Rebasing](rebase.png)
 
-For the purposes of this example explaining rebasing, let's say that the branch you need to rebase is called `chore-teaching-example`, and that this branch has gone through all of the Git flow discussed above for a pull request.  Follow these next steps to rebase a branch onto master:
+For the purposes of this example explaining rebasing, let's say that the branch you need to rebase is called `chore-teaching-example`, and that this branch has gone through all of the Git flow discussed above for a pull request. Follow these next steps to rebase a branch onto master:
 
 1. Open your terminal and checkout the branch to be rebased: `git checkout chore-teaching-example`.
 
@@ -291,10 +303,11 @@ For the purposes of this example explaining rebasing, let's say that the branch 
 
 1. If your branch is behind the master branch's commits, run `git rebase origin/master`. You can also run `git rebase origin/master -i` which will allow you to _interactively_ (that's where the `-i` comes from) select which commits you want to be added to the master branch, and also permit you to squash commits and reword commit messages. If your branch is already rebased, you can skip to step 7.
 
-    - Upon rebasing, you may run into merge conflicts.  Follow the helpful instructions offered by Git in your terminal, and fix all of the merge conflicts until you have rebased your branch on top of master.
+   - Upon rebasing, you may run into merge conflicts. Follow the helpful instructions offered by Git in your terminal, and fix all of the merge conflicts until you have rebased your branch on top of master.
 
 1. After rebasing your branch on top of the master branch, you'll need to force push these changes to your GitHub version of the branch. Run `git push origin chore-teaching-example --force-with-lease`.
-    - Make sure any and all tests that run when you push your branch to GitHub succeed (this may include Circle CI, or Code Climate tests).
+
+   - Make sure any and all tests that run when you push your branch to GitHub succeed (this may include Circle CI, or Code Climate tests).
 
 1. When you have made sure that your newly rebased branch did not break any tests on GitHub, you can checkout the master branch in your terminal by running: `git checkout master` and `git pull origin master` to grab any new changes to the master branch that you might not have.
 
@@ -304,8 +317,8 @@ For the purposes of this example explaining rebasing, let's say that the branch 
 
 Voila! You're done. You've successfully rebased a branch onto the master branch!
 
-
 ## Additional Resources
+
 - [GitHub Pull Requests for Everyone](https://seesparkbox.com/foundry/github_pull_requests_for_everyone) by Catherine Meade
 - [Give Better Pull Requests With Screencasts](https://seesparkbox.com/foundry/give_better_pull_requests_with_screencasts) by Ethan Muller
 - [Stop Giving Depressing Code Reviews](https://seesparkbox.com/foundry/stop_giving_depressing_code_reviews) by Bryan Braun
@@ -319,11 +332,14 @@ Voila! You're done. You've successfully rebased a branch onto the master branch!
 [karmac]: http://karma-runner.github.io/0.8/dev/git-commit-msg.html
 [365]: http://365git.tumblr.com/post/3308646748/writing-git-commit-messages
 [tpope]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-[Draft PRs]: https://github.blog/2019-02-14-introducing-draft-pull-requests/
-[pull_request]: https://help.github.com/articles/using-pull-requests
+[Draft PR]: https://github.blog/2019-02-14-introducing-draft-pull-requests/
+[pull request]: https://help.github.com/articles/using-pull-requests
 [Sparkbox]: http://seesparkbox.com
-[Sprintly]: https://sprint.ly/
 [pull request template]: https://seesparkbox.com/foundry/better_pull_requests_merge_requests_with_templates
 [example PR template]: ./PULL_REQUEST_TEMPLATE.md
 [example issue template]: ./ISSUE_TEMPLATE.md
 [Create a branch]: #naming-branches
+[curate your commit history]: #curating-your-commit-history
+[Conventional Commits]: https://www.conventionalcommits.org/en/v1.0.0/
+[Taking Control of your Commit History]: https://seesparkbox.com/foundry/take_control_of_your_commit_history
+[foundry_curated_commits]: https://sparkbox.com/foundry/interactive_rebasing_curates_commits_to_speed_up_pull_request_review_process
