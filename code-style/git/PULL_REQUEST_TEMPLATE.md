@@ -8,7 +8,7 @@ Designs: [Designs](DESIGN_URL)
 See Story: [ISSUE_NUMBER](ISSUE_URL)
 
 ### Validation
-<!-- Add description of work done here -->
+<!-- Delete anything irrelevant to this PR -->
 
 * [ ] This PR has visual elements, so it was reviewed by a designer.
 * [ ] This PR has code changes, and our linters still pass.
