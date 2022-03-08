@@ -117,7 +117,8 @@ Find the [allowed types above](#Allowed-Values-for-Types).
 
 An [imperative tone][365] is also helpful in conveying what a commit does,
 rather than what it did. For example, use **change**, not _changed_ or
-_changes_.
+_changes_. To put it another way: a good subject should complete this sentence:
+["when applied, this commit will..."][drew-devault-link]
 
 ### Funtip
 
@@ -327,3 +328,4 @@ Voila! You're done. You've successfully rebased a branch onto the master branch!
 [example PR template]: ./PULL_REQUEST_TEMPLATE.md
 [example issue template]: ./ISSUE_TEMPLATE.md
 [Create a branch]: #naming-branches
+[drew-devault-link]: https://drewdevault.com/2019/02/25/Using-git-with-discipline.html
