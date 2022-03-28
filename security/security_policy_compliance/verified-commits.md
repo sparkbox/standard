@@ -74,7 +74,7 @@ There is a [dedicated repo](https://github.com/sparkbox/gpg-verification) for ca
 1. Clone the repo: `git clone git@github.com:sparkbox/gpg-verification.git`.
 2. Make a [empty commit](https://git-scm.com/docs/git-commit#git-commit---allow-empty) in the repo: `git commit --allow-empty -m "$(git config --get user.name): verifying commits on $(date "+%Y-%m-%d")"`.
 3. Push up your newly made commit: `git push`.
-4. [Browse the repo](https://github.com/sparkbox/gpg-verification/commits/master) and take a screenshot showing your commit. Be sure to include the time and "Verified" badge.
+4. [Browse the repo](https://github.com/sparkbox/gpg-verification/commits/main) and take a screenshot showing your commit. Be sure to include the time and "Verified" badge.
 
 ## Github Desktop
 
@@ -82,7 +82,7 @@ The Github Mac app does not support signed commits at the time of this writing. 
 
 ## Keeping Your Key Safe
 
-As explained in the beginning, you have a _public key_ and a _private key_. Wherever this guide talks about sharing a key (specifically, with Github) it means the _public key_. As an absurd example, this key could be posted on an Interstate billboard and you would have nothing to worry about. It is designed to be shared far and wide with anyone who may want to verify your identity. The _private key_ however is altogether different. This should __never__ be shared with any person or service. It should never leave the confines of your computer, except to be transferred to a new computer. Ideally this transfer happens offline, as infrequently as possible, with a trusted removable storage device. Don't hesitate to get help with this step if you are at all unsure. A compromised private key can be used to impersonate you.
+As explained in the beginning, you have a _public key_ and a _private key_. Wherever this guide talks about sharing a key (specifically, with Github) it means the _public key_. As an absurd example, this key could be posted on an Interstate billboard and you would have nothing to worry about. It is designed to be shared far and wide with anyone who may want to verify your identity. The _private key_ however is altogether different. This should **never** be shared with any person or service. It should never leave the confines of your computer, except to be transferred to a new computer. Ideally this transfer happens offline, as infrequently as possible, with a trusted removable storage device. Don't hesitate to get help with this step if you are at all unsure. A compromised private key can be used to impersonate you.
 
 ## Expired Keys
 
