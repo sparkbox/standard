@@ -31,7 +31,7 @@ message that includes _Your Mac is up to date_.
 You can install updates from the command line using the `softwareupdate` tool.
 To install recommended updates with progress indication run:
 
-    $ sudo softwareupdate -ir --verbose
+    sudo softwareupdate -ir --verbose
 
 ## Installing Updates from the App Store
 
