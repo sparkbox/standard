@@ -1,6 +1,6 @@
 # Software
 
-Software [we](https://seesparkbox.com) prefer to use when the need arises.
+Software [we](https://sparkbox.com) prefer to use when the need arises.
 
 * **[Apache](apache)**
 * **[SSH](ssh)**

@@ -1,4 +1,4 @@
-This is an example of a centralized repository of project information. Having a clear, easy-to-use place that everyone can find what they need at any time is crucial, especially when handling large projects with lots of moving parts and teammembers. [Additional details on the Project Hub](http://seesparkbox.com/foundry/project_hub).
+This is an example of a centralized repository of project information. Having a clear, easy-to-use place that everyone can find what they need at any time is crucial, especially when handling large projects with lots of moving parts and teammembers. [Additional details on the Project Hub](http://sparkbox.com/foundry/project_hub).
 
 #Table of Contents
 - [Environments](#environments)

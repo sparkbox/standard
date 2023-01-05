@@ -4,7 +4,7 @@
 
 ### Build Right, Build Better, Build Accessibly
 
-For a long time, Sparkbox has had the goal to build right and to build a better web. In the past couple of years, we have invested in and focused on web accessibility as part of these goals: leveling up our developers with [certifications](https://www.accessibilityassociation.org/certification), bringing in people to do usability testing in person, and having a [Maker Series](https://seesparkbox.com/foundry/derek_featherstone_web_accessibility_and_inclusive_design) dedicated to the topic. We believe that all websites should be built accessibly and that accessibility should be a part of our whole process rather than a task we do at the end of a project. By prioritizing accessibility, we build websites that enable a wider audience to access the web while also providing a useful and enjoyable user experience.
+For a long time, Sparkbox has had the goal to build right and to build a better web. In the past couple of years, we have invested in and focused on web accessibility as part of these goals: leveling up our developers with [certifications](https://www.accessibilityassociation.org/certification), bringing in people to do usability testing in person, and having a [Maker Series](https://sparkbox.com/foundry/derek_featherstone_web_accessibility_and_inclusive_design) dedicated to the topic. We believe that all websites should be built accessibly and that accessibility should be a part of our whole process rather than a task we do at the end of a project. By prioritizing accessibility, we build websites that enable a wider audience to access the web while also providing a useful and enjoyable user experience.
 
 
 ### WCAG 2.1 AA Principles Compliance

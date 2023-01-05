@@ -304,7 +304,7 @@ In support of **creating, reviewing, and feedback** during a project we know it 
 
     * creating and maintaining a clear and efficient project setup through automation and Readme’s
 
-    * [providing respectful](https://seesparkbox.com/foundry/github_pull_requests_for_everyone), [constructive critique of code](https://seesparkbox.com/foundry/stop_giving_depressing_code_reviews), architecture, designs, and other project artifacts
+    * [providing respectful](https://sparkbox.com/foundry/github_pull_requests_for_everyone), [constructive critique of code](https://sparkbox.com/foundry/stop_giving_depressing_code_reviews), architecture, designs, and other project artifacts
 
 ### We Pursue Quality, Usability, Beauty, and Sustainability 
 
@@ -328,9 +328,9 @@ In support of **quality, usability, beauty, and sustainability** we feel a stron
 
     * create and follow cohesive naming conventions and file structures
 
-    * be aware of, use, and recommend [software patterns and practices](https://seesparkbox.com/foundry/javascript_design_patterns) which lend to well structured code
+    * be aware of, use, and recommend [software patterns and practices](https://sparkbox.com/foundry/javascript_design_patterns) which lend to well structured code
 
-    * implement automated tests to form an [appropriate test suite shape](https://seesparkbox.com/foundry/mow_your_own_yard)
+    * implement automated tests to form an [appropriate test suite shape](https://sparkbox.com/foundry/mow_your_own_yard)
 
 ### We Share Development Learnings and Embrace Improvement
 
@@ -338,11 +338,11 @@ In support of **learning, teaching, and improving** we recognize the importance 
 
 * Leveling up our teammates, client teams, and clarifying our own understanding through in-project mentorship, pairing, and demos
 
-* Constantly replenishing the industry’s talent pool by actively participating in Sparkbox [apprenticeships](http://apprentices.seesparkbox.com/) through office hours, pairing, responding to Slack questions, and presenting curriculum topics
+* Constantly replenishing the industry’s talent pool by actively participating in Sparkbox [apprenticeships](http://apprentices.sparkbox.com/) through office hours, pairing, responding to Slack questions, and presenting curriculum topics
 
 * Sharing our knowledge, expertise, and experience with the industry through workshops and presentations at conferences and meetups
 
-* Giving [thoughtful responses on Pull Requests](https://seesparkbox.com/foundry/stop_giving_depressing_code_reviews) and Slack questions, such as:
+* Giving [thoughtful responses on Pull Requests](https://sparkbox.com/foundry/stop_giving_depressing_code_reviews) and Slack questions, such as:
 
     * offering references, explanations, and reasoning behind suggestions
 

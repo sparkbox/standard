@@ -113,7 +113,7 @@ Devices
 * [ ] add modernizr only if needed
 * [ ] build custom version of modernizr (keep file small)
 * [ ] Transition Typeography.com fonts to Production mode
-* [ ] Assure [assets are fingerprinted](https://seesparkbox.com/foundry/automation_ftw_bust_your_cache) possibly with [`cachebust`](https://github.com/sparkbox/cachebust)
+* [ ] Assure [assets are fingerprinted](https://sparkbox.com/foundry/automation_ftw_bust_your_cache) possibly with [`cachebust`](https://github.com/sparkbox/cachebust)
 
 ### Server Related
 
@@ -141,7 +141,7 @@ bugs, etc.
 ### Marketing
 
 * [ ] Submit to Galleries
-* [ ] Add to seesparkbox.com work section
+* [ ] Add to sparkbox.com work section
 * [ ] Blog about launch
 * [ ] Tweet from @hearsparkbox
 * [ ] Request client quote/recommendation (if appropriate).

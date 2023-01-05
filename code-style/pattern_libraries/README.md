@@ -1,6 +1,6 @@
 # Pattern Libraries
 
-What do we consider a "[pattern library](https://seesparkbox.com/foundry/building_pattern_libraries_in_react_with_storybook)" to be, exactly? At Sparkbox, our pattern libraries typically consist of all of the "components" that make up a project. We usually combine those components into larger pieces or entire "pages" so that we have some kind of static representation of how the components are used.
+What do we consider a "[pattern library](https://sparkbox.com/foundry/building_pattern_libraries_in_react_with_storybook)" to be, exactly? At Sparkbox, our pattern libraries typically consist of all of the "components" that make up a project. We usually combine those components into larger pieces or entire "pages" so that we have some kind of static representation of how the components are used.
 
 Ultimately, what we end up with is a guide for those who are implementing those static components and pages into larger systems, and those who will use our components to build off of in the future.
 

@@ -16,5 +16,5 @@ Don't be a one person wolf pack. If for some reason we have a project with only 
 
 ## Additional Reading
 
-- [Code Review](https://seesparkbox.com/foundry/code_review)
-- [Stop Giving Depressing Code Reviews](https://seesparkbox.com/foundry/stop_giving_depressing_code_reviews)
+- [Code Review](https://sparkbox.com/foundry/code_review)
+- [Stop Giving Depressing Code Reviews](https://sparkbox.com/foundry/stop_giving_depressing_code_reviews)

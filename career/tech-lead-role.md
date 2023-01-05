@@ -83,7 +83,7 @@
 
 
 
-*   [Making the Leap to Tech Lead (Article, Cromwell)](https://seesparkbox.com/foundry/making_the_leap_to_tech_lead)
+*   [Making the Leap to Tech Lead (Article, Cromwell)](https://sparkbox.com/foundry/making_the_leap_to_tech_lead)
 *   [Making the Leap to Tech Lead (Video, Cromwell)](https://www.youtube.com/watch?v=Lx8BepRpfvg&feature=youtu.be&list=PL6De8qQmbLARL4YgjgJqa3cP83EcXRIrI)
 *   Build Right: Sustainable Software
     *   [Full Day Slides](https://drive.google.com/open?id=1RAdv_2EtRcZEZri-zUaaFXi8supTduC__Cr97UEj4fE)
