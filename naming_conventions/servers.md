@@ -6,7 +6,7 @@ Servers should be named consistently and in a manner in which they can be easily
 <domain-or-client-name>-<server-type-xx>-<environment>
 ```
 
-- `domain-or-client-name`: this should be the name of the domain or client name the server will support, i.e. `seesparkbox.com`, `merchantssecurity` or `dpandl`
+- `domain-or-client-name`: this should be the name of the domain or client name the server will support, i.e. `sparkbox.com`, `merchantssecurity` or `dpandl`
 - `server-type`: this should be an acronym or short description of the type of server it is, which should typically be one of the following:
   - `web`: web server
   - `db`: database server
@@ -21,14 +21,14 @@ Servers should be named consistently and in a manner in which they can be easily
 
 ### Examples
 
-- `seesparkbox.com-lb01-prod`
-- `seesparkbox.com-db01-prod`
-- `seesparkbox.com-web01-prod`
-- `seesparkbox.com-web02-prod`
-- `seesparkbox.com-lb01-qa`
-- `seesparkbox.com-db01-qa`
-- `seesparkbox.com-web01-qa`
-- `seesparkbox.com-web02-qa`
+- `sparkbox.com-lb01-prod`
+- `sparkbox.com-db01-prod`
+- `sparkbox.com-web01-prod`
+- `sparkbox.com-web02-prod`
+- `sparkbox.com-lb01-qa`
+- `sparkbox.com-db01-qa`
+- `sparkbox.com-web01-qa`
+- `sparkbox.com-web02-qa`
 - `merchantssecurity-lb01-prod`
 - `merchantssecurity-db01-prod`
 - `merchantssecurity-web01-prod`
