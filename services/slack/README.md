@@ -31,7 +31,7 @@ The channel for sharing interesting conferences, Call for Speakers, and planning
 Channels to discuss office-specific happenings, such as lunch plans.
 
 ##### #-gems
-A collection of quotations from your Sparkbox community, curated in part by **gem-me-bot**. Share a gem publicly with the `:earth-americas:` reaction, or hide it from the public eye with the `:x:` response. There's even [a Foundry article](https://seesparkbox.com/foundry/sparkbox_gems) if you'd like to learn more.
+A collection of quotations from your Sparkbox community, curated in part by **gem-me-bot**. Share a gem publicly with the `:earth-americas:` reaction, or hide it from the public eye with the `:x:` response. There's even [a Foundry article](https://sparkbox.com/foundry/sparkbox_gems) if you'd like to learn more.
 
 ##### #-know-your-company
 A place to discuss fun facts about coworkers, along with weekly KYC email answers.

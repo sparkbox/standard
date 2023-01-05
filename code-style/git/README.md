@@ -319,14 +319,14 @@ Voila! You're done. You've successfully rebased a branch onto the master branch!
 
 ## Additional Resources
 
-- [GitHub Pull Requests for Everyone](https://seesparkbox.com/foundry/github_pull_requests_for_everyone) by Catherine Meade
-- [Give Better Pull Requests With Screencasts](https://seesparkbox.com/foundry/give_better_pull_requests_with_screencasts) by Ethan Muller
-- [Stop Giving Depressing Code Reviews](https://seesparkbox.com/foundry/stop_giving_depressing_code_reviews) by Bryan Braun
-- [Git is a SHA Management Tool](https://seesparkbox.com/foundry/use_git_commands_git_reset_git_log_git_reflog_git_cherry-pick_to_manage_shas) by Melissa Thompson
-- [I Screwed Up Git; How Do I Fix It?](https://seesparkbox.com/foundry/solutions_to_github_issues_with_git_merges_and_commits) by Catherine Meade
-- [Better Pull Requests & Merge Requests With Templates](https://seesparkbox.com/foundry/better_pull_requests_merge_requests_with_templates) by Patrick Fulton
-- [To Squash or Not to Squash?](https://seesparkbox.com/foundry/to_squash_or_not_to_squash) by Divya Sasidharan
-- [How to Not Dread Rebases When Managing Long-Lived Feature Branches](https://seesparkbox.com/foundry/how_to_not_dread_rebases_when_managing_long_lived_feature_branches) by Adam Simpson
+- [GitHub Pull Requests for Everyone](https://sparkbox.com/foundry/github_pull_requests_for_everyone) by Catherine Meade
+- [Give Better Pull Requests With Screencasts](https://sparkbox.com/foundry/give_better_pull_requests_with_screencasts) by Ethan Muller
+- [Stop Giving Depressing Code Reviews](https://sparkbox.com/foundry/stop_giving_depressing_code_reviews) by Bryan Braun
+- [Git is a SHA Management Tool](https://sparkbox.com/foundry/use_git_commands_git_reset_git_log_git_reflog_git_cherry-pick_to_manage_shas) by Melissa Thompson
+- [I Screwed Up Git; How Do I Fix It?](https://sparkbox.com/foundry/solutions_to_github_issues_with_git_merges_and_commits) by Catherine Meade
+- [Better Pull Requests & Merge Requests With Templates](https://sparkbox.com/foundry/better_pull_requests_merge_requests_with_templates) by Patrick Fulton
+- [To Squash or Not to Squash?](https://sparkbox.com/foundry/to_squash_or_not_to_squash) by Divya Sasidharan
+- [How to Not Dread Rebases When Managing Long-Lived Feature Branches](https://sparkbox.com/foundry/how_to_not_dread_rebases_when_managing_long_lived_feature_branches) by Adam Simpson
 
 [angularc]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
 [karmac]: http://karma-runner.github.io/0.8/dev/git-commit-msg.html
@@ -334,12 +334,12 @@ Voila! You're done. You've successfully rebased a branch onto the master branch!
 [tpope]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [Draft PR]: https://github.blog/2019-02-14-introducing-draft-pull-requests/
 [pull request]: https://help.github.com/articles/using-pull-requests
-[Sparkbox]: http://seesparkbox.com
-[pull request template]: https://seesparkbox.com/foundry/better_pull_requests_merge_requests_with_templates
+[Sparkbox]: http://sparkbox.com
+[pull request template]: https://sparkbox.com/foundry/better_pull_requests_merge_requests_with_templates
 [example PR template]: ./PULL_REQUEST_TEMPLATE.md
 [example issue template]: ./ISSUE_TEMPLATE.md
 [Create a branch]: #naming-branches
 [curate your commit history]: #curating-your-commit-history
 [Conventional Commits]: https://www.conventionalcommits.org/en/v1.0.0/
-[Taking Control of your Commit History]: https://seesparkbox.com/foundry/take_control_of_your_commit_history
+[Taking Control of your Commit History]: https://sparkbox.com/foundry/take_control_of_your_commit_history
 [foundry_curated_commits]: https://sparkbox.com/foundry/interactive_rebasing_curates_commits_to_speed_up_pull_request_review_process

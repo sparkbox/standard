@@ -263,5 +263,5 @@ Future developers will be able to learn a lot about this piece of code by the cl
 
 - [ITCSS: Scalable and Maintainable CSS Architecture](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
 - [BEM Website](http://getbem.com)
-- [BEM by Example](https://seesparkbox.com/foundry/bem_by_example)
-- [Thoughtful CSS Architecture](https://seesparkbox.com/foundry/thoughtful_css_architecture)
+- [BEM by Example](https://sparkbox.com/foundry/bem_by_example)
+- [Thoughtful CSS Architecture](https://sparkbox.com/foundry/thoughtful_css_architecture)

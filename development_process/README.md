@@ -50,4 +50,4 @@ The release phase is when we begin sending our built artifacts to production.
 We don’t believe in a “big bang” release structure, as this presents too much risk and not enough flexibility to ensure we’re building the right thing early on. We believe in releasing the smallest parts of our application as early as possible. This makes the flexibility required in our improve phase possible.
 
 ### Release Often
-Through the use of [feature flags](https://seesparkbox.com/foundry/feature_flags_continuous_deployment), we can ensure that we can track our changes and roll them back quickly without a separate deploy. This mitigates a lot of the risk in deploying new features.
+Through the use of [feature flags](https://sparkbox.com/foundry/feature_flags_continuous_deployment), we can ensure that we can track our changes and roll them back quickly without a separate deploy. This mitigates a lot of the risk in deploying new features.
