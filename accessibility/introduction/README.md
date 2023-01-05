@@ -4,12 +4,12 @@
 
 ### Build Right, Build Better, Build Accessibly
 
-For a long time, Sparkbox has had the goal to build right and to build a better web. In the past couple of years, we have invested in and focused on web accessibility as part of these goals: leveling up our developers with [certifications](https://www.accessibilityassociation.org/certification), bringing in people to do usability testing in person, and having a [Maker Series](https://seesparkbox.com/foundry/derek_featherstone_web_accessibility_and_inclusive_design) dedicated to the topic. We believe that all websites should be built accessibly and that accessibility should be a part of our whole process rather than a task we do at the end of a project. By prioritizing accessibility, we build websites that enable a wider audience to access the web while also providing a useful and enjoyable user experience.
+For a long time, Sparkbox has had the goal to build right and to build a better web. In the past couple of years, we have invested in and focused on web accessibility as part of these goals: leveling up our developers with [certifications](https://www.accessibilityassociation.org/certification), bringing in people to do usability testing in person, and having a [Maker Series](https://sparkbox.com/foundry/derek_featherstone_web_accessibility_and_inclusive_design) dedicated to the topic. We believe that all websites should be built accessibly and that accessibility should be a part of our whole process rather than a task we do at the end of a project. By prioritizing accessibility, we build websites that enable a wider audience to access the web while also providing a useful and enjoyable user experience.
 
 
 ### WCAG 2.1 AA Principles Compliance
 
-Sparkbox aims to fulfill the principles of WCAG 2.1 AA, with an especial focus on the experiences of people with physical, hearing, and sight limitations who employ the use of screen readers or keyboard-only technology (the W3C [does not recommend](https://www.w3.org/TR/WCAG21/#cc1) requiring AAA compliance as it can be impossible to attain for certain types of content). Secondarily, we work to create good experiences for people who encounter color contrast issues and for users with cognitive disabilities. However, our user base focus may differ depending on the most common browsers or technologies utilized on our clients’ sites. 
+Sparkbox aims to fulfill the principles of WCAG 2.1 AA, with an especial focus on the experiences of people with physical, hearing, and sight limitations who employ the use of screen readers or keyboard-only technology (the W3C [does not recommend](https://www.w3.org/TR/WCAG21/#cc1) requiring AAA compliance as it can be impossible to attain for certain types of content). Secondarily, we work to create good experiences for people who encounter color contrast issues and for users with cognitive disabilities. However, our user base focus may differ depending on the most common browsers or technologies utilized on our clients’ sites.
 
 We emphasize the **principles** of WCAG over the success criteria because even if someone builds a website that meets every single WCAG AAA success criterion, they may not actually create an accessible experience as a whole. Highlighting principles allows us to focus on the entire experience of the user as they browse a web page, and in this way, we can create a better and more accessible experience than just trying to “check off” boxes on an accessibility task list.
 
@@ -46,7 +46,7 @@ These statistics demonstrate that people with disabilities consist of a huge por
 
 Everyone should be able to access the web. If this weren’t reason enough for us to build accessibly, we also see the following other benefits:
 
-* A potential 27% increase of the consumer base of our websites 
+* A potential 27% increase of the consumer base of our websites
 * Decreased legal risk from ADA lawsuits
 * Mobile and bandwidth-friendly websites
 * Improved SEO and site-searchability rankings

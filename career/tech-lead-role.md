@@ -3,10 +3,10 @@
 
 ## Overview
 
-*   At Sparkbox, the tech lead is the **right hand to the Project Manager**. 
-*   The success of a tech lead is **measured by the success of the team and the project**. 
+*   At Sparkbox, the tech lead is the **right hand to the Project Manager**.
+*   The success of a tech lead is **measured by the success of the team and the project**.
 *   To be successful, a tech lead needs to be able to **step out of the immediate coding needs of a project** to **understand**, **prepare**, and **regularly articulate the vision** of the project.
-*   Tech lead models [how we work together](https://github.com/sparkbox/standard/blob/master/how-we-work-together.md). 
+*   Tech lead models [how we work together](https://github.com/sparkbox/standard/blob/master/how-we-work-together.md).
 *   A tech lead **empowers and unlocks the team** through communication, leadership, technical skills, and impact.
 
 
@@ -83,7 +83,7 @@
 
 
 
-*   [Making the Leap to Tech Lead (Article, Cromwell)](https://seesparkbox.com/foundry/making_the_leap_to_tech_lead)
+*   [Making the Leap to Tech Lead (Article, Cromwell)](https://sparkbox.com/foundry/making_the_leap_to_tech_lead)
 *   [Making the Leap to Tech Lead (Video, Cromwell)](https://www.youtube.com/watch?v=Lx8BepRpfvg&feature=youtu.be&list=PL6De8qQmbLARL4YgjgJqa3cP83EcXRIrI)
 *   Build Right: Sustainable Software
     *   [Full Day Slides](https://drive.google.com/open?id=1RAdv_2EtRcZEZri-zUaaFXi8supTduC__Cr97UEj4fE)

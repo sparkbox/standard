@@ -39,4 +39,4 @@ How we dance.
 _Inspired by [Thoughtbot's Playbook][inspiration]_
 
 [inspiration]: https://playbook.thoughtbot.com
-[sparkbox]: http://seesparkbox.com
+[sparkbox]: http://sparkbox.com

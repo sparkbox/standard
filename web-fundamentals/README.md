@@ -12,6 +12,6 @@ There are a lot of topics and skills that go into building for the web. We recog
 
 
 [career growth]: https://www.figma.com/proto/0FdKsjKvwf2H6KQpgRvT9Q/Sparkbox-Developer-Career-Growth-Framework?scaling=scale-down-width&hide-ui=1
-[apprenticeship]: https://apprentices.seesparkbox.com
+[apprenticeship]: https://apprentices.sparkbox.com
 [html-css]: ./html-css/
 [build-tooling]: ./build-tools-and-project-setup/

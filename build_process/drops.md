@@ -41,4 +41,4 @@ Also included is a link to view the differences between the previous Release Tag
 [github-flow]: https://guides.github.com/introduction/flow/index.html
 [sparkbox-git-style]: https://github.com/sparkbox/how_to/tree/master/style/git
 [sparkbox-code-reviews]: https://github.com/sparkbox/how_to/tree/master/style/code_reviews
-[sparkbox-content-priority]: https://seesparkbox.com/foundry/content_priority_guide
+[sparkbox-content-priority]: https://sparkbox.com/foundry/content_priority_guide
