@@ -1,6 +1,6 @@
 # CMS Platforms
 
-For many years, Sparkbox has relied on and recommended [ExpressionEngine] as the CMS of choice. In fact, ExpressionEngine continues to power https://seesparkbox.com. Today, we recommend one of two CMS platforms:
+For many years, Sparkbox has relied on and recommended [ExpressionEngine] as the CMS of choice. In fact, ExpressionEngine continues to power https://sparkbox.com. Today, we recommend one of two CMS platforms:
 
 ## [CraftCMS]
 

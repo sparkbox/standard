@@ -10,7 +10,7 @@ Sparkbox, Creative Director
 123 Webster Street, Studio 2
 Dayton, OH 45402
 937.401.0915
-www.seesparkbox.com
+www.sparkbox.com
 ```
 
 - First line - `Arial, Bold, 16px, #33717a`
