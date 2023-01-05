@@ -7,7 +7,7 @@ How we make things beautiful.
 
 How we write code.
 
-How we dance.
+How we dance. 
 
 * **[Almanac](/almanac)** _Our list of browser bugs and quirks._
 * **[Apprenticeship](/apprenticeship)** _How we teach._
