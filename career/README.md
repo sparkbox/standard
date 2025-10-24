@@ -41,4 +41,4 @@ to review the [Career Growth Framework][Career Growth Framework] and complete th
 > ability to positively impact the following projects using the technologies.
 
 
-[Career Growth Framework]: https://www.figma.com/proto/0FdKsjKvwf2H6KQpgRvT9Q/Developer-Career-Growth-Framework?scaling=scale-down-width&hide-ui=1
+[Career Growth Framework]: https://docs.google.com/spreadsheets/d/1q2bIW4yAgqhZYR0BIkgieyBonHhorH-XYiVpUJ90_rg/edit?usp=sharing
