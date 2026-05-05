@@ -73,7 +73,7 @@ function validate_time_machine {
         success "\"${VOLUME_NAME}\" is encrypted."
         ;;
       No)
-        fail "\"${VOLUME_NAME}\" is not encrypted." "https://github.com/sparkbox/standard/blob/main/security/timemachine.md"
+        fail "\"${VOLUME_NAME}\" is not encrypted." "https://github.com/sparkbox/standard/blob/main/security/security_policy_compliance/timemachine.md"
         ;;
       *)
         fail "Unable to locate \"${VOLUME_NAME}\". Please check your connection to this volume and try again."
@@ -88,7 +88,7 @@ function validate_full_disk_encryption {
 
   echo "${FILEVAULT_STATUS}" | grep 'FileVault is On' &> /dev/null
   if [ $? != 0 ]; then
-    fail "${FILEVAULT_STATUS}" "https://github.com/sparkbox/standard/blob/main/security/filevault.md"
+    fail "${FILEVAULT_STATUS}" "https://github.com/sparkbox/standard/blob/main/security/security_policy_compliance/filevault.md"
   else
     success "${FILEVAULT_STATUS}"
   fi

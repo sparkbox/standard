@@ -39,8 +39,8 @@
 [General Policy]: ./security/README.md#general-policy
 [Instructions]: ./security/README.md#instructions
 [Recommended Mac Updates]: ./security/mac-updates.md
-[Time Machine Backup Disk Encryption]: ./security/timemachine.md
-[Filevault Full Disk Encryption]: ./security/filevault.md
+[Time Machine Backup Disk Encryption]: ./security/security_policy_compliance/timemachine.md
+[Filevault Full Disk Encryption]: ./security/security_policy_compliance/filevault.md
 [Device Security]: ./security/devices.md
 [Verified Git Commits]: ./security/verified-commits.md
 [Drops Process]: ./build_process/drops.md
