@@ -154,11 +154,11 @@ function validate_software_updates {
   # because security updates are typically patches, they're required
   # this currently requires minor version updates as well, but that may be overkill
   if [ "$MAC_OS_UPDATE_MINOR_VERSION" != $MACHINE_MAC_OS_VERSION ]; then
-    fail "A MacOS update is required:\n\n\tCurrent machine OS version:\t$MACHINE_MAC_OS_VERSION\n\tNeeds updated to version:\t$MAC_OS_UPDATE_MINOR_VERSION" "https://github.com/sparkbox/standard/blob/main/security/mac-updates.md"
+    fail "A MacOS update is required:\n\n\tCurrent machine OS version:\t$MACHINE_MAC_OS_VERSION\n\tNeeds updated to version:\t$MAC_OS_UPDATE_MINOR_VERSION" "https://github.com/sparkbox/standard/blob/main/security/security_policy_compliance/mac-updates.md"
   fi
 
    if [ "$REQUIRED_SOFTWARE_UPDATES" != '' ]; then
-    fail "Software updates required:\n\n${REQUIRED_SOFTWARE_UPDATES}" "https://github.com/sparkbox/standard/blob/main/security/mac-updates.md"
+    fail "Software updates required:\n\n${REQUIRED_SOFTWARE_UPDATES}" "https://github.com/sparkbox/standard/blob/main/security/security_policy_compliance/mac-updates.md"
    fi
 }
 
