@@ -11,7 +11,7 @@ Let's be more inclusive of our remote coworkers and clients. Here are some ways 
 - Join meetings 2-5 minutes early, to encourage friendly, human banter. Avoid jumping directly into tasking whenever possible.
 - Use a headset/headphones in public spaces. Avoid noisy or high-traffic areas, even if they don't seem loud to you.
 - Let people know if you're not using a headset, or if they are "on blast" in public spaces.
-- Activities with physical paper, whiteboards, or other items should be avoided. Use online tools such as [draw.io][] instead.
+- Activities with physical paper, whiteboards, or other items should be avoided. Use online tools such as [Figjam][] instead.
 - If your team is able, when one person is remote on a meeting, everyone should be remote. Find individual spaces, such as your desk, so that everyone is on the call separately.
   - This equalizes the speaking floor so that everyone involved has the same opportunity to share and listen, and no one person has to compete with a large conference room where the video screen is quickly forgotten.
   - This is a more important type of meeting setup for problem-solving or brainstorming meetings, as meetings like Stand-ups typically have time set aside for individuals to speak.
@@ -46,7 +46,7 @@ Here are some links to articles and videos we love.
 [Slack]: https://slack.com/
 [Zoom]: https://www.zoom.us/
 [Remote Guilt]: https://www.themuse.com/advice/working-from-home-4-times-you-should-sign-off
-[draw.io]: https://www.draw.io/
+[Figjam]: https://www.figma.com/figjam/
 [How to Build Effective Remote Teams]: https://leggetter.dev/articles/how-to-build-effective-remote-teams/
 [Working on Distributed Teams at Mozilla]: https://blog.mozilla.org/inclusion/2019/03/20/working-on-distributed-teams/
 [40 Lessons From 4 Years of Remote Work]: https://open.buffer.com/remote-work-lessons/
