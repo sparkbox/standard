@@ -238,8 +238,6 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
 * Educate others
 
-    * Frontend Design apprenticeship
-
     * Workshops
 
     * Talks
@@ -337,8 +335,6 @@ In support of **quality, usability, beauty, and sustainability** we feel a stron
 In support of **learning, teaching, and improving** we recognize the importance of...
 
 * Leveling up our teammates, client teams, and clarifying our own understanding through in-project mentorship, pairing, and demos
-
-* Constantly replenishing the industry’s talent pool by actively participating in Sparkbox [apprenticeships](http://apprentices.sparkbox.com/) through office hours, pairing, responding to Slack questions, and presenting curriculum topics
 
 * Sharing our knowledge, expertise, and experience with the industry through workshops and presentations at conferences and meetups
 

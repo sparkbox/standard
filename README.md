@@ -9,7 +9,6 @@ How we write code.
 
 How we dance.
 
-* **[Apprenticeship](/apprenticeship)** _How we teach._
 * **[Build Process](/build_process)** _How we build, deploy, and deliver._
 * **[Career](./career)** _How career growth happens and descriptions of roles._
 * **[Code Style](/code-style/README.md)** _The way we write documentation and code._

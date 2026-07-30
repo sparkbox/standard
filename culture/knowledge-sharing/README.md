@@ -1,7 +1,6 @@
 # Knowledge Sharing
 
 - **[Foundry](../../foundry)**
-- **[Apprenticeships](../../apprenticeship)**
 - **Maker Series**
 - **Lunch and learn**
 - **Speaking**
