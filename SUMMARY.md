@@ -1,7 +1,6 @@
 # Summary
 
 * Community
-  * [Meetups]
 * [Planning]
   * [Site Completeness Checklist]
 * Developing
@@ -20,7 +19,6 @@
     * [Device Security]
     * [Verified Git Commits]
 
-[Meetups]: ./meetups/README.md
 [Planning]: ./project_management/README.md
 [Style]: ./style/README.md
 [Build & Deployment]: ./build_process/README.md

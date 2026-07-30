@@ -6,4 +6,3 @@
 - **Speaking**
 - **Workshops**
 - **The Shift**
-- **[Meetups](../../meetups)**
