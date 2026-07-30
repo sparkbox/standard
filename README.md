@@ -16,7 +16,6 @@ How we dance.
 * **[Design](/design)** _How we do design._
 * **[Development Process](/development_process)** _How we develop._
 * **[Foundry](/foundry)** _How we write on the Foundry._
-* **[Platforms](/platforms)** _How we host applications and content._
 * **[Onboarding](/onboarding)** _How we bring new people onto the team._
 * **[Project Management](/project_management/README.md)** _How we manage our projects._
 * **[Security](/security)** _How we keep safe._
