@@ -9,10 +9,6 @@
   * [Build & Deployment]
     * [Node & NPM]
     * [Drops Process]
-  * [Almanac]
-    * [General]
-    * [IE9]
-    * [IE11]
 * [Security]
   * [Principles]
   * [Two Factor Authentication]
@@ -30,10 +26,6 @@
 [Build & Deployment]: ./build_process/README.md
 [Node & NPM]: ./build_process/node.md
 [Security]: ./security/README.md
-[Almanac]: ./almanac/README.md
-[IE9]: ./almanac/IE9.md
-[IE11]: ./almanac/IE11.md
-[General]: ./almanac/general.md
 [Principles]: ./security/README.md#principles
 [Two Factor Authentication]: ./security/two-factor-authentication.md
 [General Policy]: ./security/README.md#general-policy

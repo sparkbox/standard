@@ -9,7 +9,6 @@ How we write code.
 
 How we dance.
 
-* **[Almanac](/almanac)** _Our list of browser bugs and quirks._
 * **[Apprenticeship](/apprenticeship)** _How we teach._
 * **[Build Process](/build_process)** _How we build, deploy, and deliver._
 * **[Career](./career)** _How career growth happens and descriptions of roles._
