@@ -104,7 +104,7 @@ While we want to empower and encourage self-motivating teams, our project manage
 
     * Communicate and facilitate cadence with the client and team
 
-    * Own project management tools (like Basecamp, Zenhub, Jira)
+    * Own project management tools
 
     * Facilitate planning, definition, sizing, and prioritization of the work
 
@@ -212,9 +212,7 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
 * Ensure that the product is polished and refined before launch
 
-* Transfer ownership of assets
-
-    * fonts, photography and help client make necessary typography and image purchases
+* Transfer ownership of assets such as fonts, photography and help client make necessary typography and image purchases
 
 * Build with accessibility and performance in mind
 
