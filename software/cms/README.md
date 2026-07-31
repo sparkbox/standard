@@ -9,15 +9,6 @@
 
 ([website](https://www.drupal.org/))
 
-## Craft
-
-- Perfect for small teams & startups
-- Runs on PHP
-- Highly customizable
-- Requires little backend customization
-
-([website](https://craftcms.com/))
-
 ## Squarespace
 
 - Perfect for small teams & startups
@@ -31,5 +22,5 @@
 
 Sparkbox also has extensive experience with:
 
-- ExpressionEngine ([website](https://expressionengine.com/))
 - WordPress ([website](https://wordpress.org/))
+- Contentful ([website](https://www.contentful.com/))
