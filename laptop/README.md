@@ -12,7 +12,7 @@ Sparkbox provides several tools and guidelines to help with laptop maintenance, 
 After receiving a laptop, creating an account, and logging in, the following should be done before using it for work:
 
 1. Run any pending macOS and system updates.
-3. Ensure the machine meets the Sparkbox [security requirements](../security/README.md).
+1. Ensure the machine meets the Sparkbox [security requirements](../security/README.md).
 
 ## Hardware Issues
 
