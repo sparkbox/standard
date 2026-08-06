@@ -104,7 +104,7 @@ While we want to empower and encourage self-motivating teams, our project manage
 
     * Communicate and facilitate cadence with the client and team
 
-    * Own project management tools (like Basecamp, Zenhub, Jira)
+    * Own project management tools
 
     * Facilitate planning, definition, sizing, and prioritization of the work
 
@@ -212,9 +212,7 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 
 * Ensure that the product is polished and refined before launch
 
-* Transfer ownership of assets
-
-    * fonts, photography and help client make necessary typography and image purchases
+* Transfer ownership of assets such as fonts, photography and help client make necessary typography and image purchases
 
 * Build with accessibility and performance in mind
 
@@ -237,8 +235,6 @@ Many Sparkboxers are involved in initial staffing, budget, and timeline conversa
 ### We Share Design Learnings and Embrace Improvement
 
 * Educate others
-
-    * Frontend Design apprenticeship
 
     * Workshops
 
@@ -337,8 +333,6 @@ In support of **quality, usability, beauty, and sustainability** we feel a stron
 In support of **learning, teaching, and improving** we recognize the importance of...
 
 * Leveling up our teammates, client teams, and clarifying our own understanding through in-project mentorship, pairing, and demos
-
-* Constantly replenishing the industry’s talent pool by actively participating in Sparkbox [apprenticeships](http://apprentices.sparkbox.com/) through office hours, pairing, responding to Slack questions, and presenting curriculum topics
 
 * Sharing our knowledge, expertise, and experience with the industry through workshops and presentations at conferences and meetups
 

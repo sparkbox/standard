@@ -1,8 +1,4 @@
-# Non-code
-
-A spot to record non-code things, e.g. email signatures!
-
-## Email Signature
+# Email Signature
 
 ```
 Jeremy Loyd

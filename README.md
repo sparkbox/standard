@@ -9,8 +9,9 @@ How we write code.
 
 How we dance.
 
-* **[Almanac](/almanac)** _Our list of browser bugs and quirks._
-* **[Apprenticeship](/apprenticeship)** _How we teach._
+How we [work together](how-we-work-together.md).
+
+* **[Accessibility](/accessibility)** _How we build accessible websites._
 * **[Build Process](/build_process)** _How we build, deploy, and deliver._
 * **[Career](./career)** _How career growth happens and descriptions of roles._
 * **[Code Style](/code-style/README.md)** _The way we write documentation and code._
@@ -18,23 +19,13 @@ How we dance.
 * **[Design](/design)** _How we do design._
 * **[Development Process](/development_process)** _How we develop._
 * **[Foundry](/foundry)** _How we write on the Foundry._
-* **[Platforms](/platforms)** _How we host applications and content._
-* **[Meetups](/meetups)** _Our MO for preparing and facilitating meetups._
-* **[Office](/office)** _How we interact with traditional office supplies and services._
+* **[Interviews](/interviews)** _How we hire._
+* **[Laptop Maintenance](/laptop)** _How we re-image machines and set new ones up._
+* **[Onboarding](/onboarding)** _How we bring new people onto the team._
 * **[Project Management](/project_management/README.md)** _How we manage our projects._
 * **[Security](/security)** _How we keep safe._
-* **[Services we Use](/services)** _Dropbox, Skype, etc._
-* **[Software](/software)** _Vim, Sublime, etc._
-* **[Laptop Maintenance](/laptop/README.md)** _How we re-image machines and set new ones up._
-
-
-
-
-
-
-
-
-
+* **[Services we Use](/services)** _How we use the services that support our work._
+* **[Software](/software)** _How we configure and use our software._
 
 _Inspired by [Thoughtbot's Playbook][inspiration]_
 

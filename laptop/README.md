@@ -12,14 +12,7 @@ Sparkbox provides several tools and guidelines to help with laptop maintenance, 
 After receiving a laptop, creating an account, and logging in, the following should be done before using it for work:
 
 1. Run any pending macOS and system updates.
-2. Run [the Laptop Script](#laptop-script).
-3. Ensure the machine meets the Sparkbox [security requirements](../security/README.md).
-
-### The Laptop Script
-
-Sparkbox provides [a Laptop Script](https://github.com/sparkbox/laptop), which sets up the software, developer tools, and security practices we commonly use.
-
-Running this script is one of the first things we do on a new laptop. Its purpose is to provide a common foundation. Once it has been run, employees are free to install additional software and customize their development environment to meet their preferences.
+1. Ensure the machine meets the Sparkbox [security requirements](../security/README.md).
 
 ## Hardware Issues
 

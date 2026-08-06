@@ -7,15 +7,11 @@
 * [ ] Automated Deployments
 * [ ] Preproduction Environments: Disallows indexing
 * [ ] Preproduction Environments: Require Basic Authentication
-* [ ] Preproduction Environments: Whitelist the Sparkbox network - [instructions] (./project_management/htaccess_snippets.md)
 * [ ] Purchase CMS license (if applicable)
 * [ ] Transition/Purchase Font accounts in Customer Specific Account
 
 ### DevOps
 
-* [ ] Record deployments using a service like [Rollbar]
-* [ ] Capture and Monitor ongoing performance using a service like [NewRelic]
-* [ ] Assure log rotation is in place using a utility like [LogRotate]
 * [ ] Require SSL
 
 ### Design
@@ -145,23 +141,3 @@ bugs, etc.
 * [ ] Blog about launch
 * [ ] Tweet from @hearsparkbox
 * [ ] Request client quote/recommendation (if appropriate).
-
-### Gallery Submittal:
-
-1. [ ] We do a “normal submission” on www.awwwards.com because
-it is well respected and well screened
-http://www.awwwards.com/submit
-for around $21
-
-2. [ ] Then we use http://thecssgallerylist.com/ for sheer volume to
-submit to 100 other sites (hitting many popular ones) for $20.
-
-3. [ ] Then we hand-submit the site to a few other purposeful (but free)
-galleries such as:
-mediaqueri.es
-http://www.mobileawesomeness.com/
-http://creattica.com/
-
-[Rollbar]: https://rollbar.com
-[NewRelic]: https://newrelic.com
-[LogRotate]: https://support.rackspace.com/how-to/understanding-logrotate-utility/

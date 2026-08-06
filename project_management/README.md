@@ -1,5 +1,8 @@
 # Project Management
 
+* **[Kickoff Example](kickoff_example.md)**
+* **[Site Completeness Checklist](site_completeness_checklist.md)**
+
 ## Navigating Projects
 
 We recognize and submit to the idea that software projects are sufficiently complex and require 	entire teams to navigate our way to success instead of expecting to predict success at the start of a project. Success is found by navigating the waters of software development through relationships, technical challenges, ideas, and mistakes. No two projects are the same, so teams should feel empowered to adjust the process as they see fit. We only ask that they retain the principles and share their results with the rest of Sparkbox.
@@ -12,9 +15,9 @@ As such, our guiding principles for navigating projects are:
 
 
 ## Tooling
-Just like our dev efforts, everything is in [constant flux to best serve our clients](http://webstandardssherpa.com/reviews/responsive-discovery/) around here. Many of us adore  [ZenHub](https://www.zenhub.io/) or [Trello](https://trello.com/). And we make [Jira](https://www.atlassian.com/software/) work when needed. :)
+Just like our dev efforts, everything is in [constant flux to best serve our clients](http://webstandardssherpa.com/reviews/responsive-discovery/) around here. We use [Jira](https://www.atlassian.com/software/).
 
-We dig using the right tools for each project, which often includes [Basecamp](https://basecamp.com/) (for project updates, discussions, and file sharing) and [InVision](https://www.invisionapp.com/) (for design collaboration).
+We dig using the right tools for each project, which often includes [Basecamp](https://basecamp.com/) (for project updates, discussions, and file sharing) and [Figma](https://www.figma.com/) (for design collaboration).
 
 When choosing tools to help our teams collaborate around work, we use the following principles as our guide:
 
@@ -22,19 +25,9 @@ When choosing tools to help our teams collaborate around work, we use the follow
 2. Be accessible
 3. Efficiently surface remaining work
 
-## Project Hub
-To help counter the confusion that comes with using numerous tools and repositories for large projects, we find it's helpful to create a [Project Hub (centralized repository of project information)](https://github.com/sparkbox/standard/blob/master/project_management/base-hub.md). This helps everyone access exactly what they need when they need it and can help as teammembers join the project.
-
-<img width="904" alt="hub" src="https://cloud.githubusercontent.com/assets/1993557/16318431/32db682e-395d-11e6-8c01-16ca42f7e1ef.png">
-
-_Project Hubs help consolidate all the pertinent high-level project details in one spot._
 
 ## Priorities
-No matter the tools, we aim to keep projects focused on goals, priorities, and removing barriers for the people doing the work and making decisions. We most often use [GitHub](https://github.com) to create user stories or other work that needs done as "Issues" to gather and communicate the scope of work that needs done in detail. We'll often use Zenhub to then provide estimates for the level of effort for those issues and to prioritize those same issues.
-
-<img width="948" alt="kanban" src="https://cloud.githubusercontent.com/assets/1993557/16318388/feb783c0-395c-11e6-9a6e-82d3c56c15cc.png">
-
-_Kanban boards allow you to prioritize work to stay in ultimate control over the work that gets done and when it is done. It's a great way to view priorities and work iteratively._
+No matter the tools, we aim to keep projects focused on goals, priorities, and removing barriers for the people doing the work and making decisions. We most often use Jira to create a backlog of work that needs done. Backlogs are organized into sprints to communicate the scope of work that needs done in detail.
 
 ## Communication & Control
 We estimate work early and do at least weekly transparent reality checks of budgets, timelines, and project health. We share those reality checks (typically via Basecamp with the whole team) and keep you on top of where things stand so that you can make smart decisions throughout the project. Using Zenhub and other kanban boards, while working hourly and giving frequent updates gives you ultimate control over prioritization and how your budget is spent.
@@ -69,18 +62,6 @@ Creating environments for collaboration, and having generally-defined roles is h
 * Attends related meetings (UX/Content/Dev)
 * Assures high quality of design in implementation
 * Pairing with team
-
-**Frontend Hammer:**
-* Determines constraints, tooling, and solutions to make a frontend component exist
-* Writes the majority of code to make a frontend component exist
-* Shares progress with a chisel for final refinement (just like when you would have previously consulted with the designer to have your work reviewed, only the design/dev chisel will code the refinements)
-
-**Frontend Chisel:**
-* Primarily refines the work of others
-* Can fill in and create some new elements when it makes sense
-* Own performance from a design perspective (Image & SVG optimization)
-* Could be the Design Advocate
-* Prefer this person to not be the Hammer
 
 **UX/Content:**
 * Helps spread knowledge across the team and highlights decisions that impact disciplines.

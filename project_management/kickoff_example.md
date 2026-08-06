@@ -1,4 +1,5 @@
-# Kickoff Meetings 
+# Kickoff Meetings
+
 ## Philosophy
 Whenever possible we like to do some groundwork to hear what a project should cover from internal stakeholders, our team, and potential users prior to having a kickoff meeting. This may also include some additional background work to better understand the project landscape depending on the project. Below is a sample agenda. Some of the exercises can be found at http://goodkickoffmeetings.com. Kevin M. Hoffman also has some great philosphy/context in tis article: http://alistapart.com/article/kick-ass-kickoff-meetings.
 
@@ -7,12 +8,12 @@ Over the next day and a half together we hope to get a better understanding arou
 business goals and needs, user goals and needs, content priority and organization, design, process, system architecture, and security requirements.
 
 ### Wednesday, June 24
-- 9-9:30		Recap & Introductions 
+- 9-9:30		Recap & Introductions
 Share what we’ve heard and Individual introductions (explain your role and expectations)
 - 9:30-10:30		Prioritize Goals Exercise
 - 10:30-10:45	Break
 - 10:45-11:15	Discuss Users
-- 11:15-noon		Review User Flows 
+- 11:15-noon		Review User Flows
 - noon-1		Lunch
 - 1-2			Homepage Exercise (note from this particular kickoff, this wasn't enough time for this exercise to come back around and feel "finalized"/"completed")
 - 2-2:15		Break

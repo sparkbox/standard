@@ -5,10 +5,9 @@
   - Humility
   - Empathy
 - **Transparency**
-  - Coffee Hour
+  - All Team Meetings
   - Open Door
   - #Biz
-- **KYC**
 - **Inclusiveness**
   - What is acceptable behavior?
   - How can we make _everyone_ feel welcome?

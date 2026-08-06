@@ -1,6 +1,17 @@
-## SSH
+# SSH
 
-We authenticate with remote servers using [PKI][pki], which means we use generated keys stored in files on our computers rather than passwords that must be typed each time we connect. The first step is to generate these keys using the `ssh-keygen` command:
+## Remote Servers
+
+We authenticate with remote servers using [SB][sb]. Follow the setup and installation instructions in the SB repository to configure your machine and obtain an SSH certificate.
+
+Once you've completed the SB setup, the shared account username can be found in the Sparkbox 1Password vault. See the appropriate server entry for the username and connection details.
+
+[sb]: https://github.com/sparkbox/sb
+
+
+## SSH Keys
+
+For other services that require an SSH key, the first step is to generate these keys using the `ssh-keygen` command:
 
     $ ssh-keygen -t rsa -b 4096
 
@@ -8,17 +19,6 @@ This will ask you a few questions. The first two deal with how to name the files
 
   - id_rsa
   - id_rsa.pub
-
-After you have your keys, clone the [public keys repository][public_keys] repository and add or replace your key. Give it a short but descriptive name to differentiate it from the others.
-
-    $ cp ~/.ssh/id_rsa.pub myockey.pub
-    $ git add myockey.pub
-    $ git commit -m "chore: Adding Yock's public key"
-    $ git push
-
-You should only ever put the `id_rsa.pub` key into this repository and never share `id_rsa`. We use a tool called [Forte][forte] to distribute these keys to our servers. Work with [Ryan][ryan] or [Adam][adam] to get this done.
-
-The shared account username is in the Sparkbox 1Password vault. See the server entry for Sparkbox QA.
 
 ## Using an SSH config file / Creating Identity Files
 
@@ -58,8 +58,3 @@ Verbose mode causes ssh to print debugging messages about its progress. It is ru
 Run `man ssh` for additional parameters you can run with ssh.
 
 [keygen]:https://www.ssh.com/ssh/keygen/
-[adam]:https://sparkbox.slack.com/messages/@adam/
-[ryan]:https://sparkbox.slack.com/messages/@cromwell/
-[public_keys]: https://github.com/sparkbox/public_keys
-[forte]: https://github.com/yock/forte
-[pki]: http://www.techrepublic.com/article/a-beginners-guide-to-public-key-infrastructure/
