@@ -114,7 +114,7 @@ It's fine to commit often. Small, frequent commits make it easier to track and u
 A **pull request** asks your team to review your changes and potentially merge them into `main`.
 
 1. Click **Preview Pull Request** (or **Branch → Create Pull Request**). This opens GitHub in your browser.
-2. Add a title and a short description of what you changed and why. Screenshots are very helpful here.
+2. Add a descriptive title and a brief summary of what you changed and why. Follow the pull request template that is automatically populated when you open a pull request, and be sure to include any steps needed to test your changes, such as how to trigger interactive elements or reproduce specific behaviors. Screenshots or screen recordings are especially helpful for demonstrating visual or interactive changes.
 3. On the right, add **Reviewers** if your team asks you to.
 4. Click **Create pull request**. If your changes are intended for demonstration or feedback rather than merging into the codebase, select **Create draft pull request** instead. Some projects also have a **DO NOT MERGE** label that can be applied to indicate that the pull request should not be merged.
 
