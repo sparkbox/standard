@@ -109,7 +109,7 @@ It's fine to commit often. Small, frequent commits make it easier to track and u
 ### 6. Ask for a review with a pull request
 
 > [!NOTE]  
-> Not all pull requests are intended to be merged. You can create a pull request to only show options or review changes.
+> Not all pull requests are intended to be merged. Draft pull requests can be used to share options or gather feedback on proposed changes. If you're unsure whether to create a regular or draft pull request, check with the project's technical lead.
 
 A **pull request** asks your team to review your changes and potentially merge them into `main`.
 
