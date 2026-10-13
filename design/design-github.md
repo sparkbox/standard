@@ -103,8 +103,8 @@ It's fine to commit often. Small, frequent commits make it easier to track and u
 
 ### 5. Share your branch
 
-1. Click **Publish branch** at the top. This uploads your branch to GitHub so others can see it.
-2. After the first publish, the button changes to **Push origin**. Click it whenever you commit new changes so GitHub stays up to date.
+1. Click **Publish branch** at the top. This uploads your branch to GitHub for the first time so others can access it.
+2. After publishing, use **Push origin** whenever you make additional commits to share your latest changes on GitHub.
 
 ### 6. Ask for a review with a pull request
 
