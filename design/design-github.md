@@ -12,7 +12,7 @@ Cloning makes a copy of a project from GitHub on your computer so you can open a
 4. **Choose where to save it.** GitHub Desktop will ask for a folder location on your computer. The default (usually `Documents/GitHub`) is fine.
 5. **Click "Clone."** When it finishes, the project files are on your computer. Click **"Show in Finder"** (Mac) or **"Show in Explorer"** (Windows) to open the folder.
 
-### Option 2: Using the terminal
+### Option 2: Using the Command Line
 
 1. **Copy the repo URL.** On the repo page, click the green **"Code"** button and copy the HTTPS link (it ends in `.git`).
 2. **Open Terminal** (Mac) or **Git Bash / Command Prompt** (Windows).
