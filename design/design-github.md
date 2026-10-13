@@ -120,13 +120,47 @@ A **pull request** asks your team to review your changes and potentially merge t
 
 Your teammates can now leave comments. If they ask for changes, just edit the files, commit, and click **Push origin** again. The pull request updates automatically.
 
-### 7. After your changes are merged
+### 7. Keeping your local repository up to date
 
-Once your pull request is approved and merged:
+As changes are merged into the project's `main` branch, it's important to keep your local repository up to date. This ensures you're working with the latest version of the project and helps avoid conflicts with other people's changes.
 
-1. In GitHub Desktop, switch back to `main` using the **Current Branch** menu.
-2. Click **Fetch origin**, then **Pull origin** to get the updated project.
-3. Create a new branch for your next task (start again from step 1).
+#### Option 1: Using GitHub Desktop (recommended)
+
+1. In GitHub Desktop, switch to `main` using the **Current Branch** menu.
+2. Click **Fetch origin**, then **Pull origin** to download the latest changes.
+3. If you're starting new work, create a new branch from the updated `main` branch.
+
+**If you're already working on a branch:**
+
+1. Switch to your working branch using the **Current Branch** menu.
+2. Select **Branch → Update from default branch** to bring in the latest changes from `main`.
+3. Resolve any merge conflicts if prompted.
+
+#### Option 2: Using the terminal
+
+To update your local `main` branch, run:
+
+```bash
+git switch main
+git pull origin main
+```
+
+If you're starting new work, create a branch from the updated `main`:
+
+```bash
+git switch -c your-new-branch
+```
+
+If you're already working on a branch, switch to it and merge in the latest changes from `main`:
+
+```bash
+git switch your-branch-name
+git merge main
+```
+
+If Git reports any merge conflicts, resolve them before continuing.
+
+**Tip:** Make a habit of pulling the latest changes before starting new work and periodically updating any branches you're actively working on.
 
 ### Good to know
 
