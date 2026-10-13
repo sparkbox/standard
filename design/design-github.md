@@ -93,7 +93,7 @@ Edit, add, or replace files in the project folder as you normally would (click *
 
 ### 4. Save your work with a commit
 
-A **commit** is a saved checkpoint of your changes.
+A **commit** is a saved checkpoint of your changes on your computer. Commits help you track your progress, but your changes won't be available to others until you push them to GitHub.
 
 1. In the **Changes** tab, review the list of files. Uncheck any you don't want to include.
 2. At the bottom left, write a short **Summary** describing what you changed, like `Update homepage icons to new style`.
