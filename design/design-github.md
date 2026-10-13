@@ -119,6 +119,7 @@ A **pull request** asks your team to review your changes and potentially merge t
 4. Click **Create pull request**. If your changes are intended for demonstration or feedback rather than merging into the codebase, select **Create draft pull request** instead. Some projects also have a **DO NOT MERGE** label that can be applied to indicate that the pull request should not be merged.
 
 Your teammates can now leave comments. If they ask for changes, just edit the files, commit, and click **Push origin** again. The pull request updates automatically.
+**Verified commits:** If your pull request is intended to be merged into the project, your commits must be verified. Follow our [Verified Commits documentation](../security/security_policy_compliance/verified-commits.md)to set up commit signing. This is a one-time setup. Keep in mind that some projects require verified commits even when pushing branches that aren't intended to be merged.
 
 ### 7. Keeping your local repository up to date
 
