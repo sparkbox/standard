@@ -116,7 +116,7 @@ A **pull request** asks your team to review your changes and potentially merge t
 1. Click **Preview Pull Request** (or **Branch → Create Pull Request**). This opens GitHub in your browser.
 2. Add a title and a short description of what you changed and why. Screenshots are very helpful here.
 3. On the right, add **Reviewers** if your team asks you to.
-4. Click **Create pull request**.
+4. Click **Create pull request**. If your changes are intended for demonstration or feedback rather than merging into the codebase, select **Create draft pull request** instead. Some projects also have a **DO NOT MERGE** label that can be applied to indicate that the pull request should not be merged.
 
 Your teammates can now leave comments. If they ask for changes, just edit the files, commit, and click **Push origin** again. The pull request updates automatically.
 
